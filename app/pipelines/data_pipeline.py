@@ -54,8 +54,4 @@ if __name__ == "__main__":
     processed_df = pipeline.run()
     print(f"Processed dataset shape: {processed_df.shape}")
     print(processed_df.groupby(["State", "Category"]).size().head())
-    #check whether Date and week_start are having same values or not
-    print(processed_df[["Date", "week_start"]].head())
-    print(processed_df[["Date", "week_start"]].apply(lambda x: x[0] == x[1], axis=1).all())
-    
-
+    #check whether Date and week_start are having same values or not, if
