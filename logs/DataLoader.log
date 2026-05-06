@@ -1,0 +1,77 @@
+2026-05-06 15:20:04,186 - DataLoader - INFO - Loading raw dataset from S:\Forecasting System\data\Forecasting Case- Study.xlsx
+2026-05-06 15:20:04,186 - DataLoader - ERROR - Raw data file not found at path: S:\Forecasting System\data\Forecasting Case- Study.xlsx
+2026-05-06 15:20:49,374 - DataLoader - INFO - Loading raw dataset from S:\Forecasting System\data\Forecasting Case- Study.xlsx - Sheet1.csv
+2026-05-06 15:20:49,382 - DataLoader - ERROR - Failed to load raw dataset
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\services\data_loader.py", line 27, in load
+    df = pd.read_excel(self.raw_data_path)
+  File "S:\Forecasting System\venv\Lib\site-packages\pandas\io\excel\_base.py", line 481, in read_excel
+    io = ExcelFile(
+        io,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "S:\Forecasting System\venv\Lib\site-packages\pandas\io\excel\_base.py", line 1608, in __init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Excel file format cannot be determined, you must specify an engine manually.
+2026-05-06 15:21:57,981 - DataLoader - INFO - Loading raw dataset from S:\Forecasting System\data\Forecasting Case.csv
+2026-05-06 15:21:57,982 - DataLoader - ERROR - Failed to load raw dataset
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\services\data_loader.py", line 27, in load
+    df = pd.read_excel(self.raw_data_path)
+  File "S:\Forecasting System\venv\Lib\site-packages\pandas\io\excel\_base.py", line 481, in read_excel
+    io = ExcelFile(
+        io,
+    ...<2 lines>...
+        engine_kwargs=engine_kwargs,
+    )
+  File "S:\Forecasting System\venv\Lib\site-packages\pandas\io\excel\_base.py", line 1608, in __init__
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Excel file format cannot be determined, you must specify an engine manually.
+2026-05-06 15:22:31,140 - DataLoader - INFO - Loading raw dataset from S:\Forecasting System\data\Forecasting Case.csv
+2026-05-06 15:22:31,148 - DataLoader - ERROR - Missing required columns: ['state', 'date', 'total', 'categories']
+2026-05-06 15:22:31,148 - DataLoader - ERROR - Failed to load raw dataset
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\services\data_loader.py", line 28, in load
+    self._validate_columns(df)
+    ~~~~~~~~~~~~~~~~~~~~~~^^^^
+  File "S:\Forecasting System\app\services\data_loader.py", line 43, in _validate_columns
+    raise ValueError(message)
+ValueError: Missing required columns: ['state', 'date', 'total', 'categories']
+2026-05-06 15:25:52,118 - DataLoader - INFO - Loading raw dataset from S:\Forecasting System\data\Forecasting Case.csv
+2026-05-06 15:25:52,138 - DataLoader - WARNING - Found 4859 rows with invalid date values
+2026-05-06 15:25:52,140 - DataLoader - INFO - Loaded dataset with 8084 rows
+2026-05-06 15:26:28,541 - DataLoader - INFO - Loading raw dataset from S:\Forecasting System\data\Forecasting Case.csv
+2026-05-06 15:26:28,561 - DataLoader - WARNING - Found 4859 rows with invalid date values
+2026-05-06 15:26:28,563 - DataLoader - INFO - Loaded dataset with 8084 rows
+2026-05-06 15:27:09,699 - DataLoader - INFO - Loading raw dataset from S:\Forecasting System\data\Forecasting Case.csv
+2026-05-06 15:27:09,710 - DataLoader - WARNING - Found 4859 rows with invalid date values
+2026-05-06 15:27:09,711 - DataLoader - INFO - Loaded dataset with 8084 rows
+2026-05-06 15:30:00,343 - DataLoader - INFO - Loading raw dataset from S:\Forecasting System\data\Forecasting Case.csv
+2026-05-06 15:30:00,357 - DataLoader - WARNING - Found 4859 rows with invalid date values
+2026-05-06 15:30:00,359 - DataLoader - INFO - Loaded dataset with 8084 rows
+2026-05-06 15:30:45,680 - DataLoader - INFO - Loading raw dataset from S:\Forecasting System\data\Forecasting Case.csv
+2026-05-06 15:30:45,692 - DataLoader - WARNING - Found 4859 rows with invalid date values
+2026-05-06 15:30:45,693 - DataLoader - INFO - Loaded dataset with 8084 rows
+2026-05-06 15:42:05,378 - DataLoader - INFO - Loading raw dataset from S:\Forecasting System\data\Forecasting Case.csv
+2026-05-06 15:42:05,391 - DataLoader - WARNING - Found 4859 rows with invalid date values
+2026-05-06 15:42:05,392 - DataLoader - INFO - Loaded dataset with 8084 rows
+2026-05-06 15:50:42,153 - DataLoader - INFO - Loading raw dataset from S:\Forecasting System\data\Forecasting Case.csv
+2026-05-06 15:50:42,163 - DataLoader - WARNING - Found 4859 rows with invalid date values
+2026-05-06 15:50:42,164 - DataLoader - INFO - Loaded dataset with 8084 rows
+2026-05-06 15:53:09,005 - DataLoader - INFO - Loading raw dataset from S:\Forecasting System\data\Forecasting Case.csv
+2026-05-06 15:53:09,015 - DataLoader - INFO - Loaded dataset with 8084 rows
+2026-05-06 16:01:54,605 - DataLoader - INFO - Loading raw dataset from S:\Forecasting System\data\Forecasting Case.csv
+2026-05-06 16:01:54,620 - DataLoader - INFO - Loaded dataset with 8084 rows
+2026-05-06 16:05:20,573 - DataLoader - INFO - Loading raw dataset from S:\Forecasting System\data\Forecasting Case.csv
+2026-05-06 16:05:20,583 - DataLoader - INFO - Loaded dataset with 8084 rows
+2026-05-06 16:20:07,851 - DataLoader - INFO - Loading raw dataset from S:\Forecasting System\data\Forecasting Case.csv
+2026-05-06 16:20:07,898 - DataLoader - INFO - Loaded dataset with 8084 rows
+2026-05-06 16:25:34,345 - DataLoader - INFO - Loading raw dataset from S:\Forecasting System\data\Forecasting Case.csv
+2026-05-06 16:25:34,368 - DataLoader - INFO - Loaded dataset with 8084 rows
+2026-05-06 16:27:19,737 - DataLoader - INFO - Loading raw dataset from S:\Forecasting System\data\Forecasting Case.csv
+2026-05-06 16:27:19,748 - DataLoader - INFO - Loaded dataset with 8084 rows

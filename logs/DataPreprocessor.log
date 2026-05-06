@@ -1,0 +1,13 @@
+2026-05-06 15:25:52,141 - DataPreprocessor - ERROR - Missing required preprocessing columns: ['state', 'date', 'total', 'categories']
+2026-05-06 15:26:28,564 - DataPreprocessor - ERROR - Missing required preprocessing columns: ['state', 'date', 'total', 'categories']
+2026-05-06 15:27:09,719 - DataPreprocessor - INFO - Removed 0 duplicate rows
+2026-05-06 15:30:00,366 - DataPreprocessor - INFO - Removed 0 duplicate rows
+2026-05-06 15:30:45,699 - DataPreprocessor - INFO - Removed 0 duplicate rows
+2026-05-06 15:42:05,397 - DataPreprocessor - INFO - Removed 0 duplicate rows
+2026-05-06 15:50:42,170 - DataPreprocessor - INFO - Removed 0 duplicate rows
+2026-05-06 15:53:09,022 - DataPreprocessor - INFO - Removed 0 duplicate rows
+2026-05-06 16:01:54,631 - DataPreprocessor - INFO - Removed 0 duplicate rows
+2026-05-06 16:05:20,590 - DataPreprocessor - INFO - Removed 0 duplicate rows
+2026-05-06 16:20:07,918 - DataPreprocessor - INFO - Removed 0 duplicate rows
+2026-05-06 16:25:34,389 - DataPreprocessor - INFO - Removed 0 duplicate rows
+2026-05-06 16:27:19,756 - DataPreprocessor - INFO - Removed 0 duplicate rows
