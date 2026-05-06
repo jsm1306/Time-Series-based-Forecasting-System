@@ -1,11 +1,13 @@
 from pathlib import Path
 from typing import Dict, List
-
+import sys
 import numpy as np
 import pandas as pd
 import xgboost as xgb
 import joblib
-
+ROOT_DIR = Path(__file__).resolve().parents[2]
+if str(ROOT_DIR) not in sys.path:
+    sys.path.insert(0, str(ROOT_DIR))
 from app.models.base_forecaster import BaseForecaster
 
 

@@ -1,5 +1,5 @@
 from pathlib import Path
-from typing import Dict
+from typing import Dict, List, Optional
 
 import numpy as np
 import pandas as pd
@@ -17,13 +17,24 @@ class ProphetForecaster(BaseForecaster):
         self.yearly_seasonality: bool = yearly_seasonality
         self.weekly_seasonality: bool = weekly_seasonality
 
-    def train(self, train_data: pd.DataFrame, target_column: str = "Total", date_column: str = "Date", **kwargs) -> None:
+    def train(
+        self,
+        train_data: pd.DataFrame,
+        target_column: str = "Total",
+        date_column: str = "Date",
+        regressor_columns: Optional[List[str]] = None,
+        **kwargs,
+    ) -> None:
         """Train Prophet model on the provided training data."""
         self.logger.info("Starting Prophet training")
 
         try:
-            prophet_df = train_data[[date_column, target_column]].copy()
-            prophet_df.columns = ["ds", "y"]
+            columns = [date_column, target_column]
+            if regressor_columns:
+                columns += regressor_columns
+
+            prophet_df = train_data[columns].copy()
+            prophet_df.columns = ["ds", "y"] + (regressor_columns or [])
             prophet_df["ds"] = pd.to_datetime(prophet_df["ds"])
 
             self.model = Prophet(
@@ -31,14 +42,18 @@ class ProphetForecaster(BaseForecaster):
                 weekly_seasonality=self.weekly_seasonality,
                 interval_width=0.95,
             )
-            self.model.fit(prophet_df)
 
+            if regressor_columns:
+                for regressor in regressor_columns:
+                    self.model.add_regressor(regressor)
+
+            self.model.fit(prophet_df)
             self.logger.info("Prophet training completed successfully")
         except Exception as error:
             self.logger.exception("Prophet training failed")
             raise error
 
-    def predict(self, steps: int) -> np.ndarray:
+    def predict(self, steps: int, future_regressors: Optional[pd.DataFrame] = None) -> np.ndarray:
         """Generate predictions for the specified number of future steps."""
         if self.model is None:
             raise ValueError("Model not trained. Call train() before predict().")
@@ -46,7 +61,14 @@ class ProphetForecaster(BaseForecaster):
         self.logger.info("Generating Prophet predictions for %d steps", steps)
 
         try:
-            future = self.model.make_future_dataframe(periods=steps, freq="D")
+            if future_regressors is not None:
+                future = future_regressors.copy()
+                if "Date" in future.columns:
+                    future = future.rename(columns={"Date": "ds"})
+                future["ds"] = pd.to_datetime(future["ds"])
+            else:
+                future = self.model.make_future_dataframe(periods=steps, freq="D")
+
             forecast = self.model.predict(future)
             predictions = forecast.tail(steps)["yhat"].values
             self.logger.info("Prophet predictions generated successfully")

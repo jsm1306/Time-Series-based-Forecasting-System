@@ -1,0 +1,88 @@
+2026-05-06 17:48:19,627 - ModelRegistry - INFO - No existing registry found at S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:48:25,434 - ModelRegistry - INFO - Registry entry added for state=Alabama model=XGBoost
+2026-05-06 17:48:25,434 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:48:31,162 - ModelRegistry - INFO - Registry entry added for state=Arizona model=XGBoost
+2026-05-06 17:48:31,165 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:48:36,716 - ModelRegistry - INFO - Registry entry added for state=Arkansas model=XGBoost
+2026-05-06 17:48:36,717 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:48:41,854 - ModelRegistry - INFO - Registry entry added for state=California model=XGBoost
+2026-05-06 17:48:41,855 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:48:46,841 - ModelRegistry - INFO - Registry entry added for state=Colorado model=XGBoost
+2026-05-06 17:48:46,842 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:48:52,238 - ModelRegistry - INFO - Registry entry added for state=Connecticut model=XGBoost
+2026-05-06 17:48:52,239 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:48:57,754 - ModelRegistry - INFO - Registry entry added for state=Florida model=XGBoost
+2026-05-06 17:48:57,755 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:49:03,158 - ModelRegistry - INFO - Registry entry added for state=Georgia model=XGBoost
+2026-05-06 17:49:03,159 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:49:08,379 - ModelRegistry - INFO - Registry entry added for state=Illinois model=XGBoost
+2026-05-06 17:49:08,380 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:49:13,616 - ModelRegistry - INFO - Registry entry added for state=Indiana model=XGBoost
+2026-05-06 17:49:13,617 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:49:20,381 - ModelRegistry - INFO - Registry entry added for state=Iowa model=XGBoost
+2026-05-06 17:49:20,383 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:49:25,710 - ModelRegistry - INFO - Registry entry added for state=Kansas model=XGBoost
+2026-05-06 17:49:25,713 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:49:31,252 - ModelRegistry - INFO - Registry entry added for state=Kentucky model=XGBoost
+2026-05-06 17:49:31,256 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:49:36,369 - ModelRegistry - INFO - Registry entry added for state=Louisiana model=XGBoost
+2026-05-06 17:49:36,371 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:49:42,323 - ModelRegistry - INFO - Registry entry added for state=Maine model=XGBoost
+2026-05-06 17:49:42,326 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:49:49,268 - ModelRegistry - INFO - Registry entry added for state=Maryland model=XGBoost
+2026-05-06 17:49:49,270 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:49:57,619 - ModelRegistry - INFO - Registry entry added for state=Massachusetts model=XGBoost
+2026-05-06 17:49:57,621 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:50:03,504 - ModelRegistry - INFO - Registry entry added for state=Michigan model=XGBoost
+2026-05-06 17:50:03,506 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:50:09,082 - ModelRegistry - INFO - Registry entry added for state=Minnesota model=XGBoost
+2026-05-06 17:50:09,083 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:50:13,942 - ModelRegistry - INFO - Registry entry added for state=Mississippi model=XGBoost
+2026-05-06 17:50:13,944 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:50:20,969 - ModelRegistry - INFO - Registry entry added for state=Missouri model=XGBoost
+2026-05-06 17:50:20,971 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:50:25,729 - ModelRegistry - INFO - Registry entry added for state=Nebraska model=XGBoost
+2026-05-06 17:50:25,731 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:50:31,359 - ModelRegistry - INFO - Registry entry added for state=Nevada model=XGBoost
+2026-05-06 17:50:31,360 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:50:35,963 - ModelRegistry - INFO - Registry entry added for state=New Hampshire model=XGBoost
+2026-05-06 17:50:35,964 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:50:41,885 - ModelRegistry - INFO - Registry entry added for state=New Mexico model=XGBoost
+2026-05-06 17:50:41,887 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:50:47,373 - ModelRegistry - INFO - Registry entry added for state=New York model=XGBoost
+2026-05-06 17:50:47,375 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:50:56,869 - ModelRegistry - INFO - Registry entry added for state=North Carolina model=XGBoost
+2026-05-06 17:50:56,876 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:51:14,660 - ModelRegistry - INFO - Registry entry added for state=Ohio model=XGBoost
+2026-05-06 17:51:14,663 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:51:25,714 - ModelRegistry - INFO - Registry entry added for state=Oklahoma model=XGBoost
+2026-05-06 17:51:25,715 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:51:32,676 - ModelRegistry - INFO - Registry entry added for state=Oregon model=XGBoost
+2026-05-06 17:51:32,677 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:51:38,926 - ModelRegistry - INFO - Registry entry added for state=Pennsylvania model=XGBoost
+2026-05-06 17:51:38,928 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:51:44,567 - ModelRegistry - INFO - Registry entry added for state=Rhode Island model=XGBoost
+2026-05-06 17:51:44,569 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:51:50,039 - ModelRegistry - INFO - Registry entry added for state=South Carolina model=XGBoost
+2026-05-06 17:51:50,040 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:51:54,825 - ModelRegistry - INFO - Registry entry added for state=South Dakota model=XGBoost
+2026-05-06 17:51:54,826 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:52:00,004 - ModelRegistry - INFO - Registry entry added for state=Tennessee model=XGBoost
+2026-05-06 17:52:00,006 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:52:05,329 - ModelRegistry - INFO - Registry entry added for state=Texas model=XGBoost
+2026-05-06 17:52:05,330 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:52:10,582 - ModelRegistry - INFO - Registry entry added for state=Utah model=XGBoost
+2026-05-06 17:52:10,584 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:52:15,575 - ModelRegistry - INFO - Registry entry added for state=Vermont model=XGBoost
+2026-05-06 17:52:15,581 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:52:20,740 - ModelRegistry - INFO - Registry entry added for state=Virginia model=XGBoost
+2026-05-06 17:52:20,741 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:52:26,112 - ModelRegistry - INFO - Registry entry added for state=Washington model=XGBoost
+2026-05-06 17:52:26,113 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:52:30,736 - ModelRegistry - INFO - Registry entry added for state=West Virginia model=XGBoost
+2026-05-06 17:52:30,737 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:52:36,647 - ModelRegistry - INFO - Registry entry added for state=Wisconsin model=XGBoost
+2026-05-06 17:52:36,649 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 17:52:42,171 - ModelRegistry - INFO - Registry entry added for state=Wyoming model=XGBoost
+2026-05-06 17:52:42,172 - ModelRegistry - INFO - Saved model registry to S:\Forecasting System\trained_models\model_registry.json
+2026-05-06 18:17:15,336 - ModelRegistry - INFO - Loaded existing registry from S:\Forecasting System\trained_models\model_registry.json

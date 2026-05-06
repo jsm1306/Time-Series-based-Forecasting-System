@@ -1,0 +1,9 @@
+2026-05-06 16:50:12,137 - run_xgboost - INFO - Loaded processed dataset with 6794 rows
+2026-05-06 16:50:12,140 - run_xgboost - INFO - Filtered dataset to 158 rows for Texas/Beverages
+2026-05-06 16:50:12,141 - run_xgboost - INFO - Split data into train (126 rows) and validation (32 rows)
+2026-05-06 17:29:52,102 - run_xgboost - INFO - Loaded processed dataset with 6794 rows
+2026-05-06 17:29:52,106 - run_xgboost - INFO - Filtered dataset to 158 rows for Texas/Beverages
+2026-05-06 17:29:52,110 - run_xgboost - INFO - Split data into train (126 rows) and validation (32 rows)
+2026-05-06 17:39:40,973 - run_xgboost - INFO - Loaded processed dataset with 6794 rows
+2026-05-06 17:39:40,975 - run_xgboost - INFO - Filtered dataset to 158 rows for Texas
+2026-05-06 17:39:40,976 - run_xgboost - INFO - Split data into train (126 rows) and validation (32 rows)

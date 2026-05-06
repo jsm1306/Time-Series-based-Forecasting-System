@@ -1,0 +1,368 @@
+2026-05-06 16:56:59,213 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 16:57:00,170 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 16:57:00,171 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 16:57:00,250 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 16:57:00,250 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 16:57:00,252 - ProphetForecaster - INFO - Prophet metrics: RMSE=181612279.0165, MAE=169574435.9366, MAPE=0.1988
+2026-05-06 16:57:00,252 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_texas_beverages.pkl
+2026-05-06 16:57:00,254 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:30:10,881 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:30:11,794 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:30:11,795 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:30:11,857 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:30:11,858 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:30:11,859 - ProphetForecaster - INFO - Prophet metrics: RMSE=229548587.3142, MAE=226739563.6066, MAPE=0.2625
+2026-05-06 17:30:11,859 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_texas_beverages.pkl
+2026-05-06 17:30:11,861 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:39:04,877 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:39:05,068 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:39:05,069 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:39:05,099 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:39:05,100 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:39:05,102 - ProphetForecaster - INFO - Prophet metrics: RMSE=229548587.3142, MAE=226739563.6066, MAPE=0.2625
+2026-05-06 17:39:05,103 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_texas_beverages.pkl
+2026-05-06 17:39:05,104 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:48:19,902 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:48:20,089 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:48:20,091 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:48:20,143 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:48:20,143 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:48:20,144 - ProphetForecaster - INFO - Prophet metrics: RMSE=57002779.9507, MAE=56273953.5997, MAPE=0.2840
+2026-05-06 17:48:20,144 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_alabama.pkl
+2026-05-06 17:48:20,147 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:48:25,653 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:48:25,922 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:48:25,924 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:48:25,982 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:48:25,983 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:48:25,983 - ProphetForecaster - INFO - Prophet metrics: RMSE=45674747.1084, MAE=44876355.4031, MAPE=0.2159
+2026-05-06 17:48:25,984 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_arizona.pkl
+2026-05-06 17:48:25,986 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:48:31,382 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:48:31,586 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:48:31,587 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:48:31,627 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:48:31,628 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:48:31,630 - ProphetForecaster - INFO - Prophet metrics: RMSE=27791707.9761, MAE=27389593.6489, MAPE=0.2607
+2026-05-06 17:48:31,631 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_arkansas.pkl
+2026-05-06 17:48:31,633 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:48:36,895 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:48:37,070 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:48:37,070 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:48:37,118 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:48:37,119 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:48:37,121 - ProphetForecaster - INFO - Prophet metrics: RMSE=218816405.8574, MAE=216556963.8462, MAPE=0.2667
+2026-05-06 17:48:37,121 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_california.pkl
+2026-05-06 17:48:37,124 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:48:42,009 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:48:42,188 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:48:42,190 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:48:42,237 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:48:42,238 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:48:42,239 - ProphetForecaster - INFO - Prophet metrics: RMSE=44045832.6418, MAE=43643310.9398, MAPE=0.2620
+2026-05-06 17:48:42,239 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_colorado.pkl
+2026-05-06 17:48:42,241 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:48:46,956 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:48:47,148 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:48:47,150 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:48:47,255 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:48:47,266 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:48:47,268 - ProphetForecaster - INFO - Prophet metrics: RMSE=19829189.6384, MAE=19533780.8148, MAPE=0.2283
+2026-05-06 17:48:47,269 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_connecticut.pkl
+2026-05-06 17:48:47,272 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:48:52,380 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:48:52,564 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:48:52,566 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:48:52,605 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:48:52,605 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:48:52,606 - ProphetForecaster - INFO - Prophet metrics: RMSE=156376153.8250, MAE=154785770.8499, MAPE=0.2182
+2026-05-06 17:48:52,607 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_florida.pkl
+2026-05-06 17:48:52,610 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:48:57,921 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:48:58,098 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:48:58,099 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:48:58,134 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:48:58,136 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:48:58,138 - ProphetForecaster - INFO - Prophet metrics: RMSE=93728502.5676, MAE=92473320.1112, MAPE=0.2512
+2026-05-06 17:48:58,138 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_georgia.pkl
+2026-05-06 17:48:58,140 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:49:03,317 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:49:03,516 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:49:03,517 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:49:03,554 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:49:03,554 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:49:03,555 - ProphetForecaster - INFO - Prophet metrics: RMSE=73545482.9096, MAE=72525934.4835, MAPE=0.2401
+2026-05-06 17:49:03,556 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_illinois.pkl
+2026-05-06 17:49:03,558 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:49:08,508 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:49:08,719 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:49:08,720 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:49:08,772 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:49:08,773 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:49:08,774 - ProphetForecaster - INFO - Prophet metrics: RMSE=51777992.7711, MAE=51130909.8212, MAPE=0.2406
+2026-05-06 17:49:08,774 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_indiana.pkl
+2026-05-06 17:49:08,777 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:49:13,840 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:49:14,035 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:49:14,036 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:49:14,072 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:49:14,073 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:49:14,075 - ProphetForecaster - INFO - Prophet metrics: RMSE=23868444.8968, MAE=23613251.4535, MAPE=0.2143
+2026-05-06 17:49:14,076 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_iowa.pkl
+2026-05-06 17:49:14,079 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:49:20,659 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:49:20,847 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:49:20,851 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:49:20,888 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:49:20,888 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:49:20,889 - ProphetForecaster - INFO - Prophet metrics: RMSE=21104348.4994, MAE=20892744.2672, MAPE=0.2428
+2026-05-06 17:49:20,890 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_kansas.pkl
+2026-05-06 17:49:20,891 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:49:25,879 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:49:26,165 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:49:26,167 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:49:26,227 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:49:26,227 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:49:26,229 - ProphetForecaster - INFO - Prophet metrics: RMSE=43986490.7643, MAE=43399812.7861, MAPE=0.2625
+2026-05-06 17:49:26,230 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_kentucky.pkl
+2026-05-06 17:49:26,233 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:49:31,430 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:49:31,613 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:49:31,614 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:49:31,657 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:49:31,657 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:49:31,659 - ProphetForecaster - INFO - Prophet metrics: RMSE=43213259.6109, MAE=42377718.7554, MAPE=0.2471
+2026-05-06 17:49:31,660 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_louisiana.pkl
+2026-05-06 17:49:31,662 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:49:36,606 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:49:36,831 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:49:36,833 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:49:36,890 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:49:36,891 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:49:36,892 - ProphetForecaster - INFO - Prophet metrics: RMSE=13393478.8323, MAE=13290785.6359, MAPE=0.2948
+2026-05-06 17:49:36,893 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_maine.pkl
+2026-05-06 17:49:36,896 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:49:42,560 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:49:42,783 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:49:42,785 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:49:42,828 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:49:42,829 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:49:42,830 - ProphetForecaster - INFO - Prophet metrics: RMSE=39239737.7415, MAE=38798186.2924, MAPE=0.2489
+2026-05-06 17:49:42,830 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_maryland.pkl
+2026-05-06 17:49:42,832 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:49:49,449 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:49:49,692 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:49:49,693 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:49:49,735 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:49:49,736 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:49:49,737 - ProphetForecaster - INFO - Prophet metrics: RMSE=44345878.5818, MAE=43794067.5926, MAPE=0.2509
+2026-05-06 17:49:49,737 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_massachusetts.pkl
+2026-05-06 17:49:49,740 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:49:57,854 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:49:58,066 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:49:58,068 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:49:58,131 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:49:58,132 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:49:58,134 - ProphetForecaster - INFO - Prophet metrics: RMSE=68918255.2480, MAE=68152438.0412, MAPE=0.2437
+2026-05-06 17:49:58,135 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_michigan.pkl
+2026-05-06 17:49:58,139 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:50:03,782 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:50:03,977 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:50:03,978 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:50:04,025 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:50:04,025 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:50:04,027 - ProphetForecaster - INFO - Prophet metrics: RMSE=35548730.9349, MAE=35228451.6173, MAPE=0.2364
+2026-05-06 17:50:04,028 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_minnesota.pkl
+2026-05-06 17:50:04,029 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:50:09,281 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:50:09,447 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:50:09,448 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:50:09,494 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:50:09,494 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:50:09,496 - ProphetForecaster - INFO - Prophet metrics: RMSE=33575207.3194, MAE=30217542.9459, MAPE=0.2522
+2026-05-06 17:50:09,496 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_mississippi.pkl
+2026-05-06 17:50:09,498 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:50:14,164 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:50:14,397 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:50:14,399 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:50:14,453 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:50:14,453 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:50:14,454 - ProphetForecaster - INFO - Prophet metrics: RMSE=44425374.0115, MAE=43963721.4704, MAPE=0.2342
+2026-05-06 17:50:14,455 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_missouri.pkl
+2026-05-06 17:50:14,457 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:50:21,193 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:50:21,377 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:50:21,379 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:50:21,441 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:50:21,442 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:50:21,444 - ProphetForecaster - INFO - Prophet metrics: RMSE=13689711.3774, MAE=12424667.6668, MAPE=0.2092
+2026-05-06 17:50:21,444 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_nebraska.pkl
+2026-05-06 17:50:21,448 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:50:25,930 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:50:26,220 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:50:26,222 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:50:26,266 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:50:26,266 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:50:26,267 - ProphetForecaster - INFO - Prophet metrics: RMSE=24551668.1068, MAE=24253574.4890, MAPE=0.2507
+2026-05-06 17:50:26,268 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_nevada.pkl
+2026-05-06 17:50:26,270 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:50:31,558 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:50:31,762 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:50:31,763 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:50:31,801 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:50:31,801 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:50:31,802 - ProphetForecaster - INFO - Prophet metrics: RMSE=12877397.9406, MAE=12731936.6657, MAPE=0.2400
+2026-05-06 17:50:31,803 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_new_hampshire.pkl
+2026-05-06 17:50:31,805 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:50:37,025 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:50:37,192 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:50:37,193 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:50:37,231 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:50:37,231 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:50:37,232 - ProphetForecaster - INFO - Prophet metrics: RMSE=15755129.3922, MAE=15524783.8621, MAPE=0.2264
+2026-05-06 17:50:37,233 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_new_mexico.pkl
+2026-05-06 17:50:37,234 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:50:42,051 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:50:42,242 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:50:42,243 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:50:42,283 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:50:42,283 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:50:42,284 - ProphetForecaster - INFO - Prophet metrics: RMSE=104121579.4389, MAE=102911587.6870, MAPE=0.2479
+2026-05-06 17:50:42,285 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_new_york.pkl
+2026-05-06 17:50:42,288 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:50:47,547 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:50:47,838 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:50:47,840 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:50:47,884 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:50:47,885 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:50:47,886 - ProphetForecaster - INFO - Prophet metrics: RMSE=87879590.2417, MAE=86948493.6527, MAPE=0.2533
+2026-05-06 17:50:47,886 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_north_carolina.pkl
+2026-05-06 17:50:47,889 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:50:57,653 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:50:58,056 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:50:58,062 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:50:58,366 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:50:58,367 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:50:58,374 - ProphetForecaster - INFO - Prophet metrics: RMSE=85967682.4328, MAE=84926732.1739, MAPE=0.2380
+2026-05-06 17:50:58,377 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_ohio.pkl
+2026-05-06 17:50:58,384 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:51:15,648 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:51:16,232 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:51:16,310 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:51:16,542 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:51:16,544 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:51:16,548 - ProphetForecaster - INFO - Prophet metrics: RMSE=37756700.7975, MAE=37368991.5222, MAPE=0.2692
+2026-05-06 17:51:16,551 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_oklahoma.pkl
+2026-05-06 17:51:16,559 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:51:26,581 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:51:26,749 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:51:26,750 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:51:26,826 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:51:26,827 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:51:26,829 - ProphetForecaster - INFO - Prophet metrics: RMSE=27213392.1056, MAE=26925936.2295, MAPE=0.2485
+2026-05-06 17:51:26,829 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_oregon.pkl
+2026-05-06 17:51:26,832 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:51:32,899 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:51:33,096 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:51:33,098 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:51:33,149 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:51:33,149 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:51:33,150 - ProphetForecaster - INFO - Prophet metrics: RMSE=83051284.3250, MAE=82100609.8655, MAPE=0.2353
+2026-05-06 17:51:33,151 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_pennsylvania.pkl
+2026-05-06 17:51:33,153 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:51:39,364 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:51:39,658 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:51:39,659 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:51:39,723 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:51:39,724 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:51:39,725 - ProphetForecaster - INFO - Prophet metrics: RMSE=6483888.8829, MAE=6411812.9393, MAPE=0.2548
+2026-05-06 17:51:39,725 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_rhode_island.pkl
+2026-05-06 17:51:39,727 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:51:44,702 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:51:44,858 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:51:44,859 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:51:44,897 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:51:44,898 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:51:44,900 - ProphetForecaster - INFO - Prophet metrics: RMSE=46876590.5507, MAE=46246698.0290, MAPE=0.2475
+2026-05-06 17:51:44,901 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_south_carolina.pkl
+2026-05-06 17:51:44,903 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:51:50,329 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:51:50,517 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:51:50,519 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:51:50,573 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:51:50,574 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:51:50,575 - ProphetForecaster - INFO - Prophet metrics: RMSE=6866232.7884, MAE=6798603.1537, MAPE=0.2482
+2026-05-06 17:51:50,575 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_south_dakota.pkl
+2026-05-06 17:51:50,577 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:51:54,984 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:51:55,144 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:51:55,145 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:51:55,179 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:51:55,180 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:51:55,181 - ProphetForecaster - INFO - Prophet metrics: RMSE=62983673.0362, MAE=62164081.1194, MAPE=0.2482
+2026-05-06 17:51:55,181 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_tennessee.pkl
+2026-05-06 17:51:55,183 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:52:00,318 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:52:00,509 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:52:00,510 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:52:00,571 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:52:00,572 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:52:00,574 - ProphetForecaster - INFO - Prophet metrics: RMSE=229548587.3142, MAE=226739563.6066, MAPE=0.2625
+2026-05-06 17:52:00,575 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_texas.pkl
+2026-05-06 17:52:00,578 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:52:05,476 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:52:05,659 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:52:05,661 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:52:05,717 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:52:05,726 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:52:05,731 - ProphetForecaster - INFO - Prophet metrics: RMSE=19567235.6561, MAE=19325169.2293, MAPE=0.2437
+2026-05-06 17:52:05,737 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_utah.pkl
+2026-05-06 17:52:05,739 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:52:10,783 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:52:10,995 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:52:10,997 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:52:11,043 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:52:11,043 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:52:11,044 - ProphetForecaster - INFO - Prophet metrics: RMSE=4631928.5520, MAE=4592110.3201, MAPE=0.2597
+2026-05-06 17:52:11,045 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_vermont.pkl
+2026-05-06 17:52:11,046 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:52:15,726 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:52:15,900 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:52:15,901 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:52:15,939 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:52:15,939 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:52:15,940 - ProphetForecaster - INFO - Prophet metrics: RMSE=68200379.2060, MAE=67512172.1448, MAPE=0.2436
+2026-05-06 17:52:15,941 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_virginia.pkl
+2026-05-06 17:52:15,943 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:52:20,967 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:52:21,154 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:52:21,155 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:52:21,193 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:52:21,193 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:52:21,194 - ProphetForecaster - INFO - Prophet metrics: RMSE=46993925.3617, MAE=46516311.3815, MAPE=0.2607
+2026-05-06 17:52:21,195 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_washington.pkl
+2026-05-06 17:52:21,197 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:52:26,316 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:52:26,501 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:52:26,502 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:52:26,539 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:52:26,540 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:52:26,541 - ProphetForecaster - INFO - Prophet metrics: RMSE=16995179.7175, MAE=16723602.0284, MAPE=0.2374
+2026-05-06 17:52:26,541 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_west_virginia.pkl
+2026-05-06 17:52:26,543 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:52:31,094 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:52:31,291 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:52:31,291 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:52:31,332 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:52:31,333 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:52:31,335 - ProphetForecaster - INFO - Prophet metrics: RMSE=36888416.9947, MAE=36507508.2076, MAPE=0.2427
+2026-05-06 17:52:31,336 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_wisconsin.pkl
+2026-05-06 17:52:31,338 - ProphetForecaster - INFO - Prophet model saved successfully
+2026-05-06 17:52:36,859 - ProphetForecaster - INFO - Starting Prophet training
+2026-05-06 17:52:37,051 - ProphetForecaster - INFO - Prophet training completed successfully
+2026-05-06 17:52:37,053 - ProphetForecaster - INFO - Generating Prophet predictions for 32 steps
+2026-05-06 17:52:37,098 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-06 17:52:37,099 - ProphetForecaster - INFO - Evaluating Prophet model
+2026-05-06 17:52:37,100 - ProphetForecaster - INFO - Prophet metrics: RMSE=5483860.7702, MAE=5437963.7979, MAPE=0.2652
+2026-05-06 17:52:37,100 - ProphetForecaster - INFO - Saving Prophet model to S:\Forecasting System\trained_models\prophet_wyoming.pkl
+2026-05-06 17:52:37,107 - ProphetForecaster - INFO - Prophet model saved successfully

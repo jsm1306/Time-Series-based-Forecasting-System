@@ -1,0 +1,9 @@
+2026-05-06 17:00:35,094 - run_lstm - INFO - Loaded processed dataset with 6794 rows
+2026-05-06 17:00:35,098 - run_lstm - INFO - Filtered dataset to 158 rows for Texas/Beverages
+2026-05-06 17:00:35,098 - run_lstm - INFO - Split data into train (126 rows) and validation (32 rows)
+2026-05-06 17:31:18,715 - run_lstm - INFO - Loaded processed dataset with 6794 rows
+2026-05-06 17:31:18,718 - run_lstm - INFO - Filtered dataset to 158 rows for Texas/Beverages
+2026-05-06 17:31:18,719 - run_lstm - INFO - Split data into train (126 rows) and validation (32 rows)
+2026-05-06 17:38:37,011 - run_lstm - INFO - Loaded processed dataset with 6794 rows
+2026-05-06 17:38:37,013 - run_lstm - INFO - Filtered dataset to 158 rows for Texas
+2026-05-06 17:38:37,013 - run_lstm - INFO - Split data into train (126 rows) and validation (32 rows)

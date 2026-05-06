@@ -1,0 +1,390 @@
+2026-05-06 17:48:19,642 - ForecastingPipeline - INFO - Loaded processed dataset with 6794 rows
+2026-05-06 17:48:19,643 - ForecastingPipeline - INFO - Found 43 unique states
+2026-05-06 17:48:19,644 - ForecastingPipeline - INFO - Processing state=Alabama
+2026-05-06 17:48:19,647 - ForecastingPipeline - INFO - Starting model SARIMA for state Alabama
+2026-05-06 17:48:19,901 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Alabama
+2026-05-06 17:48:19,901 - ForecastingPipeline - INFO - Starting model Prophet for state Alabama
+2026-05-06 17:48:20,147 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Alabama
+2026-05-06 17:48:20,147 - ForecastingPipeline - INFO - Starting model XGBoost for state Alabama
+2026-05-06 17:48:20,260 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Alabama
+2026-05-06 17:48:20,261 - ForecastingPipeline - INFO - Starting model LSTM for state Alabama
+2026-05-06 17:48:25,433 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Alabama
+2026-05-06 17:48:25,435 - ForecastingPipeline - INFO - Processing state=Arizona
+2026-05-06 17:48:25,439 - ForecastingPipeline - INFO - Starting model SARIMA for state Arizona
+2026-05-06 17:48:25,649 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Arizona
+2026-05-06 17:48:25,649 - ForecastingPipeline - INFO - Starting model Prophet for state Arizona
+2026-05-06 17:48:25,986 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Arizona
+2026-05-06 17:48:25,986 - ForecastingPipeline - INFO - Starting model XGBoost for state Arizona
+2026-05-06 17:48:26,130 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Arizona
+2026-05-06 17:48:26,130 - ForecastingPipeline - INFO - Starting model LSTM for state Arizona
+2026-05-06 17:48:31,161 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Arizona
+2026-05-06 17:48:31,165 - ForecastingPipeline - INFO - Processing state=Arkansas
+2026-05-06 17:48:31,171 - ForecastingPipeline - INFO - Starting model SARIMA for state Arkansas
+2026-05-06 17:48:31,379 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Arkansas
+2026-05-06 17:48:31,379 - ForecastingPipeline - INFO - Starting model Prophet for state Arkansas
+2026-05-06 17:48:31,634 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Arkansas
+2026-05-06 17:48:31,634 - ForecastingPipeline - INFO - Starting model XGBoost for state Arkansas
+2026-05-06 17:48:31,745 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Arkansas
+2026-05-06 17:48:31,745 - ForecastingPipeline - INFO - Starting model LSTM for state Arkansas
+2026-05-06 17:48:36,716 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Arkansas
+2026-05-06 17:48:36,718 - ForecastingPipeline - INFO - Processing state=California
+2026-05-06 17:48:36,721 - ForecastingPipeline - INFO - Starting model SARIMA for state California
+2026-05-06 17:48:36,892 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state California
+2026-05-06 17:48:36,892 - ForecastingPipeline - INFO - Starting model Prophet for state California
+2026-05-06 17:48:37,124 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state California
+2026-05-06 17:48:37,125 - ForecastingPipeline - INFO - Starting model XGBoost for state California
+2026-05-06 17:48:37,250 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state California
+2026-05-06 17:48:37,250 - ForecastingPipeline - INFO - Starting model LSTM for state California
+2026-05-06 17:48:41,852 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state California
+2026-05-06 17:48:41,856 - ForecastingPipeline - INFO - Processing state=Colorado
+2026-05-06 17:48:41,858 - ForecastingPipeline - INFO - Starting model SARIMA for state Colorado
+2026-05-06 17:48:42,000 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Colorado
+2026-05-06 17:48:42,000 - ForecastingPipeline - INFO - Starting model Prophet for state Colorado
+2026-05-06 17:48:42,241 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Colorado
+2026-05-06 17:48:42,241 - ForecastingPipeline - INFO - Starting model XGBoost for state Colorado
+2026-05-06 17:48:42,355 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Colorado
+2026-05-06 17:48:42,355 - ForecastingPipeline - INFO - Starting model LSTM for state Colorado
+2026-05-06 17:48:46,841 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Colorado
+2026-05-06 17:48:46,842 - ForecastingPipeline - INFO - Processing state=Connecticut
+2026-05-06 17:48:46,844 - ForecastingPipeline - INFO - Starting model SARIMA for state Connecticut
+2026-05-06 17:48:46,953 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Connecticut
+2026-05-06 17:48:46,954 - ForecastingPipeline - INFO - Starting model Prophet for state Connecticut
+2026-05-06 17:48:47,272 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Connecticut
+2026-05-06 17:48:47,272 - ForecastingPipeline - INFO - Starting model XGBoost for state Connecticut
+2026-05-06 17:48:47,413 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Connecticut
+2026-05-06 17:48:47,413 - ForecastingPipeline - INFO - Starting model LSTM for state Connecticut
+2026-05-06 17:48:52,238 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Connecticut
+2026-05-06 17:48:52,240 - ForecastingPipeline - INFO - Processing state=Florida
+2026-05-06 17:48:52,241 - ForecastingPipeline - INFO - Starting model SARIMA for state Florida
+2026-05-06 17:48:52,377 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Florida
+2026-05-06 17:48:52,377 - ForecastingPipeline - INFO - Starting model Prophet for state Florida
+2026-05-06 17:48:52,612 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Florida
+2026-05-06 17:48:52,614 - ForecastingPipeline - INFO - Starting model XGBoost for state Florida
+2026-05-06 17:48:52,768 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Florida
+2026-05-06 17:48:52,769 - ForecastingPipeline - INFO - Starting model LSTM for state Florida
+2026-05-06 17:48:57,753 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Florida
+2026-05-06 17:48:57,755 - ForecastingPipeline - INFO - Processing state=Georgia
+2026-05-06 17:48:57,758 - ForecastingPipeline - INFO - Starting model SARIMA for state Georgia
+2026-05-06 17:48:57,919 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Georgia
+2026-05-06 17:48:57,919 - ForecastingPipeline - INFO - Starting model Prophet for state Georgia
+2026-05-06 17:48:58,140 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Georgia
+2026-05-06 17:48:58,141 - ForecastingPipeline - INFO - Starting model XGBoost for state Georgia
+2026-05-06 17:48:58,245 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Georgia
+2026-05-06 17:48:58,245 - ForecastingPipeline - INFO - Starting model LSTM for state Georgia
+2026-05-06 17:49:03,157 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Georgia
+2026-05-06 17:49:03,159 - ForecastingPipeline - INFO - Processing state=Illinois
+2026-05-06 17:49:03,164 - ForecastingPipeline - INFO - Starting model SARIMA for state Illinois
+2026-05-06 17:49:03,315 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Illinois
+2026-05-06 17:49:03,316 - ForecastingPipeline - INFO - Starting model Prophet for state Illinois
+2026-05-06 17:49:03,559 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Illinois
+2026-05-06 17:49:03,559 - ForecastingPipeline - INFO - Starting model XGBoost for state Illinois
+2026-05-06 17:49:03,664 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Illinois
+2026-05-06 17:49:03,665 - ForecastingPipeline - INFO - Starting model LSTM for state Illinois
+2026-05-06 17:49:08,377 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Illinois
+2026-05-06 17:49:08,381 - ForecastingPipeline - INFO - Processing state=Indiana
+2026-05-06 17:49:08,383 - ForecastingPipeline - INFO - Starting model SARIMA for state Indiana
+2026-05-06 17:49:08,506 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Indiana
+2026-05-06 17:49:08,507 - ForecastingPipeline - INFO - Starting model Prophet for state Indiana
+2026-05-06 17:49:08,778 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Indiana
+2026-05-06 17:49:08,779 - ForecastingPipeline - INFO - Starting model XGBoost for state Indiana
+2026-05-06 17:49:08,875 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Indiana
+2026-05-06 17:49:08,876 - ForecastingPipeline - INFO - Starting model LSTM for state Indiana
+2026-05-06 17:49:13,616 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Indiana
+2026-05-06 17:49:13,618 - ForecastingPipeline - INFO - Processing state=Iowa
+2026-05-06 17:49:13,622 - ForecastingPipeline - INFO - Starting model SARIMA for state Iowa
+2026-05-06 17:49:13,834 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Iowa
+2026-05-06 17:49:13,835 - ForecastingPipeline - INFO - Starting model Prophet for state Iowa
+2026-05-06 17:49:14,079 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Iowa
+2026-05-06 17:49:14,080 - ForecastingPipeline - INFO - Starting model XGBoost for state Iowa
+2026-05-06 17:49:14,218 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Iowa
+2026-05-06 17:49:14,219 - ForecastingPipeline - INFO - Starting model LSTM for state Iowa
+2026-05-06 17:49:20,380 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Iowa
+2026-05-06 17:49:20,384 - ForecastingPipeline - INFO - Processing state=Kansas
+2026-05-06 17:49:20,389 - ForecastingPipeline - INFO - Starting model SARIMA for state Kansas
+2026-05-06 17:49:20,658 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Kansas
+2026-05-06 17:49:20,658 - ForecastingPipeline - INFO - Starting model Prophet for state Kansas
+2026-05-06 17:49:20,892 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Kansas
+2026-05-06 17:49:20,893 - ForecastingPipeline - INFO - Starting model XGBoost for state Kansas
+2026-05-06 17:49:21,024 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Kansas
+2026-05-06 17:49:21,024 - ForecastingPipeline - INFO - Starting model LSTM for state Kansas
+2026-05-06 17:49:25,710 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Kansas
+2026-05-06 17:49:25,713 - ForecastingPipeline - INFO - Processing state=Kentucky
+2026-05-06 17:49:25,717 - ForecastingPipeline - INFO - Starting model SARIMA for state Kentucky
+2026-05-06 17:49:25,877 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Kentucky
+2026-05-06 17:49:25,877 - ForecastingPipeline - INFO - Starting model Prophet for state Kentucky
+2026-05-06 17:49:26,234 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Kentucky
+2026-05-06 17:49:26,235 - ForecastingPipeline - INFO - Starting model XGBoost for state Kentucky
+2026-05-06 17:49:26,372 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Kentucky
+2026-05-06 17:49:26,373 - ForecastingPipeline - INFO - Starting model LSTM for state Kentucky
+2026-05-06 17:49:31,252 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Kentucky
+2026-05-06 17:49:31,256 - ForecastingPipeline - INFO - Processing state=Louisiana
+2026-05-06 17:49:31,259 - ForecastingPipeline - INFO - Starting model SARIMA for state Louisiana
+2026-05-06 17:49:31,429 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Louisiana
+2026-05-06 17:49:31,429 - ForecastingPipeline - INFO - Starting model Prophet for state Louisiana
+2026-05-06 17:49:31,663 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Louisiana
+2026-05-06 17:49:31,663 - ForecastingPipeline - INFO - Starting model XGBoost for state Louisiana
+2026-05-06 17:49:31,760 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Louisiana
+2026-05-06 17:49:31,761 - ForecastingPipeline - INFO - Starting model LSTM for state Louisiana
+2026-05-06 17:49:36,368 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Louisiana
+2026-05-06 17:49:36,371 - ForecastingPipeline - INFO - Processing state=Maine
+2026-05-06 17:49:36,377 - ForecastingPipeline - INFO - Starting model SARIMA for state Maine
+2026-05-06 17:49:36,605 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Maine
+2026-05-06 17:49:36,606 - ForecastingPipeline - INFO - Starting model Prophet for state Maine
+2026-05-06 17:49:36,896 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Maine
+2026-05-06 17:49:36,897 - ForecastingPipeline - INFO - Starting model XGBoost for state Maine
+2026-05-06 17:49:37,023 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Maine
+2026-05-06 17:49:37,023 - ForecastingPipeline - INFO - Starting model LSTM for state Maine
+2026-05-06 17:49:42,322 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Maine
+2026-05-06 17:49:42,327 - ForecastingPipeline - INFO - Processing state=Maryland
+2026-05-06 17:49:42,333 - ForecastingPipeline - INFO - Starting model SARIMA for state Maryland
+2026-05-06 17:49:42,556 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Maryland
+2026-05-06 17:49:42,557 - ForecastingPipeline - INFO - Starting model Prophet for state Maryland
+2026-05-06 17:49:42,832 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Maryland
+2026-05-06 17:49:42,832 - ForecastingPipeline - INFO - Starting model XGBoost for state Maryland
+2026-05-06 17:49:42,992 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Maryland
+2026-05-06 17:49:42,993 - ForecastingPipeline - INFO - Starting model LSTM for state Maryland
+2026-05-06 17:49:49,267 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Maryland
+2026-05-06 17:49:49,270 - ForecastingPipeline - INFO - Processing state=Massachusetts
+2026-05-06 17:49:49,273 - ForecastingPipeline - INFO - Starting model SARIMA for state Massachusetts
+2026-05-06 17:49:49,446 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Massachusetts
+2026-05-06 17:49:49,446 - ForecastingPipeline - INFO - Starting model Prophet for state Massachusetts
+2026-05-06 17:49:49,741 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Massachusetts
+2026-05-06 17:49:49,741 - ForecastingPipeline - INFO - Starting model XGBoost for state Massachusetts
+2026-05-06 17:49:49,905 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Massachusetts
+2026-05-06 17:49:49,905 - ForecastingPipeline - INFO - Starting model LSTM for state Massachusetts
+2026-05-06 17:49:57,619 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Massachusetts
+2026-05-06 17:49:57,621 - ForecastingPipeline - INFO - Processing state=Michigan
+2026-05-06 17:49:57,626 - ForecastingPipeline - INFO - Starting model SARIMA for state Michigan
+2026-05-06 17:49:57,850 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Michigan
+2026-05-06 17:49:57,852 - ForecastingPipeline - INFO - Starting model Prophet for state Michigan
+2026-05-06 17:49:58,141 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Michigan
+2026-05-06 17:49:58,142 - ForecastingPipeline - INFO - Starting model XGBoost for state Michigan
+2026-05-06 17:49:58,283 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Michigan
+2026-05-06 17:49:58,284 - ForecastingPipeline - INFO - Starting model LSTM for state Michigan
+2026-05-06 17:50:03,504 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Michigan
+2026-05-06 17:50:03,506 - ForecastingPipeline - INFO - Processing state=Minnesota
+2026-05-06 17:50:03,509 - ForecastingPipeline - INFO - Starting model SARIMA for state Minnesota
+2026-05-06 17:50:03,780 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Minnesota
+2026-05-06 17:50:03,781 - ForecastingPipeline - INFO - Starting model Prophet for state Minnesota
+2026-05-06 17:50:04,029 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Minnesota
+2026-05-06 17:50:04,030 - ForecastingPipeline - INFO - Starting model XGBoost for state Minnesota
+2026-05-06 17:50:04,255 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Minnesota
+2026-05-06 17:50:04,256 - ForecastingPipeline - INFO - Starting model LSTM for state Minnesota
+2026-05-06 17:50:09,081 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Minnesota
+2026-05-06 17:50:09,083 - ForecastingPipeline - INFO - Processing state=Mississippi
+2026-05-06 17:50:09,085 - ForecastingPipeline - INFO - Starting model SARIMA for state Mississippi
+2026-05-06 17:50:09,279 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Mississippi
+2026-05-06 17:50:09,279 - ForecastingPipeline - INFO - Starting model Prophet for state Mississippi
+2026-05-06 17:50:09,499 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Mississippi
+2026-05-06 17:50:09,500 - ForecastingPipeline - INFO - Starting model XGBoost for state Mississippi
+2026-05-06 17:50:09,674 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Mississippi
+2026-05-06 17:50:09,675 - ForecastingPipeline - INFO - Starting model LSTM for state Mississippi
+2026-05-06 17:50:13,940 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Mississippi
+2026-05-06 17:50:13,945 - ForecastingPipeline - INFO - Processing state=Missouri
+2026-05-06 17:50:13,947 - ForecastingPipeline - INFO - Starting model SARIMA for state Missouri
+2026-05-06 17:50:14,162 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Missouri
+2026-05-06 17:50:14,163 - ForecastingPipeline - INFO - Starting model Prophet for state Missouri
+2026-05-06 17:50:14,458 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Missouri
+2026-05-06 17:50:14,458 - ForecastingPipeline - INFO - Starting model XGBoost for state Missouri
+2026-05-06 17:50:14,591 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Missouri
+2026-05-06 17:50:14,609 - ForecastingPipeline - INFO - Starting model LSTM for state Missouri
+2026-05-06 17:50:20,969 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Missouri
+2026-05-06 17:50:20,972 - ForecastingPipeline - INFO - Processing state=Nebraska
+2026-05-06 17:50:20,976 - ForecastingPipeline - INFO - Starting model SARIMA for state Nebraska
+2026-05-06 17:50:21,192 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Nebraska
+2026-05-06 17:50:21,193 - ForecastingPipeline - INFO - Starting model Prophet for state Nebraska
+2026-05-06 17:50:21,448 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Nebraska
+2026-05-06 17:50:21,450 - ForecastingPipeline - INFO - Starting model XGBoost for state Nebraska
+2026-05-06 17:50:21,572 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Nebraska
+2026-05-06 17:50:21,572 - ForecastingPipeline - INFO - Starting model LSTM for state Nebraska
+2026-05-06 17:50:25,729 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Nebraska
+2026-05-06 17:50:25,731 - ForecastingPipeline - INFO - Processing state=Nevada
+2026-05-06 17:50:25,738 - ForecastingPipeline - INFO - Starting model SARIMA for state Nevada
+2026-05-06 17:50:25,928 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Nevada
+2026-05-06 17:50:25,929 - ForecastingPipeline - INFO - Starting model Prophet for state Nevada
+2026-05-06 17:50:26,270 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Nevada
+2026-05-06 17:50:26,271 - ForecastingPipeline - INFO - Starting model XGBoost for state Nevada
+2026-05-06 17:50:26,386 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Nevada
+2026-05-06 17:50:26,386 - ForecastingPipeline - INFO - Starting model LSTM for state Nevada
+2026-05-06 17:50:31,358 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Nevada
+2026-05-06 17:50:31,360 - ForecastingPipeline - INFO - Processing state=New Hampshire
+2026-05-06 17:50:31,363 - ForecastingPipeline - INFO - Starting model SARIMA for state New Hampshire
+2026-05-06 17:50:31,556 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state New Hampshire
+2026-05-06 17:50:31,556 - ForecastingPipeline - INFO - Starting model Prophet for state New Hampshire
+2026-05-06 17:50:31,805 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state New Hampshire
+2026-05-06 17:50:31,806 - ForecastingPipeline - INFO - Starting model XGBoost for state New Hampshire
+2026-05-06 17:50:31,898 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state New Hampshire
+2026-05-06 17:50:31,898 - ForecastingPipeline - INFO - Starting model LSTM for state New Hampshire
+2026-05-06 17:50:35,962 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state New Hampshire
+2026-05-06 17:50:35,964 - ForecastingPipeline - INFO - Processing state=New Mexico
+2026-05-06 17:50:35,966 - ForecastingPipeline - INFO - Starting model SARIMA for state New Mexico
+2026-05-06 17:50:37,022 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state New Mexico
+2026-05-06 17:50:37,023 - ForecastingPipeline - INFO - Starting model Prophet for state New Mexico
+2026-05-06 17:50:37,235 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state New Mexico
+2026-05-06 17:50:37,235 - ForecastingPipeline - INFO - Starting model XGBoost for state New Mexico
+2026-05-06 17:50:37,344 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state New Mexico
+2026-05-06 17:50:37,344 - ForecastingPipeline - INFO - Starting model LSTM for state New Mexico
+2026-05-06 17:50:41,882 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state New Mexico
+2026-05-06 17:50:41,888 - ForecastingPipeline - INFO - Processing state=New York
+2026-05-06 17:50:41,894 - ForecastingPipeline - INFO - Starting model SARIMA for state New York
+2026-05-06 17:50:42,050 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state New York
+2026-05-06 17:50:42,050 - ForecastingPipeline - INFO - Starting model Prophet for state New York
+2026-05-06 17:50:42,291 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state New York
+2026-05-06 17:50:42,291 - ForecastingPipeline - INFO - Starting model XGBoost for state New York
+2026-05-06 17:50:42,399 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state New York
+2026-05-06 17:50:42,399 - ForecastingPipeline - INFO - Starting model LSTM for state New York
+2026-05-06 17:50:47,373 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state New York
+2026-05-06 17:50:47,375 - ForecastingPipeline - INFO - Processing state=North Carolina
+2026-05-06 17:50:47,377 - ForecastingPipeline - INFO - Starting model SARIMA for state North Carolina
+2026-05-06 17:50:47,546 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state North Carolina
+2026-05-06 17:50:47,546 - ForecastingPipeline - INFO - Starting model Prophet for state North Carolina
+2026-05-06 17:50:47,890 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state North Carolina
+2026-05-06 17:50:47,891 - ForecastingPipeline - INFO - Starting model XGBoost for state North Carolina
+2026-05-06 17:50:48,020 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state North Carolina
+2026-05-06 17:50:48,020 - ForecastingPipeline - INFO - Starting model LSTM for state North Carolina
+2026-05-06 17:50:56,868 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state North Carolina
+2026-05-06 17:50:56,878 - ForecastingPipeline - INFO - Processing state=Ohio
+2026-05-06 17:50:56,885 - ForecastingPipeline - INFO - Starting model SARIMA for state Ohio
+2026-05-06 17:50:57,648 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Ohio
+2026-05-06 17:50:57,649 - ForecastingPipeline - INFO - Starting model Prophet for state Ohio
+2026-05-06 17:50:58,385 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Ohio
+2026-05-06 17:50:58,390 - ForecastingPipeline - INFO - Starting model XGBoost for state Ohio
+2026-05-06 17:50:58,706 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Ohio
+2026-05-06 17:50:58,707 - ForecastingPipeline - INFO - Starting model LSTM for state Ohio
+2026-05-06 17:51:14,659 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Ohio
+2026-05-06 17:51:14,664 - ForecastingPipeline - INFO - Processing state=Oklahoma
+2026-05-06 17:51:14,674 - ForecastingPipeline - INFO - Starting model SARIMA for state Oklahoma
+2026-05-06 17:51:15,645 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Oklahoma
+2026-05-06 17:51:15,647 - ForecastingPipeline - INFO - Starting model Prophet for state Oklahoma
+2026-05-06 17:51:16,561 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Oklahoma
+2026-05-06 17:51:16,562 - ForecastingPipeline - INFO - Starting model XGBoost for state Oklahoma
+2026-05-06 17:51:16,869 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Oklahoma
+2026-05-06 17:51:16,869 - ForecastingPipeline - INFO - Starting model LSTM for state Oklahoma
+2026-05-06 17:51:25,713 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Oklahoma
+2026-05-06 17:51:25,715 - ForecastingPipeline - INFO - Processing state=Oregon
+2026-05-06 17:51:25,717 - ForecastingPipeline - INFO - Starting model SARIMA for state Oregon
+2026-05-06 17:51:26,580 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Oregon
+2026-05-06 17:51:26,580 - ForecastingPipeline - INFO - Starting model Prophet for state Oregon
+2026-05-06 17:51:26,833 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Oregon
+2026-05-06 17:51:26,834 - ForecastingPipeline - INFO - Starting model XGBoost for state Oregon
+2026-05-06 17:51:27,046 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Oregon
+2026-05-06 17:51:27,047 - ForecastingPipeline - INFO - Starting model LSTM for state Oregon
+2026-05-06 17:51:32,675 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Oregon
+2026-05-06 17:51:32,678 - ForecastingPipeline - INFO - Processing state=Pennsylvania
+2026-05-06 17:51:32,681 - ForecastingPipeline - INFO - Starting model SARIMA for state Pennsylvania
+2026-05-06 17:51:32,898 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Pennsylvania
+2026-05-06 17:51:32,899 - ForecastingPipeline - INFO - Starting model Prophet for state Pennsylvania
+2026-05-06 17:51:33,153 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Pennsylvania
+2026-05-06 17:51:33,153 - ForecastingPipeline - INFO - Starting model XGBoost for state Pennsylvania
+2026-05-06 17:51:33,264 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Pennsylvania
+2026-05-06 17:51:33,265 - ForecastingPipeline - INFO - Starting model LSTM for state Pennsylvania
+2026-05-06 17:51:38,926 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Pennsylvania
+2026-05-06 17:51:38,928 - ForecastingPipeline - INFO - Processing state=Rhode Island
+2026-05-06 17:51:38,931 - ForecastingPipeline - INFO - Starting model SARIMA for state Rhode Island
+2026-05-06 17:51:39,363 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Rhode Island
+2026-05-06 17:51:39,363 - ForecastingPipeline - INFO - Starting model Prophet for state Rhode Island
+2026-05-06 17:51:39,728 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Rhode Island
+2026-05-06 17:51:39,728 - ForecastingPipeline - INFO - Starting model XGBoost for state Rhode Island
+2026-05-06 17:51:39,844 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Rhode Island
+2026-05-06 17:51:39,844 - ForecastingPipeline - INFO - Starting model LSTM for state Rhode Island
+2026-05-06 17:51:44,566 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Rhode Island
+2026-05-06 17:51:44,569 - ForecastingPipeline - INFO - Processing state=South Carolina
+2026-05-06 17:51:44,571 - ForecastingPipeline - INFO - Starting model SARIMA for state South Carolina
+2026-05-06 17:51:44,701 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state South Carolina
+2026-05-06 17:51:44,701 - ForecastingPipeline - INFO - Starting model Prophet for state South Carolina
+2026-05-06 17:51:44,905 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state South Carolina
+2026-05-06 17:51:44,905 - ForecastingPipeline - INFO - Starting model XGBoost for state South Carolina
+2026-05-06 17:51:44,996 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state South Carolina
+2026-05-06 17:51:44,996 - ForecastingPipeline - INFO - Starting model LSTM for state South Carolina
+2026-05-06 17:51:50,039 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state South Carolina
+2026-05-06 17:51:50,041 - ForecastingPipeline - INFO - Processing state=South Dakota
+2026-05-06 17:51:50,044 - ForecastingPipeline - INFO - Starting model SARIMA for state South Dakota
+2026-05-06 17:51:50,326 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state South Dakota
+2026-05-06 17:51:50,327 - ForecastingPipeline - INFO - Starting model Prophet for state South Dakota
+2026-05-06 17:51:50,577 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state South Dakota
+2026-05-06 17:51:50,577 - ForecastingPipeline - INFO - Starting model XGBoost for state South Dakota
+2026-05-06 17:51:50,704 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state South Dakota
+2026-05-06 17:51:50,705 - ForecastingPipeline - INFO - Starting model LSTM for state South Dakota
+2026-05-06 17:51:54,825 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state South Dakota
+2026-05-06 17:51:54,826 - ForecastingPipeline - INFO - Processing state=Tennessee
+2026-05-06 17:51:54,829 - ForecastingPipeline - INFO - Starting model SARIMA for state Tennessee
+2026-05-06 17:51:54,982 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Tennessee
+2026-05-06 17:51:54,982 - ForecastingPipeline - INFO - Starting model Prophet for state Tennessee
+2026-05-06 17:51:55,184 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Tennessee
+2026-05-06 17:51:55,184 - ForecastingPipeline - INFO - Starting model XGBoost for state Tennessee
+2026-05-06 17:51:55,279 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Tennessee
+2026-05-06 17:51:55,279 - ForecastingPipeline - INFO - Starting model LSTM for state Tennessee
+2026-05-06 17:52:00,003 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Tennessee
+2026-05-06 17:52:00,007 - ForecastingPipeline - INFO - Processing state=Texas
+2026-05-06 17:52:00,014 - ForecastingPipeline - INFO - Starting model SARIMA for state Texas
+2026-05-06 17:52:00,316 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Texas
+2026-05-06 17:52:00,316 - ForecastingPipeline - INFO - Starting model Prophet for state Texas
+2026-05-06 17:52:00,580 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Texas
+2026-05-06 17:52:00,582 - ForecastingPipeline - INFO - Starting model XGBoost for state Texas
+2026-05-06 17:52:00,711 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Texas
+2026-05-06 17:52:00,711 - ForecastingPipeline - INFO - Starting model LSTM for state Texas
+2026-05-06 17:52:05,328 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Texas
+2026-05-06 17:52:05,330 - ForecastingPipeline - INFO - Processing state=Utah
+2026-05-06 17:52:05,333 - ForecastingPipeline - INFO - Starting model SARIMA for state Utah
+2026-05-06 17:52:05,475 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Utah
+2026-05-06 17:52:05,475 - ForecastingPipeline - INFO - Starting model Prophet for state Utah
+2026-05-06 17:52:05,740 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Utah
+2026-05-06 17:52:05,740 - ForecastingPipeline - INFO - Starting model XGBoost for state Utah
+2026-05-06 17:52:05,845 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Utah
+2026-05-06 17:52:05,845 - ForecastingPipeline - INFO - Starting model LSTM for state Utah
+2026-05-06 17:52:10,581 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Utah
+2026-05-06 17:52:10,585 - ForecastingPipeline - INFO - Processing state=Vermont
+2026-05-06 17:52:10,589 - ForecastingPipeline - INFO - Starting model SARIMA for state Vermont
+2026-05-06 17:52:10,783 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Vermont
+2026-05-06 17:52:10,783 - ForecastingPipeline - INFO - Starting model Prophet for state Vermont
+2026-05-06 17:52:11,047 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Vermont
+2026-05-06 17:52:11,047 - ForecastingPipeline - INFO - Starting model XGBoost for state Vermont
+2026-05-06 17:52:11,138 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Vermont
+2026-05-06 17:52:11,139 - ForecastingPipeline - INFO - Starting model LSTM for state Vermont
+2026-05-06 17:52:15,574 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Vermont
+2026-05-06 17:52:15,583 - ForecastingPipeline - INFO - Processing state=Virginia
+2026-05-06 17:52:15,588 - ForecastingPipeline - INFO - Starting model SARIMA for state Virginia
+2026-05-06 17:52:15,725 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Virginia
+2026-05-06 17:52:15,726 - ForecastingPipeline - INFO - Starting model Prophet for state Virginia
+2026-05-06 17:52:15,943 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Virginia
+2026-05-06 17:52:15,944 - ForecastingPipeline - INFO - Starting model XGBoost for state Virginia
+2026-05-06 17:52:16,039 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Virginia
+2026-05-06 17:52:16,039 - ForecastingPipeline - INFO - Starting model LSTM for state Virginia
+2026-05-06 17:52:20,739 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Virginia
+2026-05-06 17:52:20,742 - ForecastingPipeline - INFO - Processing state=Washington
+2026-05-06 17:52:20,745 - ForecastingPipeline - INFO - Starting model SARIMA for state Washington
+2026-05-06 17:52:20,966 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Washington
+2026-05-06 17:52:20,967 - ForecastingPipeline - INFO - Starting model Prophet for state Washington
+2026-05-06 17:52:21,197 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Washington
+2026-05-06 17:52:21,197 - ForecastingPipeline - INFO - Starting model XGBoost for state Washington
+2026-05-06 17:52:21,307 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Washington
+2026-05-06 17:52:21,307 - ForecastingPipeline - INFO - Starting model LSTM for state Washington
+2026-05-06 17:52:26,111 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Washington
+2026-05-06 17:52:26,113 - ForecastingPipeline - INFO - Processing state=West Virginia
+2026-05-06 17:52:26,118 - ForecastingPipeline - INFO - Starting model SARIMA for state West Virginia
+2026-05-06 17:52:26,314 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state West Virginia
+2026-05-06 17:52:26,315 - ForecastingPipeline - INFO - Starting model Prophet for state West Virginia
+2026-05-06 17:52:26,543 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state West Virginia
+2026-05-06 17:52:26,543 - ForecastingPipeline - INFO - Starting model XGBoost for state West Virginia
+2026-05-06 17:52:26,638 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state West Virginia
+2026-05-06 17:52:26,639 - ForecastingPipeline - INFO - Starting model LSTM for state West Virginia
+2026-05-06 17:52:30,735 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state West Virginia
+2026-05-06 17:52:30,737 - ForecastingPipeline - INFO - Processing state=Wisconsin
+2026-05-06 17:52:30,739 - ForecastingPipeline - INFO - Starting model SARIMA for state Wisconsin
+2026-05-06 17:52:31,093 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Wisconsin
+2026-05-06 17:52:31,093 - ForecastingPipeline - INFO - Starting model Prophet for state Wisconsin
+2026-05-06 17:52:31,339 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Wisconsin
+2026-05-06 17:52:31,339 - ForecastingPipeline - INFO - Starting model XGBoost for state Wisconsin
+2026-05-06 17:52:31,449 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Wisconsin
+2026-05-06 17:52:31,450 - ForecastingPipeline - INFO - Starting model LSTM for state Wisconsin
+2026-05-06 17:52:36,647 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Wisconsin
+2026-05-06 17:52:36,650 - ForecastingPipeline - INFO - Processing state=Wyoming
+2026-05-06 17:52:36,654 - ForecastingPipeline - INFO - Starting model SARIMA for state Wyoming
+2026-05-06 17:52:36,859 - ForecastingPipeline - INFO - Completed evaluation for SARIMA on state Wyoming
+2026-05-06 17:52:36,859 - ForecastingPipeline - INFO - Starting model Prophet for state Wyoming
+2026-05-06 17:52:37,108 - ForecastingPipeline - INFO - Completed evaluation for Prophet on state Wyoming
+2026-05-06 17:52:37,109 - ForecastingPipeline - INFO - Starting model XGBoost for state Wyoming
+2026-05-06 17:52:37,210 - ForecastingPipeline - INFO - Completed evaluation for XGBoost on state Wyoming
+2026-05-06 17:52:37,211 - ForecastingPipeline - INFO - Starting model LSTM for state Wyoming
+2026-05-06 17:52:42,170 - ForecastingPipeline - INFO - Completed evaluation for LSTM on state Wyoming
+2026-05-06 17:52:42,173 - ForecastingPipeline - INFO - Forecasting pipeline completed

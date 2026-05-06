@@ -1,0 +1,22 @@
+2026-05-06 17:01:13,109 - run_sarima - INFO - Loaded processed dataset with 6794 rows
+2026-05-06 17:01:13,112 - run_sarima - INFO - Filtered dataset to 158 rows for Texas/Beverages
+2026-05-06 17:01:13,113 - run_sarima - INFO - Split data into train (126 rows) and validation (32 rows)
+2026-05-06 17:01:13,464 - run_sarima - ERROR - SARIMA pipeline failed
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\services\run_sarima.py", line 65, in run
+    predictions = model.predict(len(val_df))
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 61, in predict
+    raise error
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 56, in predict
+    predictions = forecast.predicted_mean.values
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'numpy.ndarray' object has no attribute 'values'
+2026-05-06 17:02:20,692 - run_sarima - INFO - Loaded processed dataset with 6794 rows
+2026-05-06 17:02:20,695 - run_sarima - INFO - Filtered dataset to 158 rows for Texas/Beverages
+2026-05-06 17:02:20,696 - run_sarima - INFO - Split data into train (126 rows) and validation (32 rows)
+2026-05-06 17:31:31,093 - run_sarima - INFO - Loaded processed dataset with 6794 rows
+2026-05-06 17:31:31,095 - run_sarima - INFO - Filtered dataset to 158 rows for Texas/Beverages
+2026-05-06 17:31:31,095 - run_sarima - INFO - Split data into train (126 rows) and validation (32 rows)
+2026-05-06 17:38:28,789 - run_sarima - INFO - Loaded processed dataset with 6794 rows
+2026-05-06 17:38:28,793 - run_sarima - INFO - Filtered dataset to 158 rows for Texas
+2026-05-06 17:38:28,794 - run_sarima - INFO - Split data into train (126 rows) and validation (32 rows)

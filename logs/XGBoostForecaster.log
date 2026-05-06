@@ -1,0 +1,368 @@
+2026-05-06 16:50:12,142 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 16:50:12,227 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 16:50:12,227 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 16:50:12,230 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 16:50:12,230 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 16:50:12,233 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=49478301.9888, MAE=41306672.0000, MAPE=0.0477
+2026-05-06 16:50:12,234 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_texas_beverages.pkl
+2026-05-06 16:50:12,236 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:29:52,110 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:29:52,231 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:29:52,232 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:29:52,236 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:29:52,236 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:29:52,238 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=49402386.9727, MAE=41052744.0000, MAPE=0.0474
+2026-05-06 17:29:52,238 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_texas_beverages.pkl
+2026-05-06 17:29:52,240 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:39:40,977 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:39:41,071 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:39:41,071 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:39:41,074 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:39:41,074 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:39:41,075 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=49402386.9727, MAE=41052744.0000, MAPE=0.0474
+2026-05-06 17:39:41,076 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_texas_beverages.pkl
+2026-05-06 17:39:41,078 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:48:20,149 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:48:20,251 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:48:20,251 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:48:20,255 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:48:20,256 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:48:20,257 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=9723140.4991, MAE=7888451.5000, MAPE=0.0402
+2026-05-06 17:48:20,258 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_alabama.pkl
+2026-05-06 17:48:20,260 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:48:25,987 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:48:26,120 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:48:26,121 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:48:26,124 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:48:26,124 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:48:26,126 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=10905551.3479, MAE=9325514.0000, MAPE=0.0439
+2026-05-06 17:48:26,126 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_arizona.pkl
+2026-05-06 17:48:26,129 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:48:31,635 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:48:31,736 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:48:31,736 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:48:31,739 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:48:31,740 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:48:31,741 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=4239863.0658, MAE=3278363.5000, MAPE=0.0309
+2026-05-06 17:48:31,742 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_arkansas.pkl
+2026-05-06 17:48:31,744 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:48:37,126 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:48:37,239 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:48:37,240 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:48:37,243 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:48:37,243 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:48:37,245 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=31615678.0063, MAE=23089560.0000, MAPE=0.0279
+2026-05-06 17:48:37,245 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_california.pkl
+2026-05-06 17:48:37,249 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:48:42,242 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:48:42,332 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:48:42,332 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:48:42,350 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:48:42,350 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:48:42,352 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=6328755.1022, MAE=5075683.0000, MAPE=0.0301
+2026-05-06 17:48:42,352 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_colorado.pkl
+2026-05-06 17:48:42,355 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:48:47,273 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:48:47,401 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:48:47,401 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:48:47,406 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:48:47,406 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:48:47,408 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=5426037.7322, MAE=4466339.5000, MAPE=0.0527
+2026-05-06 17:48:47,409 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_connecticut.pkl
+2026-05-06 17:48:47,412 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:48:52,615 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:48:52,756 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:48:52,757 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:48:52,762 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:48:52,762 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:48:52,764 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=50880160.4985, MAE=43052676.0000, MAPE=0.0600
+2026-05-06 17:48:52,765 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_florida.pkl
+2026-05-06 17:48:52,768 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:48:58,141 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:48:58,236 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:48:58,236 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:48:58,239 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:48:58,240 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:48:58,241 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=20327874.8160, MAE=17033540.0000, MAPE=0.0469
+2026-05-06 17:48:58,242 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_georgia.pkl
+2026-05-06 17:48:58,244 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:49:03,562 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:49:03,656 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:49:03,657 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:49:03,659 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:49:03,660 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:49:03,661 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=11850877.5993, MAE=8594381.0000, MAPE=0.0281
+2026-05-06 17:49:03,662 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_illinois.pkl
+2026-05-06 17:49:03,664 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:49:08,779 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:49:08,867 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:49:08,867 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:49:08,870 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:49:08,870 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:49:08,871 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=11305665.6475, MAE=9018048.0000, MAPE=0.0429
+2026-05-06 17:49:08,872 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_indiana.pkl
+2026-05-06 17:49:08,875 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:49:14,081 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:49:14,190 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:49:14,190 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:49:14,193 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:49:14,194 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:49:14,195 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=3738305.7920, MAE=3160647.0000, MAPE=0.0287
+2026-05-06 17:49:14,196 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_iowa.pkl
+2026-05-06 17:49:14,218 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:49:20,893 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:49:20,992 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:49:20,992 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:49:21,015 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:49:21,016 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:49:21,017 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=3462329.1994, MAE=2822965.7500, MAPE=0.0328
+2026-05-06 17:49:21,017 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_kansas.pkl
+2026-05-06 17:49:21,023 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:49:26,235 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:49:26,345 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:49:26,346 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:49:26,367 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:49:26,367 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:49:26,369 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=8038096.8381, MAE=6965509.0000, MAPE=0.0423
+2026-05-06 17:49:26,369 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_kentucky.pkl
+2026-05-06 17:49:26,372 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:49:31,664 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:49:31,752 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:49:31,752 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:49:31,755 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:49:31,755 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:49:31,757 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=7639999.6995, MAE=6077738.5000, MAPE=0.0352
+2026-05-06 17:49:31,757 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_louisiana.pkl
+2026-05-06 17:49:31,760 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:49:36,898 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:49:37,014 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:49:37,015 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:49:37,018 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:49:37,018 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:49:37,019 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=1875274.1424, MAE=1429402.6250, MAPE=0.0321
+2026-05-06 17:49:37,019 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_maine.pkl
+2026-05-06 17:49:37,022 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:49:42,833 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:49:42,981 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:49:42,981 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:49:42,985 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:49:42,986 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:49:42,988 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=9621003.5391, MAE=7675874.5000, MAPE=0.0491
+2026-05-06 17:49:42,989 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_maryland.pkl
+2026-05-06 17:49:42,992 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:49:49,742 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:49:49,894 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:49:49,894 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:49:49,898 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:49:49,899 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:49:49,900 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=9711955.4559, MAE=7953618.0000, MAPE=0.0453
+2026-05-06 17:49:49,901 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_massachusetts.pkl
+2026-05-06 17:49:49,904 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:49:58,143 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:49:58,272 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:49:58,273 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:49:58,278 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:49:58,278 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:49:58,280 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=15241935.3423, MAE=12503983.0000, MAPE=0.0450
+2026-05-06 17:49:58,280 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_michigan.pkl
+2026-05-06 17:49:58,283 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:50:04,030 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:50:04,245 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:50:04,246 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:50:04,249 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:50:04,250 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:50:04,251 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=6550175.7454, MAE=5505742.5000, MAPE=0.0372
+2026-05-06 17:50:04,252 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_minnesota.pkl
+2026-05-06 17:50:04,255 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:50:09,500 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:50:09,664 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:50:09,664 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:50:09,668 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:50:09,669 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:50:09,670 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=5611940.0485, MAE=4554183.5000, MAPE=0.0379
+2026-05-06 17:50:09,671 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_mississippi.pkl
+2026-05-06 17:50:09,674 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:50:14,458 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:50:14,582 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:50:14,583 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:50:14,586 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:50:14,586 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:50:14,587 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=9681150.9677, MAE=7698543.5000, MAPE=0.0412
+2026-05-06 17:50:14,588 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_missouri.pkl
+2026-05-06 17:50:14,591 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:50:21,451 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:50:21,563 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:50:21,563 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:50:21,567 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:50:21,567 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:50:21,568 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=1924186.1905, MAE=1514706.1250, MAPE=0.0257
+2026-05-06 17:50:21,569 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_nebraska.pkl
+2026-05-06 17:50:21,571 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:50:26,272 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:50:26,378 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:50:26,378 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:50:26,381 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:50:26,381 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:50:26,382 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=3302033.7211, MAE=2464434.7500, MAPE=0.0252
+2026-05-06 17:50:26,383 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_nevada.pkl
+2026-05-06 17:50:26,385 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:50:31,806 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:50:31,890 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:50:31,890 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:50:31,893 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:50:31,893 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:50:31,894 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=2761724.5829, MAE=2275788.0000, MAPE=0.0430
+2026-05-06 17:50:31,895 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_new_hampshire.pkl
+2026-05-06 17:50:31,898 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:50:37,235 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:50:37,335 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:50:37,335 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:50:37,339 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:50:37,339 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:50:37,340 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=3741090.0703, MAE=3128061.2500, MAPE=0.0454
+2026-05-06 17:50:37,341 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_new_mexico.pkl
+2026-05-06 17:50:37,343 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:50:42,292 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:50:42,390 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:50:42,391 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:50:42,393 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:50:42,394 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:50:42,395 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=17748523.3571, MAE=12961905.0000, MAPE=0.0311
+2026-05-06 17:50:42,395 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_new_york.pkl
+2026-05-06 17:50:42,398 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:50:47,891 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:50:48,010 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:50:48,011 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:50:48,015 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:50:48,015 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:50:48,016 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=17029864.6774, MAE=14300635.0000, MAPE=0.0422
+2026-05-06 17:50:48,017 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_north_carolina.pkl
+2026-05-06 17:50:48,019 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:50:58,393 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:50:58,681 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:50:58,681 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:50:58,690 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:50:58,691 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:50:58,694 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=13803045.3663, MAE=10637633.0000, MAPE=0.0299
+2026-05-06 17:50:58,695 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_ohio.pkl
+2026-05-06 17:50:58,703 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:51:16,564 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:51:16,848 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:51:16,848 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:51:16,856 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:51:16,857 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:51:16,860 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=6626957.7548, MAE=5196745.5000, MAPE=0.0372
+2026-05-06 17:51:16,862 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_oklahoma.pkl
+2026-05-06 17:51:16,867 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:51:26,835 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:51:27,034 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:51:27,034 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:51:27,038 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:51:27,039 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:51:27,041 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=4534437.1135, MAE=3844028.7500, MAPE=0.0360
+2026-05-06 17:51:27,043 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_oregon.pkl
+2026-05-06 17:51:27,046 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:51:33,154 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:51:33,255 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:51:33,256 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:51:33,259 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:51:33,259 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:51:33,261 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=12914389.8576, MAE=9706298.0000, MAPE=0.0279
+2026-05-06 17:51:33,262 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_pennsylvania.pkl
+2026-05-06 17:51:33,264 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:51:39,729 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:51:39,834 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:51:39,835 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:51:39,838 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:51:39,839 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:51:39,840 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=1076430.8384, MAE=832222.7500, MAPE=0.0329
+2026-05-06 17:51:39,840 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_rhode_island.pkl
+2026-05-06 17:51:39,843 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:51:44,905 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:51:44,987 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:51:44,987 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:51:44,990 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:51:44,991 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:51:44,993 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=10502708.7024, MAE=8918538.0000, MAPE=0.0483
+2026-05-06 17:51:44,993 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_south_carolina.pkl
+2026-05-06 17:51:44,996 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:51:50,578 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:51:50,695 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:51:50,696 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:51:50,699 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:51:50,699 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:51:50,701 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=1279559.9115, MAE=1021909.6250, MAPE=0.0380
+2026-05-06 17:51:50,701 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_south_dakota.pkl
+2026-05-06 17:51:50,704 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:51:55,186 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:51:55,270 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:51:55,271 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:51:55,274 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:51:55,274 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:51:55,275 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=9434934.8431, MAE=7767887.5000, MAPE=0.0310
+2026-05-06 17:51:55,276 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_tennessee.pkl
+2026-05-06 17:51:55,278 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:52:00,583 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:52:00,681 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:52:00,681 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:52:00,685 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:52:00,686 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:52:00,687 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=49402386.9727, MAE=41052744.0000, MAPE=0.0474
+2026-05-06 17:52:00,687 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_texas.pkl
+2026-05-06 17:52:00,710 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:52:05,740 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:52:05,836 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:52:05,837 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:52:05,839 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:52:05,840 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:52:05,841 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=3589033.3753, MAE=3048324.5000, MAPE=0.0387
+2026-05-06 17:52:05,842 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_utah.pkl
+2026-05-06 17:52:05,844 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:52:11,047 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:52:11,129 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:52:11,129 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:52:11,132 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:52:11,133 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:52:11,135 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=807326.6752, MAE=663201.8750, MAPE=0.0380
+2026-05-06 17:52:11,135 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_vermont.pkl
+2026-05-06 17:52:11,138 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:52:15,944 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:52:16,029 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:52:16,030 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:52:16,033 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:52:16,034 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:52:16,035 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=11695239.8780, MAE=8777730.0000, MAPE=0.0319
+2026-05-06 17:52:16,036 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_virginia.pkl
+2026-05-06 17:52:16,039 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:52:21,198 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:52:21,298 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:52:21,298 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:52:21,302 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:52:21,302 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:52:21,304 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=8432389.7473, MAE=7245243.5000, MAPE=0.0413
+2026-05-06 17:52:21,304 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_washington.pkl
+2026-05-06 17:52:21,307 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:52:26,544 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:52:26,630 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:52:26,630 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:52:26,633 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:52:26,634 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:52:26,635 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=3957237.3678, MAE=3307563.7500, MAPE=0.0474
+2026-05-06 17:52:26,636 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_west_virginia.pkl
+2026-05-06 17:52:26,638 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:52:31,340 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:52:31,441 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:52:31,441 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:52:31,444 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:52:31,444 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:52:31,445 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=6491923.5389, MAE=5392901.5000, MAPE=0.0362
+2026-05-06 17:52:31,446 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_wisconsin.pkl
+2026-05-06 17:52:31,449 - XGBoostForecaster - INFO - XGBoost model saved successfully
+2026-05-06 17:52:37,109 - XGBoostForecaster - INFO - Starting XGBoost training with n_estimators=100, max_depth=5
+2026-05-06 17:52:37,202 - XGBoostForecaster - INFO - XGBoost training completed successfully
+2026-05-06 17:52:37,202 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-06 17:52:37,205 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-06 17:52:37,206 - XGBoostForecaster - INFO - Evaluating XGBoost model
+2026-05-06 17:52:37,207 - XGBoostForecaster - INFO - XGBoost metrics: RMSE=846462.7515, MAE=662859.2500, MAPE=0.0324
+2026-05-06 17:52:37,208 - XGBoostForecaster - INFO - Saving XGBoost model to S:\Forecasting System\trained_models\xgboost_wyoming.pkl
+2026-05-06 17:52:37,210 - XGBoostForecaster - INFO - XGBoost model saved successfully

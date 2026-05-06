@@ -53,7 +53,7 @@ class SarimaForecaster(BaseForecaster):
 
         try:
             forecast = self.model.get_forecast(steps=steps)
-            predictions = forecast.predicted_mean.values
+            predictions = np.asarray(forecast.predicted_mean)
             self.logger.info("SARIMA predictions generated successfully")
             return predictions
         except Exception as error:

@@ -31,12 +31,20 @@ class LSTMForecaster(BaseForecaster):
         self.batch_size: int = batch_size
         self.scaler = MinMaxScaler()
 
-    def _create_sequences(self, data: np.ndarray) -> Tuple[np.ndarray, np.ndarray]:
-        """Generate sequences from univariate time series data."""
+    def _create_sequences(
+        self,
+        target: np.ndarray,
+        extra_features: np.ndarray | None = None,
+    ) -> Tuple[np.ndarray, np.ndarray]:
+        """Generate sequences from time series data with optional extra features."""
         X, y = [], []
-        for i in range(len(data) - self.sequence_length):
-            X.append(data[i : i + self.sequence_length])
-            y.append(data[i + self.sequence_length])
+        for i in range(len(target) - self.sequence_length):
+            sequence = target[i : i + self.sequence_length]
+            if extra_features is not None:
+                feature_window = extra_features[i : i + self.sequence_length]
+                sequence = np.concatenate([sequence, feature_window], axis=1)
+            X.append(sequence)
+            y.append(target[i + self.sequence_length, 0])
         return np.array(X), np.array(y)
 
     def train(self, train_data: pd.DataFrame, target_column: str = "Total", **kwargs) -> None:
@@ -47,11 +55,16 @@ class LSTMForecaster(BaseForecaster):
             y_train = train_data[target_column].values.reshape(-1, 1)
             y_train_scaled = self.scaler.fit_transform(y_train)
 
-            X_train, y_train_seq = self._create_sequences(y_train_scaled)
-            X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))
+            extra_features = None
+            if "feature_columns" in kwargs and kwargs["feature_columns"]:
+                raw_features = train_data[kwargs["feature_columns"]].astype(float).values
+                if raw_features.ndim == 1:
+                    raw_features = raw_features.reshape(-1, 1)
+                extra_features = raw_features
 
+            X_train, y_train_seq = self._create_sequences(y_train_scaled, extra_features)
             self.model = Sequential([
-                LSTM(self.lstm_units, activation="relu", input_shape=(self.sequence_length, 1)),
+                LSTM(self.lstm_units, activation="relu", input_shape=(self.sequence_length, X_train.shape[2])),
                 Dropout(self.dropout_rate),
                 Dense(1),
             ])
@@ -72,7 +85,12 @@ class LSTMForecaster(BaseForecaster):
             self.logger.exception("LSTM training failed")
             raise error
 
-    def predict(self, steps: int, last_sequence: np.ndarray) -> np.ndarray:
+    def predict(
+        self,
+        steps: int,
+        last_sequence: np.ndarray,
+        future_features: np.ndarray | None = None,
+    ) -> np.ndarray:
         """Generate predictions for the specified number of future steps."""
         if self.model is None:
             raise ValueError("Model not trained. Call train() before predict().")
@@ -83,12 +101,18 @@ class LSTMForecaster(BaseForecaster):
             current_sequence = last_sequence.copy()
             predictions = []
 
-            for _ in range(steps):
-                input_seq = current_sequence.reshape(1, self.sequence_length, 1)
+            for step in range(steps):
+                input_seq = current_sequence.reshape(1, self.sequence_length, current_sequence.shape[1])
                 next_pred = self.model.predict(input_seq, verbose=0)[0, 0]
                 predictions.append(next_pred)
 
-                current_sequence = np.append(current_sequence[1:], next_pred)
+                if future_features is not None:
+                    next_feature = future_features[step].reshape(1, -1)
+                    next_step = np.concatenate([[next_pred], next_feature.flatten()]).reshape(1, -1)
+                else:
+                    next_step = np.array([[next_pred]])
+
+                current_sequence = np.vstack([current_sequence[1:], next_step])
 
             predictions_array = np.array(predictions).reshape(-1, 1)
             predictions_inverse = self.scaler.inverse_transform(predictions_array)

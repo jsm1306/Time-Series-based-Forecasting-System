@@ -1,0 +1,346 @@
+{
+  "Alabama": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_alabama.pkl",
+    "rmse": 9723140.49909061,
+    "mae": 7888451.5,
+    "mape": 0.0401872918009758,
+    "timestamp": "2026-05-06T12:18:25.433998"
+  },
+  "Arizona": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_arizona.pkl",
+    "rmse": 10905551.347872697,
+    "mae": 9325514.0,
+    "mape": 0.04385226219892502,
+    "timestamp": "2026-05-06T12:18:31.162085"
+  },
+  "Arkansas": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_arkansas.pkl",
+    "rmse": 4239863.065803895,
+    "mae": 3278363.5,
+    "mape": 0.030890099704265594,
+    "timestamp": "2026-05-06T12:18:36.716519"
+  },
+  "California": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_california.pkl",
+    "rmse": 31615678.006327935,
+    "mae": 23089560.0,
+    "mape": 0.02785930410027504,
+    "timestamp": "2026-05-06T12:18:41.854501"
+  },
+  "Colorado": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_colorado.pkl",
+    "rmse": 6328755.1021944275,
+    "mae": 5075683.0,
+    "mape": 0.030091479420661926,
+    "timestamp": "2026-05-06T12:18:46.841483"
+  },
+  "Connecticut": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_connecticut.pkl",
+    "rmse": 5426037.732150413,
+    "mae": 4466339.5,
+    "mape": 0.05265164002776146,
+    "timestamp": "2026-05-06T12:18:52.238931"
+  },
+  "Florida": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_florida.pkl",
+    "rmse": 50880160.49854434,
+    "mae": 43052676.0,
+    "mape": 0.059974007308483124,
+    "timestamp": "2026-05-06T12:18:57.754247"
+  },
+  "Georgia": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_georgia.pkl",
+    "rmse": 20327874.81601754,
+    "mae": 17033540.0,
+    "mape": 0.04693114757537842,
+    "timestamp": "2026-05-06T12:19:03.158430"
+  },
+  "Illinois": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_illinois.pkl",
+    "rmse": 11850877.599265296,
+    "mae": 8594381.0,
+    "mape": 0.028071630746126175,
+    "timestamp": "2026-05-06T12:19:08.379354"
+  },
+  "Indiana": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_indiana.pkl",
+    "rmse": 11305665.647542208,
+    "mae": 9018048.0,
+    "mape": 0.04293006658554077,
+    "timestamp": "2026-05-06T12:19:13.616616"
+  },
+  "Iowa": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_iowa.pkl",
+    "rmse": 3738305.791990805,
+    "mae": 3160647.0,
+    "mape": 0.02874523028731346,
+    "timestamp": "2026-05-06T12:19:20.381652"
+  },
+  "Kansas": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_kansas.pkl",
+    "rmse": 3462329.199423995,
+    "mae": 2822965.75,
+    "mape": 0.032775986939668655,
+    "timestamp": "2026-05-06T12:19:25.710809"
+  },
+  "Kentucky": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_kentucky.pkl",
+    "rmse": 8038096.838104901,
+    "mae": 6965509.0,
+    "mape": 0.042302943766117096,
+    "timestamp": "2026-05-06T12:19:31.252871"
+  },
+  "Louisiana": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_louisiana.pkl",
+    "rmse": 7639999.699501565,
+    "mae": 6077738.5,
+    "mape": 0.035198841243982315,
+    "timestamp": "2026-05-06T12:19:36.369294"
+  },
+  "Maine": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_maine.pkl",
+    "rmse": 1875274.1424250482,
+    "mae": 1429402.625,
+    "mape": 0.032147783786058426,
+    "timestamp": "2026-05-06T12:19:42.323142"
+  },
+  "Maryland": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_maryland.pkl",
+    "rmse": 9621003.539134158,
+    "mae": 7675874.5,
+    "mape": 0.04905179888010025,
+    "timestamp": "2026-05-06T12:19:49.268189"
+  },
+  "Massachusetts": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_massachusetts.pkl",
+    "rmse": 9711955.455897849,
+    "mae": 7953618.0,
+    "mape": 0.045277439057826996,
+    "timestamp": "2026-05-06T12:19:57.619810"
+  },
+  "Michigan": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_michigan.pkl",
+    "rmse": 15241935.34233655,
+    "mae": 12503983.0,
+    "mape": 0.04504283517599106,
+    "timestamp": "2026-05-06T12:20:03.504716"
+  },
+  "Minnesota": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_minnesota.pkl",
+    "rmse": 6550175.745413858,
+    "mae": 5505742.5,
+    "mape": 0.037159718573093414,
+    "timestamp": "2026-05-06T12:20:09.082246"
+  },
+  "Mississippi": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_mississippi.pkl",
+    "rmse": 5611940.048512279,
+    "mae": 4554183.5,
+    "mape": 0.037908267229795456,
+    "timestamp": "2026-05-06T12:20:13.942601"
+  },
+  "Missouri": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_missouri.pkl",
+    "rmse": 9681150.967659991,
+    "mae": 7698543.5,
+    "mape": 0.041233647614717484,
+    "timestamp": "2026-05-06T12:20:20.969946"
+  },
+  "Nebraska": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_nebraska.pkl",
+    "rmse": 1924186.1905418613,
+    "mae": 1514706.125,
+    "mape": 0.025683755055069923,
+    "timestamp": "2026-05-06T12:20:25.729657"
+  },
+  "Nevada": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_nevada.pkl",
+    "rmse": 3302033.7210828117,
+    "mae": 2464434.75,
+    "mape": 0.02524443157017231,
+    "timestamp": "2026-05-06T12:20:31.358986"
+  },
+  "New Hampshire": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_new_hampshire.pkl",
+    "rmse": 2761724.5828677416,
+    "mae": 2275788.0,
+    "mape": 0.04296240955591202,
+    "timestamp": "2026-05-06T12:20:35.963279"
+  },
+  "New Mexico": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_new_mexico.pkl",
+    "rmse": 3741090.070259202,
+    "mae": 3128061.25,
+    "mape": 0.04540275037288666,
+    "timestamp": "2026-05-06T12:20:41.885276"
+  },
+  "New York": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_new_york.pkl",
+    "rmse": 17748523.357108444,
+    "mae": 12961905.0,
+    "mape": 0.031146124005317688,
+    "timestamp": "2026-05-06T12:20:47.373968"
+  },
+  "North Carolina": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_north_carolina.pkl",
+    "rmse": 17029864.67740387,
+    "mae": 14300635.0,
+    "mape": 0.042183905839920044,
+    "timestamp": "2026-05-06T12:20:56.869544"
+  },
+  "Ohio": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_ohio.pkl",
+    "rmse": 13803045.366320578,
+    "mae": 10637633.0,
+    "mape": 0.029879111796617508,
+    "timestamp": "2026-05-06T12:21:14.660708"
+  },
+  "Oklahoma": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_oklahoma.pkl",
+    "rmse": 6626957.7548000105,
+    "mae": 5196745.5,
+    "mape": 0.037224870175123215,
+    "timestamp": "2026-05-06T12:21:25.714534"
+  },
+  "Oregon": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_oregon.pkl",
+    "rmse": 4534437.113524897,
+    "mae": 3844028.75,
+    "mape": 0.03603333979845047,
+    "timestamp": "2026-05-06T12:21:32.676386"
+  },
+  "Pennsylvania": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_pennsylvania.pkl",
+    "rmse": 12914389.857643295,
+    "mae": 9706298.0,
+    "mape": 0.027869414538145065,
+    "timestamp": "2026-05-06T12:21:38.926735"
+  },
+  "Rhode Island": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_rhode_island.pkl",
+    "rmse": 1076430.8383542344,
+    "mae": 832222.75,
+    "mape": 0.03286704421043396,
+    "timestamp": "2026-05-06T12:21:44.567894"
+  },
+  "South Carolina": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_south_carolina.pkl",
+    "rmse": 10502708.70244662,
+    "mae": 8918538.0,
+    "mape": 0.04834604263305664,
+    "timestamp": "2026-05-06T12:21:50.039652"
+  },
+  "South Dakota": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_south_dakota.pkl",
+    "rmse": 1279559.9115445905,
+    "mae": 1021909.625,
+    "mape": 0.0380350723862648,
+    "timestamp": "2026-05-06T12:21:54.825453"
+  },
+  "Tennessee": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_tennessee.pkl",
+    "rmse": 9434934.84309118,
+    "mae": 7767887.5,
+    "mape": 0.03103075735270977,
+    "timestamp": "2026-05-06T12:22:00.004250"
+  },
+  "Texas": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_texas.pkl",
+    "rmse": 49402386.97268754,
+    "mae": 41052744.0,
+    "mape": 0.04744819551706314,
+    "timestamp": "2026-05-06T12:22:05.329518"
+  },
+  "Utah": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_utah.pkl",
+    "rmse": 3589033.3752741837,
+    "mae": 3048324.5,
+    "mape": 0.038677386939525604,
+    "timestamp": "2026-05-06T12:22:10.582144"
+  },
+  "Vermont": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_vermont.pkl",
+    "rmse": 807326.6751743064,
+    "mae": 663201.875,
+    "mape": 0.03800336644053459,
+    "timestamp": "2026-05-06T12:22:15.575173"
+  },
+  "Virginia": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_virginia.pkl",
+    "rmse": 11695239.878030378,
+    "mae": 8777730.0,
+    "mape": 0.03193127363920212,
+    "timestamp": "2026-05-06T12:22:20.740322"
+  },
+  "Washington": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_washington.pkl",
+    "rmse": 8432389.747349206,
+    "mae": 7245243.5,
+    "mape": 0.041340172290802,
+    "timestamp": "2026-05-06T12:22:26.111991"
+  },
+  "West Virginia": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_west_virginia.pkl",
+    "rmse": 3957237.367821142,
+    "mae": 3307563.75,
+    "mape": 0.04744965583086014,
+    "timestamp": "2026-05-06T12:22:30.736103"
+  },
+  "Wisconsin": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_wisconsin.pkl",
+    "rmse": 6491923.538911407,
+    "mae": 5392901.5,
+    "mape": 0.03616925701498985,
+    "timestamp": "2026-05-06T12:22:36.647930"
+  },
+  "Wyoming": {
+    "best_model": "XGBoost",
+    "model_path": "S:/Forecasting System/trained_models/xgboost_wyoming.pkl",
+    "rmse": 846462.7515490566,
+    "mae": 662859.25,
+    "mape": 0.03244002163410187,
+    "timestamp": "2026-05-06T12:22:42.171341"
+  }
+}
