@@ -1,6 +1,7 @@
 import logging
 from typing import Optional
 
+import holidays
 import pandas as pd
 
 from app.config.settings import get_logger
@@ -51,8 +52,11 @@ class FeatureEngineer:
         return df
 
     def _add_holiday_flag(self, df: pd.DataFrame) -> pd.DataFrame:
-        """Add a placeholder holiday indicator for future enrichment."""
-        df["is_holiday"] = False
+        """Add a holiday flag using the US holiday calendar."""
+        us_holidays = holidays.US()
+        date_column = "week_start" if "week_start" in df.columns else "Date"
+
+        df["is_holiday"] = df[date_column].apply(lambda x: x in us_holidays)
         return df
 
     def _drop_incomplete_rows(self, df: pd.DataFrame) -> pd.DataFrame:
