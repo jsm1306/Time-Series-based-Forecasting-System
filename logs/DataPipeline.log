@@ -36,3 +36,6 @@
 2026-05-06 17:10:05,303 - DataPipeline - INFO - Starting data pipeline
 2026-05-06 17:10:05,898 - DataPipeline - INFO - Saved processed dataset to S:\Forecasting System\data\processed\processed_timeseries.csv
 2026-05-06 17:10:05,899 - DataPipeline - INFO - Data pipeline complete
+2026-05-07 12:46:38,419 - DataPipeline - INFO - Starting data pipeline
+2026-05-07 12:46:39,030 - DataPipeline - INFO - Saved processed dataset to S:\Forecasting System\data\processed\processed_timeseries2.csv
+2026-05-07 12:46:39,030 - DataPipeline - INFO - Data pipeline complete. Filled 0 missing weekly data points.

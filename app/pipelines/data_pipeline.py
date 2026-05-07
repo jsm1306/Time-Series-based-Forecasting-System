@@ -46,7 +46,7 @@ class DataPipeline:
     def _save(self, df: pd.DataFrame) -> pd.DataFrame:
         """Persist the processed dataset to the configured output directory."""
         PROCESSED_DATA_DIR.mkdir(parents=True, exist_ok=True)
-        output_path: Path = PROCESSED_DATA_DIR / "processed_timeseries.csv"
+        output_path: Path = PROCESSED_DATA_DIR / "processed_timeseries2.csv"
         df.to_csv(output_path, index=False)
         self.logger.info("Saved processed dataset to %s", output_path)
         return df

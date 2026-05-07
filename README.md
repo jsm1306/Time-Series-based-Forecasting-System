@@ -1,13 +1,10 @@
 # Enterprise Sales Forecasting System
 
 ## Overview
-This repository implements a production-ready forecasting system for weekly sales across U.S. states. The solution is designed as a real backend service with **modular, object-oriented architecture, model comparison, automatic best-model selection, REST API serving, and Streamlit dashboard visualization.**
+This repository implements a production-ready forecasting system for weekly sales across U.S. states. The solution is designed as a real backend service with modular, object-oriented architecture, model comparison, automatic best-model selection, REST API serving, and Streamlit dashboard visualization.
 
 ## Problem Statement
 Forecast the next **8 weeks** of sales for each state using historical weekly sales data from the attached dataset.
-
-## USP of the Project
-The **Object Oriented Architecture** is implemented in such a way that it can be expanded very easily to add more features or models to the project, creating **modular and maintainable code**. Furthermore, the use of **Streamlit** provides a **user friendly interface** for the end users to interact with the system.
 
 ## Key Requirements Addressed
 - Trains multiple forecasting algorithms
@@ -34,6 +31,8 @@ The feature engineering pipeline includes:
 ## Architecture
 ![Architecture Diagram](diagram-export-07-05-2026-11_54_25.svg)
 
+> If your viewer does not render SVG, use the PNG version instead:
+> ![Architecture Diagram PNG](diagram-export-07-05-2026-11_51_34.png)
 
 ### Architecture Summary
 - `Streamlit Dashboard` provides interactive controls and result visualization.
@@ -44,7 +43,7 @@ The feature engineering pipeline includes:
 
 ## Dataset
 The dataset is sourced from the attached case study file:
-- `data/Forecasting Case- Study.xlsx - Sheet1.csv`
+- `data/Forecasting Case.csv`
 
 The project processes this data into weekly sales records and saves the cleaned dataset at:
 - `data/processed/processed_timeseries.csv`
@@ -75,14 +74,13 @@ The project processes this data into weekly sales records and saves the cleaned 
 
 ## Screenshots
 ### Frontend Dashboard Views
-#### Best Model Predictions for 8 weeks window
-![Dashboard Screenshot 1](image.png)
+![Dashboard Screenshot 1](Screenshot 2026-05-07 121336.png)
 
-![Dashboard Screenshot 2](image2.png)
-#### Model Comparison
-![Dashboard Screenshot 3](image3.png)
+![Dashboard Screenshot 2](Screenshot 2026-05-07 121228.png)
 
-![Dashboard Screenshot 4](image4.png)
+![Dashboard Screenshot 3](Screenshot 2026-05-07 121048.png)
+
+![Dashboard Screenshot 4](image.png)
 
 ## Folder Structure
 ```
