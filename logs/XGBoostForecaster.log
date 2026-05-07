@@ -1106,3 +1106,147 @@
 2026-05-06 20:16:50,025 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
 2026-05-06 20:16:50,029 - XGBoostForecaster - INFO - Generating XGBoost predictions
 2026-05-06 20:16:50,040 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 11:34:46,233 - XGBoostForecaster - INFO - Loading XGBoost model from S:\Forecasting System\trained_models\xgboost_texas.pkl
+2026-05-07 11:34:46,383 - XGBoostForecaster - INFO - XGBoost model loaded successfully
+2026-05-07 11:34:46,505 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 11:34:46,544 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 11:34:46,552 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 11:34:46,577 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 11:34:46,584 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 11:34:46,608 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 11:34:46,619 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 11:34:46,641 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 11:34:46,652 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 11:34:46,672 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 11:34:46,682 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 11:34:46,706 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 11:34:46,715 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 11:34:46,737 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 11:34:46,745 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 11:34:46,756 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 11:38:27,176 - XGBoostForecaster - INFO - Loading XGBoost model from S:\Forecasting System\trained_models\xgboost_texas.pkl
+2026-05-07 11:38:27,183 - XGBoostForecaster - INFO - XGBoost model loaded successfully
+2026-05-07 11:38:27,211 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 11:38:27,216 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 11:38:27,217 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 11:38:27,220 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 11:38:27,220 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 11:38:27,224 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 11:38:27,225 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 11:38:27,228 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 11:38:27,229 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 11:38:27,232 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 11:38:27,233 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 11:38:27,236 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 11:38:27,237 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 11:38:27,240 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 11:38:27,241 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 11:38:27,245 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:01:07,882 - XGBoostForecaster - INFO - Loading XGBoost model from S:\Forecasting System\trained_models\xgboost_alabama.pkl
+2026-05-07 12:01:07,972 - XGBoostForecaster - INFO - XGBoost model loaded successfully
+2026-05-07 12:01:08,074 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:01:08,080 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:01:08,082 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:01:08,092 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:01:08,096 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:01:08,107 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:01:08,111 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:01:08,122 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:01:08,125 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:01:08,136 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:01:08,138 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:01:08,150 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:01:08,153 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:01:08,162 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:01:08,163 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:01:08,167 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:05:46,785 - XGBoostForecaster - INFO - Loading XGBoost model from S:\Forecasting System\trained_models\xgboost_alabama.pkl
+2026-05-07 12:05:46,836 - XGBoostForecaster - INFO - XGBoost model loaded successfully
+2026-05-07 12:05:46,932 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:05:46,943 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:05:46,945 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:05:46,953 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:05:46,955 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:05:46,968 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:05:46,970 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:05:46,980 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:05:46,983 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:05:46,990 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:05:46,992 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:05:46,999 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:05:47,001 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:05:47,009 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:05:47,011 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:05:47,018 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:08:56,867 - XGBoostForecaster - INFO - Loading XGBoost model from S:\Forecasting System\trained_models\xgboost_alabama.pkl
+2026-05-07 12:08:56,900 - XGBoostForecaster - INFO - XGBoost model loaded successfully
+2026-05-07 12:08:56,990 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:08:57,000 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:08:57,005 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:08:57,013 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:08:57,017 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:08:57,024 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:08:57,027 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:08:57,035 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:08:57,037 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:08:57,046 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:08:57,048 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:08:57,055 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:08:57,056 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:08:57,060 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:08:57,061 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:08:57,065 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:11:55,177 - XGBoostForecaster - INFO - Loading XGBoost model from S:\Forecasting System\trained_models\xgboost_alabama.pkl
+2026-05-07 12:11:55,183 - XGBoostForecaster - INFO - XGBoost model loaded successfully
+2026-05-07 12:11:55,253 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:11:55,286 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:11:55,288 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:11:55,295 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:11:55,297 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:11:55,306 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:11:55,308 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:11:55,317 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:11:55,320 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:11:55,328 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:11:55,332 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:11:55,339 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:11:55,340 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:11:55,350 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:11:55,356 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:11:55,366 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:12:05,633 - XGBoostForecaster - INFO - Loading XGBoost model from S:\Forecasting System\trained_models\xgboost_florida.pkl
+2026-05-07 12:12:05,693 - XGBoostForecaster - INFO - XGBoost model loaded successfully
+2026-05-07 12:12:05,790 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:12:05,795 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:12:05,798 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:12:05,805 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:12:05,807 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:12:05,817 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:12:05,818 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:12:05,825 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:12:05,829 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:12:05,834 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:12:05,837 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:12:05,842 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:12:05,844 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:12:05,850 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:12:05,852 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:12:05,858 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:13:16,551 - XGBoostForecaster - INFO - Loading XGBoost model from S:\Forecasting System\trained_models\xgboost_florida.pkl
+2026-05-07 12:13:16,556 - XGBoostForecaster - INFO - XGBoost model loaded successfully
+2026-05-07 12:13:16,628 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:13:16,634 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:13:16,636 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:13:16,642 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:13:16,644 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:13:16,650 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:13:16,652 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:13:16,656 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:13:16,658 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:13:16,663 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:13:16,664 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:13:16,670 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:13:16,672 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:13:16,678 - XGBoostForecaster - INFO - XGBoost predictions generated successfully
+2026-05-07 12:13:16,679 - XGBoostForecaster - INFO - Generating XGBoost predictions
+2026-05-07 12:13:16,685 - XGBoostForecaster - INFO - XGBoost predictions generated successfully

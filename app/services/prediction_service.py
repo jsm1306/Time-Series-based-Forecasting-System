@@ -37,7 +37,7 @@ class PredictionService:
         return state_df
 
     def _build_future_dates(self, last_date: pd.Timestamp, periods: int) -> pd.DatetimeIndex:
-        return pd.date_range(start=last_date + pd.Timedelta(days=1), periods=periods, freq="D")
+        return pd.date_range(start=last_date + pd.Timedelta(days=7), periods=periods, freq="7D")
 
     def _holiday_flags(self, dates: pd.DatetimeIndex) -> List[int]:
         return [1 if date in self.holiday_calendar else 0 for date in dates]

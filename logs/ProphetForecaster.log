@@ -1220,3 +1220,15 @@ KeyError: 123
 2026-05-06 20:16:52,289 - ProphetForecaster - INFO - Prophet model loaded successfully
 2026-05-06 20:16:52,344 - ProphetForecaster - INFO - Generating Prophet predictions for 8 steps
 2026-05-06 20:16:52,738 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-07 12:11:59,495 - ProphetForecaster - INFO - Loading Prophet model from S:\Forecasting System\trained_models\prophet_alabama.pkl
+2026-05-07 12:11:59,613 - ProphetForecaster - INFO - Prophet model loaded successfully
+2026-05-07 12:11:59,667 - ProphetForecaster - INFO - Generating Prophet predictions for 8 steps
+2026-05-07 12:11:59,818 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-07 12:12:10,909 - ProphetForecaster - INFO - Loading Prophet model from S:\Forecasting System\trained_models\prophet_florida.pkl
+2026-05-07 12:12:10,987 - ProphetForecaster - INFO - Prophet model loaded successfully
+2026-05-07 12:12:11,147 - ProphetForecaster - INFO - Generating Prophet predictions for 8 steps
+2026-05-07 12:12:11,298 - ProphetForecaster - INFO - Prophet predictions generated successfully
+2026-05-07 12:13:20,143 - ProphetForecaster - INFO - Loading Prophet model from S:\Forecasting System\trained_models\prophet_florida.pkl
+2026-05-07 12:13:20,186 - ProphetForecaster - INFO - Prophet model loaded successfully
+2026-05-07 12:13:20,295 - ProphetForecaster - INFO - Generating Prophet predictions for 8 steps
+2026-05-07 12:13:20,546 - ProphetForecaster - INFO - Prophet predictions generated successfully

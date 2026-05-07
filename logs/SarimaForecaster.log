@@ -801,3 +801,15 @@ AttributeError: type object 'SARIMAX' has no attribute 'load'
 2026-05-06 20:16:52,125 - SarimaForecaster - INFO - SARIMA model loaded successfully
 2026-05-06 20:16:52,161 - SarimaForecaster - INFO - Generating SARIMA predictions for 8 steps
 2026-05-06 20:16:52,168 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-07 12:11:59,135 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_alabama.pkl
+2026-05-07 12:11:59,248 - SarimaForecaster - INFO - SARIMA model loaded successfully
+2026-05-07 12:11:59,423 - SarimaForecaster - INFO - Generating SARIMA predictions for 8 steps
+2026-05-07 12:11:59,480 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-07 12:12:10,515 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_florida.pkl
+2026-05-07 12:12:10,657 - SarimaForecaster - INFO - SARIMA model loaded successfully
+2026-05-07 12:12:10,795 - SarimaForecaster - INFO - Generating SARIMA predictions for 8 steps
+2026-05-07 12:12:10,827 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-07 12:13:19,810 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_florida.pkl
+2026-05-07 12:13:19,859 - SarimaForecaster - INFO - SARIMA model loaded successfully
+2026-05-07 12:13:20,026 - SarimaForecaster - INFO - Generating SARIMA predictions for 8 steps
+2026-05-07 12:13:20,045 - SarimaForecaster - INFO - SARIMA predictions generated successfully

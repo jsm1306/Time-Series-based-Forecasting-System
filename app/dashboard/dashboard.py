@@ -121,7 +121,7 @@ def render_sidebar(states: List[str]) -> Dict[str, Any]:
     if selected_mode == "Manual Model Selection":
         selected_model = st.sidebar.selectbox("Model", options=MODEL_NAMES)
     forecast_periods = st.sidebar.slider(
-        "Forecast horizon (days)", min_value=1, max_value=24, value=8
+        "Forecast horizon (weeks)", min_value=1, max_value=24, value=8
     )
     generate = st.sidebar.button("Generate Forecast")
     compare_models = st.sidebar.button("Compare All Models")
@@ -204,10 +204,8 @@ def render_forecast_chart(df: pd.DataFrame) -> None:
 def render_historical_vs_forecast(history_df: pd.DataFrame, forecast_df: pd.DataFrame) -> None:
     """Render combined historical and forecast time series chart."""
     if history_df.empty and forecast_df.empty:
-        st.warning("Historical and forecast data are unavailable for comparison.")
         return
     if history_df.empty:
-        st.warning("Historical data is unavailable for comparison.")
         return
     if forecast_df.empty:
         st.warning("Forecast data is unavailable for comparison.")

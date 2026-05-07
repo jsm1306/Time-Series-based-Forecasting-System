@@ -923,3 +923,15 @@ ValueError: Could not deserialize 'keras.metrics.mse' because it is not a KerasS
 2026-05-06 20:27:19,346 - LSTMForecaster - INFO - LSTM model and scaler loaded successfully
 2026-05-06 20:27:19,547 - LSTMForecaster - INFO - Generating LSTM predictions for 8 steps
 2026-05-06 20:27:22,688 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-07 12:11:55,393 - LSTMForecaster - INFO - Loading LSTM model from S:\Forecasting System\trained_models\lstm_alabama.h5
+2026-05-07 12:11:56,373 - LSTMForecaster - INFO - LSTM model and scaler loaded successfully
+2026-05-07 12:11:56,419 - LSTMForecaster - INFO - Generating LSTM predictions for 8 steps
+2026-05-07 12:11:59,127 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-07 12:12:05,890 - LSTMForecaster - INFO - Loading LSTM model from S:\Forecasting System\trained_models\lstm_florida.h5
+2026-05-07 12:12:06,023 - LSTMForecaster - INFO - LSTM model and scaler loaded successfully
+2026-05-07 12:12:06,090 - LSTMForecaster - INFO - Generating LSTM predictions for 8 steps
+2026-05-07 12:12:10,444 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-07 12:13:16,695 - LSTMForecaster - INFO - Loading LSTM model from S:\Forecasting System\trained_models\lstm_florida.h5
+2026-05-07 12:13:16,783 - LSTMForecaster - INFO - LSTM model and scaler loaded successfully
+2026-05-07 12:13:16,830 - LSTMForecaster - INFO - Generating LSTM predictions for 8 steps
+2026-05-07 12:13:19,777 - LSTMForecaster - INFO - LSTM predictions generated successfully
