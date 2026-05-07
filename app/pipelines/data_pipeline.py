@@ -37,7 +37,10 @@ class DataPipeline:
         featured_df = self.feature_engineer.process(preprocessed_df)
         processed_df = self._save(featured_df)
 
-        self.logger.info("Data pipeline complete")
+        self.logger.info(
+            "Data pipeline complete. Filled %d missing weekly data points.",
+            self.preprocessor.missing_week_fill_count,
+        )
         return processed_df
 
     def _save(self, df: pd.DataFrame) -> pd.DataFrame:
@@ -52,6 +55,6 @@ class DataPipeline:
 if __name__ == "__main__":
     pipeline = DataPipeline()
     processed_df = pipeline.run()
-    print(f"Processed dataset shape: {processed_df.shape}")
+    print(f"Processed dataset shape: {processed_df.shape}")    
+    print(f"Filled missing weekly data points: {pipeline.preprocessor.missing_week_fill_count}")    
     print(processed_df.groupby(["State", "Category"]).size().head())
-    #check whether Date and week_start are having same values or not, if

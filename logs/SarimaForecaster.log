@@ -375,3 +375,429 @@ AttributeError: 'numpy.ndarray' object has no attribute 'values'
 2026-05-06 17:52:36,844 - SarimaForecaster - INFO - SARIMA metrics: RMSE=2807824.8485, MAE=2547820.9480, MAPE=0.1261
 2026-05-06 17:52:36,845 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_wyoming.pkl
 2026-05-06 17:52:36,858 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 18:49:25,819 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_alabama.pkl
+2026-05-06 18:49:25,820 - SarimaForecaster - ERROR - Failed to load SARIMA model
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 93, in load_model
+    self.model = SARIMAX.load(str(model_path))
+                 ^^^^^^^^^^^^
+AttributeError: type object 'SARIMAX' has no attribute 'load'
+2026-05-06 18:53:10,974 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_alabama.pkl
+2026-05-06 18:53:10,975 - SarimaForecaster - ERROR - Failed to load SARIMA model
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 93, in load_model
+    self.model = SARIMAX.load(str(model_path))
+                 ^^^^^^^^^^^^
+AttributeError: type object 'SARIMAX' has no attribute 'load'
+2026-05-06 18:56:42,079 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_alabama.pkl
+2026-05-06 18:56:42,080 - SarimaForecaster - ERROR - Failed to load SARIMA model
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 93, in load_model
+    self.model = SARIMAX.load(str(model_path))
+                 ^^^^^^^^^^^^
+AttributeError: type object 'SARIMAX' has no attribute 'load'
+2026-05-06 18:59:22,647 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_alabama.pkl
+2026-05-06 18:59:22,647 - SarimaForecaster - ERROR - Failed to load SARIMA model
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 93, in load_model
+    self.model = SARIMAX.load(str(model_path))
+                 ^^^^^^^^^^^^
+AttributeError: type object 'SARIMAX' has no attribute 'load'
+2026-05-06 19:03:53,835 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_alabama.pkl
+2026-05-06 19:03:53,836 - SarimaForecaster - ERROR - Failed to load SARIMA model
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 93, in load_model
+    self.model = SARIMAX.load(str(model_path))
+                 ^^^^^^^^^^^^
+AttributeError: type object 'SARIMAX' has no attribute 'load'
+2026-05-06 19:06:49,929 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_alabama.pkl
+2026-05-06 19:06:49,929 - SarimaForecaster - ERROR - Failed to load SARIMA model
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 93, in load_model
+    self.model = SARIMAX.load(str(model_path))
+                 ^^^^^^^^^^^^
+AttributeError: type object 'SARIMAX' has no attribute 'load'
+2026-05-06 19:11:31,796 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_alabama.pkl
+2026-05-06 19:11:31,886 - SarimaForecaster - INFO - SARIMA model loaded successfully
+2026-05-06 19:11:31,912 - SarimaForecaster - INFO - Generating SARIMA predictions for 8 steps
+2026-05-06 19:11:31,929 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:19:46,175 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_alabama.pkl
+2026-05-06 19:19:46,190 - SarimaForecaster - INFO - SARIMA model loaded successfully
+2026-05-06 19:19:46,213 - SarimaForecaster - INFO - Generating SARIMA predictions for 8 steps
+2026-05-06 19:19:46,216 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:22:31,084 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_alabama.pkl
+2026-05-06 19:22:31,123 - SarimaForecaster - INFO - SARIMA model loaded successfully
+2026-05-06 19:22:31,179 - SarimaForecaster - INFO - Generating SARIMA predictions for 8 steps
+2026-05-06 19:22:31,188 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:27:04,144 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_alabama.pkl
+2026-05-06 19:27:04,178 - SarimaForecaster - INFO - SARIMA model loaded successfully
+2026-05-06 19:27:04,205 - SarimaForecaster - INFO - Generating SARIMA predictions for 8 steps
+2026-05-06 19:27:04,210 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:30:37,770 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_alabama.pkl
+2026-05-06 19:30:37,782 - SarimaForecaster - INFO - SARIMA model loaded successfully
+2026-05-06 19:30:37,803 - SarimaForecaster - INFO - Generating SARIMA predictions for 8 steps
+2026-05-06 19:30:37,804 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:33:18,044 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_alabama.pkl
+2026-05-06 19:33:18,092 - SarimaForecaster - INFO - SARIMA model loaded successfully
+2026-05-06 19:33:18,145 - SarimaForecaster - INFO - Generating SARIMA predictions for 8 steps
+2026-05-06 19:33:18,151 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:42:04,395 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:42:04,600 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:42:04,600 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:42:04,603 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:42:04,603 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:42:04,604 - SarimaForecaster - INFO - SARIMA metrics: RMSE=31525017.7714, MAE=29384768.9039, MAPE=0.1500
+2026-05-06 19:42:04,604 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_alabama.pkl
+2026-05-06 19:42:04,615 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:42:08,531 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:42:08,634 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:42:08,635 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:42:08,637 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:42:08,638 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:42:08,639 - SarimaForecaster - INFO - SARIMA metrics: RMSE=16248515.5046, MAE=13450380.2741, MAPE=0.0660
+2026-05-06 19:42:08,639 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_arizona.pkl
+2026-05-06 19:42:08,650 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:42:12,197 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:42:12,309 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:42:12,309 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:42:12,311 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:42:12,311 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:42:12,312 - SarimaForecaster - INFO - SARIMA metrics: RMSE=13174323.6927, MAE=11883801.0652, MAPE=0.1149
+2026-05-06 19:42:12,312 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_arkansas.pkl
+2026-05-06 19:42:12,320 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:42:15,803 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:42:15,923 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:42:15,924 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:42:15,926 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:42:15,926 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:42:15,927 - SarimaForecaster - INFO - SARIMA metrics: RMSE=98004292.8660, MAE=86952928.8374, MAPE=0.1089
+2026-05-06 19:42:15,928 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_california.pkl
+2026-05-06 19:42:15,940 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:42:19,892 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:42:19,999 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:42:19,999 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:42:20,001 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:42:20,001 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:42:20,002 - SarimaForecaster - INFO - SARIMA metrics: RMSE=20489297.7201, MAE=18738669.5929, MAPE=0.1139
+2026-05-06 19:42:20,002 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_colorado.pkl
+2026-05-06 19:42:20,011 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:42:23,841 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:42:23,934 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:42:23,934 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:42:23,936 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:42:23,937 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:42:23,939 - SarimaForecaster - INFO - SARIMA metrics: RMSE=6676409.2958, MAE=5767134.1027, MAPE=0.0685
+2026-05-06 19:42:23,939 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_connecticut.pkl
+2026-05-06 19:42:23,948 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:42:27,332 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:42:27,493 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:42:27,493 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:42:27,496 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:42:27,496 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:42:27,497 - SarimaForecaster - INFO - SARIMA metrics: RMSE=57593382.5252, MAE=52373945.0801, MAPE=0.0749
+2026-05-06 19:42:27,498 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_florida.pkl
+2026-05-06 19:42:27,507 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:42:31,133 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:42:31,243 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:42:31,243 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:42:31,245 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:42:31,245 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:42:31,246 - SarimaForecaster - INFO - SARIMA metrics: RMSE=56827241.9307, MAE=53357275.5616, MAPE=0.1463
+2026-05-06 19:42:31,247 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_georgia.pkl
+2026-05-06 19:42:31,255 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:42:35,174 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:42:35,277 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:42:35,277 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:42:35,279 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:42:35,279 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:42:35,280 - SarimaForecaster - INFO - SARIMA metrics: RMSE=27735851.5483, MAE=24527349.0125, MAPE=0.0825
+2026-05-06 19:42:35,280 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_illinois.pkl
+2026-05-06 19:42:35,290 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:42:39,137 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:42:39,247 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:42:39,247 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:42:39,249 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:42:39,249 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:42:39,250 - SarimaForecaster - INFO - SARIMA metrics: RMSE=23757822.6938, MAE=21191784.9341, MAPE=0.1012
+2026-05-06 19:42:39,250 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_indiana.pkl
+2026-05-06 19:42:39,259 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:42:43,456 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:42:43,609 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:42:43,609 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:42:43,611 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:42:43,611 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:42:43,612 - SarimaForecaster - INFO - SARIMA metrics: RMSE=8647790.0895, MAE=7250370.1903, MAPE=0.0674
+2026-05-06 19:42:43,613 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_iowa.pkl
+2026-05-06 19:42:43,623 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:42:47,289 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:42:47,512 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:42:47,512 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:42:47,514 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:42:47,515 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:42:47,516 - SarimaForecaster - INFO - SARIMA metrics: RMSE=6357241.0068, MAE=5157384.3658, MAPE=0.0615
+2026-05-06 19:42:47,516 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_kansas.pkl
+2026-05-06 19:42:47,526 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:42:51,467 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:42:51,556 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:42:51,557 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:42:51,559 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:42:51,559 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:42:51,560 - SarimaForecaster - INFO - SARIMA metrics: RMSE=19672019.8648, MAE=17855473.6941, MAPE=0.1097
+2026-05-06 19:42:51,561 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_kentucky.pkl
+2026-05-06 19:42:51,569 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:42:55,019 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:42:55,164 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:42:55,165 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:42:55,167 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:42:55,167 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:42:55,168 - SarimaForecaster - INFO - SARIMA metrics: RMSE=24747745.2059, MAE=22549368.9628, MAPE=0.1334
+2026-05-06 19:42:55,169 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_louisiana.pkl
+2026-05-06 19:42:55,177 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:42:59,590 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:42:59,747 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:42:59,747 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:42:59,749 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:42:59,749 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:42:59,750 - SarimaForecaster - INFO - SARIMA metrics: RMSE=8475095.1149, MAE=7774014.5550, MAPE=0.1740
+2026-05-06 19:42:59,751 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_maine.pkl
+2026-05-06 19:42:59,759 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:43:04,123 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:43:04,259 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:43:04,259 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:43:04,262 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:43:04,262 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:43:04,264 - SarimaForecaster - INFO - SARIMA metrics: RMSE=17286442.0091, MAE=15665965.9618, MAPE=0.1019
+2026-05-06 19:43:04,264 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_maryland.pkl
+2026-05-06 19:43:04,274 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:43:07,984 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:43:08,107 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:43:08,107 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:43:08,112 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:43:08,113 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:43:08,114 - SarimaForecaster - INFO - SARIMA metrics: RMSE=14312716.1210, MAE=12314836.1746, MAPE=0.0716
+2026-05-06 19:43:08,114 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_massachusetts.pkl
+2026-05-06 19:43:08,125 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:43:12,309 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:43:12,468 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:43:12,469 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:43:12,470 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:43:12,471 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:43:12,471 - SarimaForecaster - INFO - SARIMA metrics: RMSE=30230807.2495, MAE=26979101.9627, MAPE=0.0978
+2026-05-06 19:43:12,472 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_michigan.pkl
+2026-05-06 19:43:12,480 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:43:16,214 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:43:16,377 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:43:16,377 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:43:16,379 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:43:16,379 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:43:16,380 - SarimaForecaster - INFO - SARIMA metrics: RMSE=14543076.0581, MAE=12745576.5296, MAPE=0.0870
+2026-05-06 19:43:16,380 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_minnesota.pkl
+2026-05-06 19:43:16,390 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:43:20,193 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:43:20,391 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:43:20,392 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:43:20,394 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:43:20,394 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:43:20,395 - SarimaForecaster - INFO - SARIMA metrics: RMSE=17202758.0793, MAE=15639532.0795, MAPE=0.1321
+2026-05-06 19:43:20,396 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_mississippi.pkl
+2026-05-06 19:43:20,405 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:43:24,109 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:43:24,289 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:43:24,290 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:43:24,291 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:43:24,292 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:43:24,293 - SarimaForecaster - INFO - SARIMA metrics: RMSE=19294305.1963, MAE=16542003.7951, MAPE=0.0901
+2026-05-06 19:43:24,294 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_missouri.pkl
+2026-05-06 19:43:24,303 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:43:28,727 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:43:28,856 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:43:28,857 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:43:28,859 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:43:28,859 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:43:28,860 - SarimaForecaster - INFO - SARIMA metrics: RMSE=3200374.0007, MAE=2676777.6745, MAPE=0.0457
+2026-05-06 19:43:28,860 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_nebraska.pkl
+2026-05-06 19:43:28,869 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:43:32,423 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:43:32,534 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:43:32,534 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:43:32,536 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:43:32,536 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:43:32,537 - SarimaForecaster - INFO - SARIMA metrics: RMSE=10767503.5546, MAE=9102733.7688, MAPE=0.0967
+2026-05-06 19:43:32,537 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_nevada.pkl
+2026-05-06 19:43:32,545 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:43:36,673 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:43:36,879 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:43:36,879 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:43:36,882 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:43:36,882 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:43:36,884 - SarimaForecaster - INFO - SARIMA metrics: RMSE=5268870.7767, MAE=4567629.7307, MAPE=0.0875
+2026-05-06 19:43:36,884 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_new_hampshire.pkl
+2026-05-06 19:43:36,892 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:43:41,055 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:43:41,862 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:43:41,863 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:43:41,865 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:43:41,866 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:43:41,867 - SarimaForecaster - INFO - SARIMA metrics: RMSE=10233382.8832, MAE=9447045.6577, MAPE=0.1398
+2026-05-06 19:43:41,867 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_new_mexico.pkl
+2026-05-06 19:43:41,875 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:43:45,397 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:43:45,510 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:43:45,511 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:43:45,513 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:43:45,515 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:43:45,517 - SarimaForecaster - INFO - SARIMA metrics: RMSE=32505069.1781, MAE=28251432.8138, MAPE=0.0691
+2026-05-06 19:43:45,518 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_new_york.pkl
+2026-05-06 19:43:45,532 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:43:49,441 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:43:49,546 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:43:49,546 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:43:49,549 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:43:49,549 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:43:49,550 - SarimaForecaster - INFO - SARIMA metrics: RMSE=44571540.8648, MAE=41413034.2671, MAPE=0.1221
+2026-05-06 19:43:49,551 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_north_carolina.pkl
+2026-05-06 19:43:49,558 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:43:53,883 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:43:53,994 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:43:53,994 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:43:53,996 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:43:53,996 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:43:53,998 - SarimaForecaster - INFO - SARIMA metrics: RMSE=37620825.3607, MAE=33730762.1392, MAPE=0.0959
+2026-05-06 19:43:53,998 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_ohio.pkl
+2026-05-06 19:43:54,007 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:43:57,709 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:43:57,888 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:43:57,888 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:43:57,890 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:43:57,890 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:43:57,891 - SarimaForecaster - INFO - SARIMA metrics: RMSE=17568881.1669, MAE=16115777.7544, MAPE=0.1175
+2026-05-06 19:43:57,891 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_oklahoma.pkl
+2026-05-06 19:43:57,899 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:44:01,870 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:44:02,379 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:44:02,379 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:44:02,382 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:44:02,383 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:44:02,384 - SarimaForecaster - INFO - SARIMA metrics: RMSE=10075869.2866, MAE=8576549.7251, MAPE=0.0810
+2026-05-06 19:44:02,384 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_oregon.pkl
+2026-05-06 19:44:02,393 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:44:06,409 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:44:06,601 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:44:06,602 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:44:06,604 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:44:06,604 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:44:06,605 - SarimaForecaster - INFO - SARIMA metrics: RMSE=32120838.5604, MAE=27941970.7077, MAPE=0.0814
+2026-05-06 19:44:06,606 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_pennsylvania.pkl
+2026-05-06 19:44:06,615 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:44:11,393 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:44:11,656 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:44:11,656 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:44:11,659 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:44:11,659 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:44:11,660 - SarimaForecaster - INFO - SARIMA metrics: RMSE=1560141.6016, MAE=1332870.8043, MAPE=0.0533
+2026-05-06 19:44:11,660 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_rhode_island.pkl
+2026-05-06 19:44:11,671 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:44:15,835 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:44:15,956 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:44:15,957 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:44:15,959 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:44:15,960 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:44:15,961 - SarimaForecaster - INFO - SARIMA metrics: RMSE=27486657.3810, MAE=25669658.4591, MAPE=0.1391
+2026-05-06 19:44:15,961 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_south_carolina.pkl
+2026-05-06 19:44:15,971 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:44:20,607 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:44:20,786 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:44:20,786 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:44:20,788 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:44:20,788 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:44:20,789 - SarimaForecaster - INFO - SARIMA metrics: RMSE=4255744.9897, MAE=3870825.8684, MAPE=0.1433
+2026-05-06 19:44:20,790 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_south_dakota.pkl
+2026-05-06 19:44:20,798 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:44:24,699 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:44:24,812 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:44:24,812 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:44:24,814 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:44:24,815 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:44:24,816 - SarimaForecaster - INFO - SARIMA metrics: RMSE=29438078.0932, MAE=26604076.4841, MAPE=0.1079
+2026-05-06 19:44:24,817 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_tennessee.pkl
+2026-05-06 19:44:24,827 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:44:28,678 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:44:28,941 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:44:28,942 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:44:28,943 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:44:28,944 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:44:28,945 - SarimaForecaster - INFO - SARIMA metrics: RMSE=137650940.2702, MAE=126256095.8509, MAPE=0.1481
+2026-05-06 19:44:28,946 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_texas.pkl
+2026-05-06 19:44:28,955 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:44:32,906 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:44:33,021 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:44:33,021 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:44:33,023 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:44:33,024 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:44:33,024 - SarimaForecaster - INFO - SARIMA metrics: RMSE=8762468.4925, MAE=7377207.7235, MAPE=0.0956
+2026-05-06 19:44:33,025 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_utah.pkl
+2026-05-06 19:44:33,033 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:44:36,647 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:44:36,797 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:44:36,797 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:44:36,799 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:44:36,800 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:44:36,801 - SarimaForecaster - INFO - SARIMA metrics: RMSE=997656.7901, MAE=815502.3926, MAPE=0.0454
+2026-05-06 19:44:36,801 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_vermont.pkl
+2026-05-06 19:44:36,810 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:44:40,637 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:44:40,752 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:44:40,752 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:44:40,754 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:44:40,755 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:44:40,756 - SarimaForecaster - INFO - SARIMA metrics: RMSE=29263898.8789, MAE=26263143.8368, MAPE=0.0964
+2026-05-06 19:44:40,756 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_virginia.pkl
+2026-05-06 19:44:40,766 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:44:44,367 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:44:44,562 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:44:44,562 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:44:44,564 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:44:44,564 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:44:44,565 - SarimaForecaster - INFO - SARIMA metrics: RMSE=23105747.6270, MAE=21188574.0729, MAPE=0.1203
+2026-05-06 19:44:44,566 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_washington.pkl
+2026-05-06 19:44:44,574 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:44:48,984 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:44:49,112 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:44:49,112 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:44:49,114 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:44:49,114 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:44:49,115 - SarimaForecaster - INFO - SARIMA metrics: RMSE=5184276.1901, MAE=4312022.6747, MAPE=0.0628
+2026-05-06 19:44:49,116 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_west_virginia.pkl
+2026-05-06 19:44:49,123 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:44:53,431 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:44:53,737 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:44:53,737 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:44:53,740 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:44:53,740 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:44:53,741 - SarimaForecaster - INFO - SARIMA metrics: RMSE=15943834.3583, MAE=14194283.8238, MAPE=0.0959
+2026-05-06 19:44:53,742 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_wisconsin.pkl
+2026-05-06 19:44:53,752 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:44:57,437 - SarimaForecaster - INFO - Starting SARIMA training with order=(1, 1, 1), seasonal_order=(1, 1, 1, 12)
+2026-05-06 19:44:57,577 - SarimaForecaster - INFO - SARIMA training completed successfully
+2026-05-06 19:44:57,578 - SarimaForecaster - INFO - Generating SARIMA predictions for 32 steps
+2026-05-06 19:44:57,580 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 19:44:57,580 - SarimaForecaster - INFO - Evaluating SARIMA model
+2026-05-06 19:44:57,581 - SarimaForecaster - INFO - SARIMA metrics: RMSE=2807824.8485, MAE=2547820.9480, MAPE=0.1261
+2026-05-06 19:44:57,581 - SarimaForecaster - INFO - Saving SARIMA model to S:\Forecasting System\trained_models\sarima_wyoming.pkl
+2026-05-06 19:44:57,591 - SarimaForecaster - INFO - SARIMA model saved successfully
+2026-05-06 19:45:37,123 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_alabama.pkl
+2026-05-06 19:45:37,234 - SarimaForecaster - INFO - SARIMA model loaded successfully
+2026-05-06 19:45:37,286 - SarimaForecaster - INFO - Generating SARIMA predictions for 8 steps
+2026-05-06 19:45:37,295 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 20:10:22,614 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_alabama.pkl
+2026-05-06 20:10:22,656 - SarimaForecaster - INFO - SARIMA model loaded successfully
+2026-05-06 20:10:22,706 - SarimaForecaster - INFO - Generating SARIMA predictions for 8 steps
+2026-05-06 20:10:22,713 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 20:15:44,288 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_alabama.pkl
+2026-05-06 20:15:44,314 - SarimaForecaster - INFO - SARIMA model loaded successfully
+2026-05-06 20:15:44,356 - SarimaForecaster - INFO - Generating SARIMA predictions for 8 steps
+2026-05-06 20:15:44,363 - SarimaForecaster - INFO - SARIMA predictions generated successfully
+2026-05-06 20:16:52,099 - SarimaForecaster - INFO - Loading SARIMA model from S:\Forecasting System\trained_models\sarima_alabama.pkl
+2026-05-06 20:16:52,125 - SarimaForecaster - INFO - SARIMA model loaded successfully
+2026-05-06 20:16:52,161 - SarimaForecaster - INFO - Generating SARIMA predictions for 8 steps
+2026-05-06 20:16:52,168 - SarimaForecaster - INFO - SARIMA predictions generated successfully

@@ -1,6 +1,6 @@
 from datetime import datetime
 from pathlib import Path
-from typing import Any, Dict, List
+from typing import Any, Dict, List, Optional
 
 import holidays
 import numpy as np
@@ -118,14 +118,32 @@ class PredictionService:
         predictions = model.predict(periods)
         return [float(value) for value in predictions]
 
-    def predict(self, state: str, forecast_periods: int = 8) -> Dict[str, Any]:
-        self.logger.info("Generating forecast for state=%s periods=%d", state, forecast_periods)
-        entry = self.registry.get_best_model_for_state(state)
-        if entry is None:
-            raise ValueError(f"No model registry entry found for state: {state}")
+    def _sanitize_state(self, state: str) -> str:
+        return state.strip().replace(" ", "_").lower()
 
-        model_name = entry["best_model"]
-        model_path = Path(entry["model_path"])
+    def _derive_model_path(self, model_name: str, state: str) -> Path:
+        state_key = self._sanitize_state(state)
+        extension = ".h5" if model_name == "LSTM" else ".pkl"
+        return BASE_DIR / "trained_models" / f"{model_name.lower()}_{state_key}{extension}"
+
+    def predict(self, state: str, forecast_periods: int = 8, model_name: Optional[str] = None) -> Dict[str, Any]:
+        self.logger.info(
+            "Generating forecast for state=%s periods=%d model_override=%s",
+            state,
+            forecast_periods,
+            model_name,
+        )
+        if model_name:
+            model_path = self._derive_model_path(model_name, state)
+            if not model_path.exists():
+                raise ValueError(f"Requested model file not found for {model_name} and state {state}")
+        else:
+            entry = self.registry.get_best_model_for_state(state)
+            if entry is None:
+                raise ValueError(f"No model registry entry found for state: {state}")
+            model_name = entry["best_model"]
+            model_path = Path(entry["model_path"])
+
         model = self._load_model(model_name, model_path)
         state_df = self._load_state_data(state)
 

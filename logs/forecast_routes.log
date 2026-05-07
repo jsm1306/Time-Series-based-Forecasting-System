@@ -1,0 +1,294 @@
+2026-05-06 18:22:44,557 - forecast_routes - INFO - Received forecast request for state=Texas periods=8
+2026-05-06 18:33:31,893 - forecast_routes - INFO - Received forecast request for state=Texas periods=8
+2026-05-06 18:41:04,948 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8
+2026-05-06 18:41:05,497 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8
+2026-05-06 18:41:05,645 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8
+2026-05-06 18:41:05,833 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8
+2026-05-06 18:49:25,623 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=XGBoost
+2026-05-06 18:49:25,806 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=LSTM
+2026-05-06 18:49:25,808 - forecast_routes - WARNING - Forecast request failed: Requested model file not found for LSTM and state Alabama
+2026-05-06 18:49:25,816 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=SARIMA
+2026-05-06 18:49:25,823 - forecast_routes - ERROR - Forecast generation failed
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\api\routes\forecast_routes.py", line 30, in forecast
+    prediction = service.predict(request.state, request.forecast_periods, request.model_name)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 147, in predict
+    model = self._load_model(model_name, model_path)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 60, in _load_model
+    model.load_model(model_path)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 97, in load_model
+    raise error
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 93, in load_model
+    self.model = SARIMAX.load(str(model_path))
+                 ^^^^^^^^^^^^
+AttributeError: type object 'SARIMAX' has no attribute 'load'
+2026-05-06 18:49:25,854 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=Prophet
+2026-05-06 18:49:26,121 - forecast_routes - ERROR - Forecast generation failed
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\api\routes\forecast_routes.py", line 30, in forecast
+    prediction = service.predict(request.state, request.forecast_periods, request.model_name)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 153, in predict
+    predictions = self._predict_prophet(model, state_df, forecast_periods)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 114, in _predict_prophet
+    predictions = model.predict(periods, future_regressors=future_df)
+  File "S:\Forecasting System\app\models\prophet_forecaster.py", line 78, in predict
+    raise error
+  File "S:\Forecasting System\app\models\prophet_forecaster.py", line 72, in predict
+    forecast = self.model.predict(future)
+  File "S:\Forecasting System\venv\Lib\site-packages\prophet\forecaster.py", line 1266, in predict
+    raise Exception('Model has not been fit.')
+Exception: Model has not been fit.
+2026-05-06 18:53:10,709 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=XGBoost
+2026-05-06 18:53:10,967 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=LSTM
+2026-05-06 18:53:10,968 - forecast_routes - WARNING - Forecast request failed: Requested model file not found for LSTM and state Alabama
+2026-05-06 18:53:10,973 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=SARIMA
+2026-05-06 18:53:10,977 - forecast_routes - ERROR - Forecast generation failed
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\api\routes\forecast_routes.py", line 30, in forecast
+    prediction = service.predict(request.state, request.forecast_periods, request.model_name)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 147, in predict
+    model = self._load_model(model_name, model_path)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 60, in _load_model
+    model.load_model(model_path)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 97, in load_model
+    raise error
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 93, in load_model
+    self.model = SARIMAX.load(str(model_path))
+                 ^^^^^^^^^^^^
+AttributeError: type object 'SARIMAX' has no attribute 'load'
+2026-05-06 18:53:10,983 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=Prophet
+2026-05-06 18:53:11,120 - forecast_routes - ERROR - Forecast generation failed
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\api\routes\forecast_routes.py", line 30, in forecast
+    prediction = service.predict(request.state, request.forecast_periods, request.model_name)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 153, in predict
+    predictions = self._predict_prophet(model, state_df, forecast_periods)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 114, in _predict_prophet
+    predictions = model.predict(periods, future_regressors=future_df)
+  File "S:\Forecasting System\app\models\prophet_forecaster.py", line 78, in predict
+    raise error
+  File "S:\Forecasting System\app\models\prophet_forecaster.py", line 72, in predict
+    forecast = self.model.predict(future)
+  File "S:\Forecasting System\venv\Lib\site-packages\prophet\forecaster.py", line 1266, in predict
+    raise Exception('Model has not been fit.')
+Exception: Model has not been fit.
+2026-05-06 18:56:42,013 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=XGBoost
+2026-05-06 18:56:42,074 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=LSTM
+2026-05-06 18:56:42,075 - forecast_routes - WARNING - Forecast request failed: Requested model file not found for LSTM and state Alabama
+2026-05-06 18:56:42,079 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=SARIMA
+2026-05-06 18:56:42,080 - forecast_routes - ERROR - Forecast generation failed
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\api\routes\forecast_routes.py", line 30, in forecast
+    prediction = service.predict(request.state, request.forecast_periods, request.model_name)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 147, in predict
+    model = self._load_model(model_name, model_path)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 60, in _load_model
+    model.load_model(model_path)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 97, in load_model
+    raise error
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 93, in load_model
+    self.model = SARIMAX.load(str(model_path))
+                 ^^^^^^^^^^^^
+AttributeError: type object 'SARIMAX' has no attribute 'load'
+2026-05-06 18:56:42,085 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=Prophet
+2026-05-06 18:56:42,200 - forecast_routes - ERROR - Forecast generation failed
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\api\routes\forecast_routes.py", line 30, in forecast
+    prediction = service.predict(request.state, request.forecast_periods, request.model_name)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 153, in predict
+    predictions = self._predict_prophet(model, state_df, forecast_periods)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 114, in _predict_prophet
+    predictions = model.predict(periods, future_regressors=future_df)
+  File "S:\Forecasting System\app\models\prophet_forecaster.py", line 78, in predict
+    raise error
+  File "S:\Forecasting System\app\models\prophet_forecaster.py", line 72, in predict
+    forecast = self.model.predict(future)
+  File "S:\Forecasting System\venv\Lib\site-packages\prophet\forecaster.py", line 1266, in predict
+    raise Exception('Model has not been fit.')
+Exception: Model has not been fit.
+2026-05-06 18:59:22,132 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=XGBoost
+2026-05-06 18:59:22,222 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=LSTM
+2026-05-06 18:59:22,629 - forecast_routes - WARNING - Forecast request failed: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2026-05-06 18:59:22,646 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=SARIMA
+2026-05-06 18:59:22,649 - forecast_routes - ERROR - Forecast generation failed
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\api\routes\forecast_routes.py", line 30, in forecast
+    prediction = service.predict(request.state, request.forecast_periods, request.model_name)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 147, in predict
+    model = self._load_model(model_name, model_path)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 60, in _load_model
+    model.load_model(model_path)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 97, in load_model
+    raise error
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 93, in load_model
+    self.model = SARIMAX.load(str(model_path))
+                 ^^^^^^^^^^^^
+AttributeError: type object 'SARIMAX' has no attribute 'load'
+2026-05-06 18:59:22,677 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=Prophet
+2026-05-06 18:59:22,698 - forecast_routes - ERROR - Forecast generation failed
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\api\routes\forecast_routes.py", line 30, in forecast
+    prediction = service.predict(request.state, request.forecast_periods, request.model_name)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 147, in predict
+    model = self._load_model(model_name, model_path)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 60, in _load_model
+    model.load_model(model_path)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "S:\Forecasting System\app\models\prophet_forecaster.py", line 114, in load_model
+    raise error
+  File "S:\Forecasting System\app\models\prophet_forecaster.py", line 110, in load_model
+    self.model = joblib.load(model_path)
+                 ~~~~~~~~~~~^^^^^^^^^^^^
+  File "S:\Forecasting System\venv\Lib\site-packages\joblib\numpy_pickle.py", line 749, in load
+    obj = _unpickle(
+        fobj,
+    ...<2 lines>...
+        mmap_mode=validated_mmap_mode,
+    )
+  File "S:\Forecasting System\venv\Lib\site-packages\joblib\numpy_pickle.py", line 626, in _unpickle
+    obj = unpickler.load()
+  File "C:\Users\SINDHU\AppData\Local\Programs\Python\Python313\Lib\pickle.py", line 1256, in load
+    dispatch[key[0]](self)
+    ~~~~~~~~^^^^^^^^
+KeyError: 123
+2026-05-06 19:03:53,365 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=XGBoost
+2026-05-06 19:03:53,626 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=LSTM
+2026-05-06 19:03:53,811 - forecast_routes - WARNING - Forecast request failed: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2026-05-06 19:03:53,832 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=SARIMA
+2026-05-06 19:03:53,839 - forecast_routes - ERROR - Forecast generation failed
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\api\routes\forecast_routes.py", line 30, in forecast
+    prediction = service.predict(request.state, request.forecast_periods, request.model_name)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 147, in predict
+    model = self._load_model(model_name, model_path)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 60, in _load_model
+    model.load_model(model_path)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 97, in load_model
+    raise error
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 93, in load_model
+    self.model = SARIMAX.load(str(model_path))
+                 ^^^^^^^^^^^^
+AttributeError: type object 'SARIMAX' has no attribute 'load'
+2026-05-06 19:03:53,853 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=Prophet
+2026-05-06 19:03:53,866 - forecast_routes - ERROR - Forecast generation failed
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\api\routes\forecast_routes.py", line 30, in forecast
+    prediction = service.predict(request.state, request.forecast_periods, request.model_name)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 147, in predict
+    model = self._load_model(model_name, model_path)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 60, in _load_model
+    model.load_model(model_path)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "S:\Forecasting System\app\models\prophet_forecaster.py", line 114, in load_model
+    raise error
+  File "S:\Forecasting System\app\models\prophet_forecaster.py", line 110, in load_model
+    self.model = joblib.load(model_path)
+                 ~~~~~~~~~~~^^^^^^^^^^^^
+  File "S:\Forecasting System\venv\Lib\site-packages\joblib\numpy_pickle.py", line 749, in load
+    obj = _unpickle(
+        fobj,
+    ...<2 lines>...
+        mmap_mode=validated_mmap_mode,
+    )
+  File "S:\Forecasting System\venv\Lib\site-packages\joblib\numpy_pickle.py", line 626, in _unpickle
+    obj = unpickler.load()
+  File "C:\Users\SINDHU\AppData\Local\Programs\Python\Python313\Lib\pickle.py", line 1256, in load
+    dispatch[key[0]](self)
+    ~~~~~~~~^^^^^^^^
+KeyError: 123
+2026-05-06 19:06:49,669 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=XGBoost
+2026-05-06 19:06:49,863 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=LSTM
+2026-05-06 19:06:49,925 - forecast_routes - WARNING - Forecast request failed: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2026-05-06 19:06:49,928 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=SARIMA
+2026-05-06 19:06:49,930 - forecast_routes - ERROR - Forecast generation failed
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\api\routes\forecast_routes.py", line 30, in forecast
+    prediction = service.predict(request.state, request.forecast_periods, request.model_name)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 147, in predict
+    model = self._load_model(model_name, model_path)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 60, in _load_model
+    model.load_model(model_path)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 97, in load_model
+    raise error
+  File "S:\Forecasting System\app\models\sarima_forecaster.py", line 93, in load_model
+    self.model = SARIMAX.load(str(model_path))
+                 ^^^^^^^^^^^^
+AttributeError: type object 'SARIMAX' has no attribute 'load'
+2026-05-06 19:06:49,936 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=Prophet
+2026-05-06 19:06:49,938 - forecast_routes - ERROR - Forecast generation failed
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\api\routes\forecast_routes.py", line 30, in forecast
+    prediction = service.predict(request.state, request.forecast_periods, request.model_name)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 147, in predict
+    model = self._load_model(model_name, model_path)
+  File "S:\Forecasting System\app\services\prediction_service.py", line 60, in _load_model
+    model.load_model(model_path)
+    ~~~~~~~~~~~~~~~~^^^^^^^^^^^^
+  File "S:\Forecasting System\app\models\prophet_forecaster.py", line 114, in load_model
+    raise error
+  File "S:\Forecasting System\app\models\prophet_forecaster.py", line 110, in load_model
+    self.model = joblib.load(model_path)
+                 ~~~~~~~~~~~^^^^^^^^^^^^
+  File "S:\Forecasting System\venv\Lib\site-packages\joblib\numpy_pickle.py", line 749, in load
+    obj = _unpickle(
+        fobj,
+    ...<2 lines>...
+        mmap_mode=validated_mmap_mode,
+    )
+  File "S:\Forecasting System\venv\Lib\site-packages\joblib\numpy_pickle.py", line 626, in _unpickle
+    obj = unpickler.load()
+  File "C:\Users\SINDHU\AppData\Local\Programs\Python\Python313\Lib\pickle.py", line 1256, in load
+    dispatch[key[0]](self)
+    ~~~~~~~~^^^^^^^^
+KeyError: 123
+2026-05-06 19:11:29,666 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=XGBoost
+2026-05-06 19:11:29,906 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=LSTM
+2026-05-06 19:11:31,794 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=SARIMA
+2026-05-06 19:11:31,938 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=Prophet
+2026-05-06 19:11:31,942 - forecast_routes - WARNING - Forecast request failed: Unable to load Prophet model. The model file may be in an older unsupported format. Retrain the Prophet model or regenerate the saved model file.
+2026-05-06 19:19:43,975 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=XGBoost
+2026-05-06 19:19:44,242 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=LSTM
+2026-05-06 19:19:46,174 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=SARIMA
+2026-05-06 19:19:46,245 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=Prophet
+2026-05-06 19:19:46,253 - forecast_routes - WARNING - Forecast request failed: Unable to load Prophet model from S:\Forecasting System\trained_models\prophet_alabama.pkl. The file appears to be an unsupported or non-serialized format. Please retrain the Prophet model and save it using the current code's `joblib.dump(model, model_path)` format.
+2026-05-06 19:22:28,992 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=XGBoost
+2026-05-06 19:22:29,298 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=LSTM
+2026-05-06 19:22:31,081 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=SARIMA
+2026-05-06 19:22:31,221 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=Prophet
+2026-05-06 19:22:31,232 - forecast_routes - WARNING - Forecast request failed: Unable to load Prophet model from S:\Forecasting System\trained_models\prophet_alabama.pkl. The file appears to be an unsupported or non-serialized format. Please retrain the Prophet model and save it using the current code's `joblib.dump(model, model_path)` format.
+2026-05-06 19:27:02,273 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=XGBoost
+2026-05-06 19:27:02,530 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=LSTM
+2026-05-06 19:27:04,141 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=SARIMA
+2026-05-06 19:27:04,234 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=Prophet
+2026-05-06 19:30:36,423 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=XGBoost
+2026-05-06 19:30:36,675 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=LSTM
+2026-05-06 19:30:37,769 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=SARIMA
+2026-05-06 19:30:37,811 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=Prophet
+2026-05-06 19:33:16,069 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=XGBoost
+2026-05-06 19:33:16,314 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=LSTM
+2026-05-06 19:33:18,042 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=SARIMA
+2026-05-06 19:33:18,177 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=Prophet
+2026-05-06 19:45:34,719 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=XGBoost
+2026-05-06 19:45:34,998 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=LSTM
+2026-05-06 19:45:37,120 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=SARIMA
+2026-05-06 19:45:37,312 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=Prophet
+2026-05-06 20:10:20,377 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=XGBoost
+2026-05-06 20:10:20,656 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=LSTM
+2026-05-06 20:10:22,611 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=SARIMA
+2026-05-06 20:10:22,726 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=Prophet
+2026-05-06 20:15:42,788 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=XGBoost
+2026-05-06 20:15:43,007 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=LSTM
+2026-05-06 20:15:44,284 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=SARIMA
+2026-05-06 20:15:44,394 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=Prophet
+2026-05-06 20:16:49,808 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=XGBoost
+2026-05-06 20:16:50,061 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=LSTM
+2026-05-06 20:16:52,098 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=SARIMA
+2026-05-06 20:16:52,198 - forecast_routes - INFO - Received forecast request for state=Alabama periods=8 model=Prophet
+2026-05-06 20:17:14,129 - forecast_routes - INFO - Received forecast request for state=Florida periods=8 model=None
+2026-05-06 20:27:18,432 - forecast_routes - INFO - Received forecast request for state=Florida periods=8 model=None

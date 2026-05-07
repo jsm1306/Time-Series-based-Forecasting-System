@@ -162,7 +162,7 @@ class LSTMForecaster(BaseForecaster):
             model_weights_path = model_path.with_suffix(".h5")
             scaler_path = model_path.with_stem(model_path.stem + "_scaler").with_suffix(".pkl")
 
-            self.model = load_model(str(model_weights_path))
+            self.model = load_model(str(model_weights_path), compile=False)
             self.scaler = joblib.load(scaler_path)
             self.logger.info("LSTM model and scaler loaded successfully")
         except Exception as error:

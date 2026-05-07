@@ -3,7 +3,7 @@ from typing import Dict, Tuple
 
 import numpy as np
 import pandas as pd
-from statsmodels.tsa.statespace.sarimax import SARIMAX
+from statsmodels.tsa.statespace.sarimax import SARIMAX, SARIMAXResults
 import warnings
 
 from app.models.base_forecaster import BaseForecaster
@@ -90,7 +90,7 @@ class SarimaForecaster(BaseForecaster):
         self.logger.info("Loading SARIMA model from %s", model_path)
 
         try:
-            self.model = SARIMAX.load(str(model_path))
+            self.model = SARIMAXResults.load(str(model_path))
             self.logger.info("SARIMA model loaded successfully")
         except Exception as error:
             self.logger.exception("Failed to load SARIMA model")

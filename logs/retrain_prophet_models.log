@@ -1,0 +1,178 @@
+2026-05-06 19:25:09,783 - retrain_prophet_models - INFO - Loaded processed dataset with 6794 rows
+2026-05-06 19:25:09,784 - retrain_prophet_models - INFO - Found 43 unique states
+2026-05-06 19:25:09,785 - retrain_prophet_models - INFO - Retraining Prophet model for state=Alabama
+2026-05-06 19:25:10,521 - retrain_prophet_models - INFO - Saved Prophet model for Alabama to S:\Forecasting System\trained_models\prophet_alabama.pkl
+2026-05-06 19:25:10,521 - retrain_prophet_models - INFO - Retraining Prophet model for state=Arizona
+2026-05-06 19:25:10,675 - retrain_prophet_models - INFO - Saved Prophet model for Arizona to S:\Forecasting System\trained_models\prophet_arizona.pkl
+2026-05-06 19:25:10,675 - retrain_prophet_models - INFO - Retraining Prophet model for state=Arkansas
+2026-05-06 19:25:10,840 - retrain_prophet_models - INFO - Saved Prophet model for Arkansas to S:\Forecasting System\trained_models\prophet_arkansas.pkl
+2026-05-06 19:25:10,841 - retrain_prophet_models - INFO - Retraining Prophet model for state=California
+2026-05-06 19:25:11,000 - retrain_prophet_models - INFO - Saved Prophet model for California to S:\Forecasting System\trained_models\prophet_california.pkl
+2026-05-06 19:25:11,000 - retrain_prophet_models - INFO - Retraining Prophet model for state=Colorado
+2026-05-06 19:25:11,160 - retrain_prophet_models - INFO - Saved Prophet model for Colorado to S:\Forecasting System\trained_models\prophet_colorado.pkl
+2026-05-06 19:25:11,160 - retrain_prophet_models - INFO - Retraining Prophet model for state=Connecticut
+2026-05-06 19:25:11,315 - retrain_prophet_models - INFO - Saved Prophet model for Connecticut to S:\Forecasting System\trained_models\prophet_connecticut.pkl
+2026-05-06 19:25:11,316 - retrain_prophet_models - INFO - Retraining Prophet model for state=Florida
+2026-05-06 19:25:11,479 - retrain_prophet_models - INFO - Saved Prophet model for Florida to S:\Forecasting System\trained_models\prophet_florida.pkl
+2026-05-06 19:25:11,480 - retrain_prophet_models - INFO - Retraining Prophet model for state=Georgia
+2026-05-06 19:25:11,635 - retrain_prophet_models - INFO - Saved Prophet model for Georgia to S:\Forecasting System\trained_models\prophet_georgia.pkl
+2026-05-06 19:25:11,636 - retrain_prophet_models - INFO - Retraining Prophet model for state=Illinois
+2026-05-06 19:25:11,788 - retrain_prophet_models - INFO - Saved Prophet model for Illinois to S:\Forecasting System\trained_models\prophet_illinois.pkl
+2026-05-06 19:25:11,788 - retrain_prophet_models - INFO - Retraining Prophet model for state=Indiana
+2026-05-06 19:25:11,938 - retrain_prophet_models - INFO - Saved Prophet model for Indiana to S:\Forecasting System\trained_models\prophet_indiana.pkl
+2026-05-06 19:25:11,938 - retrain_prophet_models - INFO - Retraining Prophet model for state=Iowa
+2026-05-06 19:25:12,093 - retrain_prophet_models - INFO - Saved Prophet model for Iowa to S:\Forecasting System\trained_models\prophet_iowa.pkl
+2026-05-06 19:25:12,093 - retrain_prophet_models - INFO - Retraining Prophet model for state=Kansas
+2026-05-06 19:25:12,254 - retrain_prophet_models - INFO - Saved Prophet model for Kansas to S:\Forecasting System\trained_models\prophet_kansas.pkl
+2026-05-06 19:25:12,254 - retrain_prophet_models - INFO - Retraining Prophet model for state=Kentucky
+2026-05-06 19:25:12,411 - retrain_prophet_models - INFO - Saved Prophet model for Kentucky to S:\Forecasting System\trained_models\prophet_kentucky.pkl
+2026-05-06 19:25:12,411 - retrain_prophet_models - INFO - Retraining Prophet model for state=Louisiana
+2026-05-06 19:25:12,568 - retrain_prophet_models - INFO - Saved Prophet model for Louisiana to S:\Forecasting System\trained_models\prophet_louisiana.pkl
+2026-05-06 19:25:12,569 - retrain_prophet_models - INFO - Retraining Prophet model for state=Maine
+2026-05-06 19:25:12,738 - retrain_prophet_models - INFO - Saved Prophet model for Maine to S:\Forecasting System\trained_models\prophet_maine.pkl
+2026-05-06 19:25:12,738 - retrain_prophet_models - INFO - Retraining Prophet model for state=Maryland
+2026-05-06 19:25:12,907 - retrain_prophet_models - INFO - Saved Prophet model for Maryland to S:\Forecasting System\trained_models\prophet_maryland.pkl
+2026-05-06 19:25:12,908 - retrain_prophet_models - INFO - Retraining Prophet model for state=Massachusetts
+2026-05-06 19:25:13,062 - retrain_prophet_models - INFO - Saved Prophet model for Massachusetts to S:\Forecasting System\trained_models\prophet_massachusetts.pkl
+2026-05-06 19:25:13,062 - retrain_prophet_models - INFO - Retraining Prophet model for state=Michigan
+2026-05-06 19:25:13,226 - retrain_prophet_models - INFO - Saved Prophet model for Michigan to S:\Forecasting System\trained_models\prophet_michigan.pkl
+2026-05-06 19:25:13,226 - retrain_prophet_models - INFO - Retraining Prophet model for state=Minnesota
+2026-05-06 19:25:13,378 - retrain_prophet_models - INFO - Saved Prophet model for Minnesota to S:\Forecasting System\trained_models\prophet_minnesota.pkl
+2026-05-06 19:25:13,378 - retrain_prophet_models - INFO - Retraining Prophet model for state=Mississippi
+2026-05-06 19:25:13,549 - retrain_prophet_models - INFO - Saved Prophet model for Mississippi to S:\Forecasting System\trained_models\prophet_mississippi.pkl
+2026-05-06 19:25:13,550 - retrain_prophet_models - INFO - Retraining Prophet model for state=Missouri
+2026-05-06 19:25:13,712 - retrain_prophet_models - INFO - Saved Prophet model for Missouri to S:\Forecasting System\trained_models\prophet_missouri.pkl
+2026-05-06 19:25:13,713 - retrain_prophet_models - INFO - Retraining Prophet model for state=Nebraska
+2026-05-06 19:25:13,866 - retrain_prophet_models - INFO - Saved Prophet model for Nebraska to S:\Forecasting System\trained_models\prophet_nebraska.pkl
+2026-05-06 19:25:13,866 - retrain_prophet_models - INFO - Retraining Prophet model for state=Nevada
+2026-05-06 19:25:14,017 - retrain_prophet_models - INFO - Saved Prophet model for Nevada to S:\Forecasting System\trained_models\prophet_nevada.pkl
+2026-05-06 19:25:14,017 - retrain_prophet_models - INFO - Retraining Prophet model for state=New Hampshire
+2026-05-06 19:25:14,205 - retrain_prophet_models - INFO - Saved Prophet model for New Hampshire to S:\Forecasting System\trained_models\prophet_new_hampshire.pkl
+2026-05-06 19:25:14,205 - retrain_prophet_models - INFO - Retraining Prophet model for state=New Mexico
+2026-05-06 19:25:14,368 - retrain_prophet_models - INFO - Saved Prophet model for New Mexico to S:\Forecasting System\trained_models\prophet_new_mexico.pkl
+2026-05-06 19:25:14,368 - retrain_prophet_models - INFO - Retraining Prophet model for state=New York
+2026-05-06 19:25:14,527 - retrain_prophet_models - INFO - Saved Prophet model for New York to S:\Forecasting System\trained_models\prophet_new_york.pkl
+2026-05-06 19:25:14,527 - retrain_prophet_models - INFO - Retraining Prophet model for state=North Carolina
+2026-05-06 19:25:14,686 - retrain_prophet_models - INFO - Saved Prophet model for North Carolina to S:\Forecasting System\trained_models\prophet_north_carolina.pkl
+2026-05-06 19:25:14,687 - retrain_prophet_models - INFO - Retraining Prophet model for state=Ohio
+2026-05-06 19:25:14,860 - retrain_prophet_models - INFO - Saved Prophet model for Ohio to S:\Forecasting System\trained_models\prophet_ohio.pkl
+2026-05-06 19:25:14,860 - retrain_prophet_models - INFO - Retraining Prophet model for state=Oklahoma
+2026-05-06 19:25:15,040 - retrain_prophet_models - INFO - Saved Prophet model for Oklahoma to S:\Forecasting System\trained_models\prophet_oklahoma.pkl
+2026-05-06 19:25:15,040 - retrain_prophet_models - INFO - Retraining Prophet model for state=Oregon
+2026-05-06 19:25:15,194 - retrain_prophet_models - INFO - Saved Prophet model for Oregon to S:\Forecasting System\trained_models\prophet_oregon.pkl
+2026-05-06 19:25:15,195 - retrain_prophet_models - INFO - Retraining Prophet model for state=Pennsylvania
+2026-05-06 19:25:15,343 - retrain_prophet_models - INFO - Saved Prophet model for Pennsylvania to S:\Forecasting System\trained_models\prophet_pennsylvania.pkl
+2026-05-06 19:25:15,343 - retrain_prophet_models - INFO - Retraining Prophet model for state=Rhode Island
+2026-05-06 19:25:15,492 - retrain_prophet_models - INFO - Saved Prophet model for Rhode Island to S:\Forecasting System\trained_models\prophet_rhode_island.pkl
+2026-05-06 19:25:15,492 - retrain_prophet_models - INFO - Retraining Prophet model for state=South Carolina
+2026-05-06 19:25:15,665 - retrain_prophet_models - INFO - Saved Prophet model for South Carolina to S:\Forecasting System\trained_models\prophet_south_carolina.pkl
+2026-05-06 19:25:15,666 - retrain_prophet_models - INFO - Retraining Prophet model for state=South Dakota
+2026-05-06 19:25:15,841 - retrain_prophet_models - INFO - Saved Prophet model for South Dakota to S:\Forecasting System\trained_models\prophet_south_dakota.pkl
+2026-05-06 19:25:15,841 - retrain_prophet_models - INFO - Retraining Prophet model for state=Tennessee
+2026-05-06 19:25:15,985 - retrain_prophet_models - INFO - Saved Prophet model for Tennessee to S:\Forecasting System\trained_models\prophet_tennessee.pkl
+2026-05-06 19:25:15,985 - retrain_prophet_models - INFO - Retraining Prophet model for state=Texas
+2026-05-06 19:25:16,130 - retrain_prophet_models - INFO - Saved Prophet model for Texas to S:\Forecasting System\trained_models\prophet_texas.pkl
+2026-05-06 19:25:16,130 - retrain_prophet_models - INFO - Retraining Prophet model for state=Utah
+2026-05-06 19:25:16,274 - retrain_prophet_models - INFO - Saved Prophet model for Utah to S:\Forecasting System\trained_models\prophet_utah.pkl
+2026-05-06 19:25:16,274 - retrain_prophet_models - INFO - Retraining Prophet model for state=Vermont
+2026-05-06 19:25:16,437 - retrain_prophet_models - INFO - Saved Prophet model for Vermont to S:\Forecasting System\trained_models\prophet_vermont.pkl
+2026-05-06 19:25:16,438 - retrain_prophet_models - INFO - Retraining Prophet model for state=Virginia
+2026-05-06 19:25:16,604 - retrain_prophet_models - INFO - Saved Prophet model for Virginia to S:\Forecasting System\trained_models\prophet_virginia.pkl
+2026-05-06 19:25:16,604 - retrain_prophet_models - INFO - Retraining Prophet model for state=Washington
+2026-05-06 19:25:16,758 - retrain_prophet_models - INFO - Saved Prophet model for Washington to S:\Forecasting System\trained_models\prophet_washington.pkl
+2026-05-06 19:25:16,758 - retrain_prophet_models - INFO - Retraining Prophet model for state=West Virginia
+2026-05-06 19:25:16,924 - retrain_prophet_models - INFO - Saved Prophet model for West Virginia to S:\Forecasting System\trained_models\prophet_west_virginia.pkl
+2026-05-06 19:25:16,925 - retrain_prophet_models - INFO - Retraining Prophet model for state=Wisconsin
+2026-05-06 19:25:17,089 - retrain_prophet_models - INFO - Saved Prophet model for Wisconsin to S:\Forecasting System\trained_models\prophet_wisconsin.pkl
+2026-05-06 19:25:17,089 - retrain_prophet_models - INFO - Retraining Prophet model for state=Wyoming
+2026-05-06 19:25:17,239 - retrain_prophet_models - INFO - Saved Prophet model for Wyoming to S:\Forecasting System\trained_models\prophet_wyoming.pkl
+2026-05-06 19:25:17,239 - retrain_prophet_models - INFO - Retrained Prophet models for 43 states
+2026-05-06 19:26:31,442 - retrain_prophet_models - INFO - Loaded processed dataset with 6794 rows
+2026-05-06 19:26:31,443 - retrain_prophet_models - INFO - Found 43 unique states
+2026-05-06 19:26:31,443 - retrain_prophet_models - INFO - Retraining Prophet model for state=Alabama
+2026-05-06 19:26:31,615 - retrain_prophet_models - INFO - Saved Prophet model for Alabama to S:\Forecasting System\trained_models\prophet_alabama.pkl
+2026-05-06 19:26:31,616 - retrain_prophet_models - INFO - Retraining Prophet model for state=Arizona
+2026-05-06 19:26:31,748 - retrain_prophet_models - INFO - Saved Prophet model for Arizona to S:\Forecasting System\trained_models\prophet_arizona.pkl
+2026-05-06 19:26:31,748 - retrain_prophet_models - INFO - Retraining Prophet model for state=Arkansas
+2026-05-06 19:26:31,885 - retrain_prophet_models - INFO - Saved Prophet model for Arkansas to S:\Forecasting System\trained_models\prophet_arkansas.pkl
+2026-05-06 19:26:31,886 - retrain_prophet_models - INFO - Retraining Prophet model for state=California
+2026-05-06 19:26:32,045 - retrain_prophet_models - INFO - Saved Prophet model for California to S:\Forecasting System\trained_models\prophet_california.pkl
+2026-05-06 19:26:32,045 - retrain_prophet_models - INFO - Retraining Prophet model for state=Colorado
+2026-05-06 19:26:32,191 - retrain_prophet_models - INFO - Saved Prophet model for Colorado to S:\Forecasting System\trained_models\prophet_colorado.pkl
+2026-05-06 19:26:32,191 - retrain_prophet_models - INFO - Retraining Prophet model for state=Connecticut
+2026-05-06 19:26:32,346 - retrain_prophet_models - INFO - Saved Prophet model for Connecticut to S:\Forecasting System\trained_models\prophet_connecticut.pkl
+2026-05-06 19:26:32,347 - retrain_prophet_models - INFO - Retraining Prophet model for state=Florida
+2026-05-06 19:26:32,519 - retrain_prophet_models - INFO - Saved Prophet model for Florida to S:\Forecasting System\trained_models\prophet_florida.pkl
+2026-05-06 19:26:32,520 - retrain_prophet_models - INFO - Retraining Prophet model for state=Georgia
+2026-05-06 19:26:32,682 - retrain_prophet_models - INFO - Saved Prophet model for Georgia to S:\Forecasting System\trained_models\prophet_georgia.pkl
+2026-05-06 19:26:32,682 - retrain_prophet_models - INFO - Retraining Prophet model for state=Illinois
+2026-05-06 19:26:32,798 - retrain_prophet_models - INFO - Saved Prophet model for Illinois to S:\Forecasting System\trained_models\prophet_illinois.pkl
+2026-05-06 19:26:32,798 - retrain_prophet_models - INFO - Retraining Prophet model for state=Indiana
+2026-05-06 19:26:32,984 - retrain_prophet_models - INFO - Saved Prophet model for Indiana to S:\Forecasting System\trained_models\prophet_indiana.pkl
+2026-05-06 19:26:32,985 - retrain_prophet_models - INFO - Retraining Prophet model for state=Iowa
+2026-05-06 19:26:33,137 - retrain_prophet_models - INFO - Saved Prophet model for Iowa to S:\Forecasting System\trained_models\prophet_iowa.pkl
+2026-05-06 19:26:33,137 - retrain_prophet_models - INFO - Retraining Prophet model for state=Kansas
+2026-05-06 19:26:33,286 - retrain_prophet_models - INFO - Saved Prophet model for Kansas to S:\Forecasting System\trained_models\prophet_kansas.pkl
+2026-05-06 19:26:33,286 - retrain_prophet_models - INFO - Retraining Prophet model for state=Kentucky
+2026-05-06 19:26:33,461 - retrain_prophet_models - INFO - Saved Prophet model for Kentucky to S:\Forecasting System\trained_models\prophet_kentucky.pkl
+2026-05-06 19:26:33,461 - retrain_prophet_models - INFO - Retraining Prophet model for state=Louisiana
+2026-05-06 19:26:33,601 - retrain_prophet_models - INFO - Saved Prophet model for Louisiana to S:\Forecasting System\trained_models\prophet_louisiana.pkl
+2026-05-06 19:26:33,601 - retrain_prophet_models - INFO - Retraining Prophet model for state=Maine
+2026-05-06 19:26:33,741 - retrain_prophet_models - INFO - Saved Prophet model for Maine to S:\Forecasting System\trained_models\prophet_maine.pkl
+2026-05-06 19:26:33,741 - retrain_prophet_models - INFO - Retraining Prophet model for state=Maryland
+2026-05-06 19:26:33,907 - retrain_prophet_models - INFO - Saved Prophet model for Maryland to S:\Forecasting System\trained_models\prophet_maryland.pkl
+2026-05-06 19:26:33,907 - retrain_prophet_models - INFO - Retraining Prophet model for state=Massachusetts
+2026-05-06 19:26:34,058 - retrain_prophet_models - INFO - Saved Prophet model for Massachusetts to S:\Forecasting System\trained_models\prophet_massachusetts.pkl
+2026-05-06 19:26:34,058 - retrain_prophet_models - INFO - Retraining Prophet model for state=Michigan
+2026-05-06 19:26:34,204 - retrain_prophet_models - INFO - Saved Prophet model for Michigan to S:\Forecasting System\trained_models\prophet_michigan.pkl
+2026-05-06 19:26:34,205 - retrain_prophet_models - INFO - Retraining Prophet model for state=Minnesota
+2026-05-06 19:26:34,351 - retrain_prophet_models - INFO - Saved Prophet model for Minnesota to S:\Forecasting System\trained_models\prophet_minnesota.pkl
+2026-05-06 19:26:34,352 - retrain_prophet_models - INFO - Retraining Prophet model for state=Mississippi
+2026-05-06 19:26:34,534 - retrain_prophet_models - INFO - Saved Prophet model for Mississippi to S:\Forecasting System\trained_models\prophet_mississippi.pkl
+2026-05-06 19:26:34,535 - retrain_prophet_models - INFO - Retraining Prophet model for state=Missouri
+2026-05-06 19:26:34,701 - retrain_prophet_models - INFO - Saved Prophet model for Missouri to S:\Forecasting System\trained_models\prophet_missouri.pkl
+2026-05-06 19:26:34,701 - retrain_prophet_models - INFO - Retraining Prophet model for state=Nebraska
+2026-05-06 19:26:34,834 - retrain_prophet_models - INFO - Saved Prophet model for Nebraska to S:\Forecasting System\trained_models\prophet_nebraska.pkl
+2026-05-06 19:26:34,835 - retrain_prophet_models - INFO - Retraining Prophet model for state=Nevada
+2026-05-06 19:26:34,970 - retrain_prophet_models - INFO - Saved Prophet model for Nevada to S:\Forecasting System\trained_models\prophet_nevada.pkl
+2026-05-06 19:26:34,971 - retrain_prophet_models - INFO - Retraining Prophet model for state=New Hampshire
+2026-05-06 19:26:35,122 - retrain_prophet_models - INFO - Saved Prophet model for New Hampshire to S:\Forecasting System\trained_models\prophet_new_hampshire.pkl
+2026-05-06 19:26:35,122 - retrain_prophet_models - INFO - Retraining Prophet model for state=New Mexico
+2026-05-06 19:26:35,283 - retrain_prophet_models - INFO - Saved Prophet model for New Mexico to S:\Forecasting System\trained_models\prophet_new_mexico.pkl
+2026-05-06 19:26:35,283 - retrain_prophet_models - INFO - Retraining Prophet model for state=New York
+2026-05-06 19:26:35,416 - retrain_prophet_models - INFO - Saved Prophet model for New York to S:\Forecasting System\trained_models\prophet_new_york.pkl
+2026-05-06 19:26:35,416 - retrain_prophet_models - INFO - Retraining Prophet model for state=North Carolina
+2026-05-06 19:26:35,564 - retrain_prophet_models - INFO - Saved Prophet model for North Carolina to S:\Forecasting System\trained_models\prophet_north_carolina.pkl
+2026-05-06 19:26:35,564 - retrain_prophet_models - INFO - Retraining Prophet model for state=Ohio
+2026-05-06 19:26:35,714 - retrain_prophet_models - INFO - Saved Prophet model for Ohio to S:\Forecasting System\trained_models\prophet_ohio.pkl
+2026-05-06 19:26:35,715 - retrain_prophet_models - INFO - Retraining Prophet model for state=Oklahoma
+2026-05-06 19:26:35,869 - retrain_prophet_models - INFO - Saved Prophet model for Oklahoma to S:\Forecasting System\trained_models\prophet_oklahoma.pkl
+2026-05-06 19:26:35,869 - retrain_prophet_models - INFO - Retraining Prophet model for state=Oregon
+2026-05-06 19:26:36,016 - retrain_prophet_models - INFO - Saved Prophet model for Oregon to S:\Forecasting System\trained_models\prophet_oregon.pkl
+2026-05-06 19:26:36,017 - retrain_prophet_models - INFO - Retraining Prophet model for state=Pennsylvania
+2026-05-06 19:26:36,173 - retrain_prophet_models - INFO - Saved Prophet model for Pennsylvania to S:\Forecasting System\trained_models\prophet_pennsylvania.pkl
+2026-05-06 19:26:36,173 - retrain_prophet_models - INFO - Retraining Prophet model for state=Rhode Island
+2026-05-06 19:26:36,305 - retrain_prophet_models - INFO - Saved Prophet model for Rhode Island to S:\Forecasting System\trained_models\prophet_rhode_island.pkl
+2026-05-06 19:26:36,305 - retrain_prophet_models - INFO - Retraining Prophet model for state=South Carolina
+2026-05-06 19:26:36,450 - retrain_prophet_models - INFO - Saved Prophet model for South Carolina to S:\Forecasting System\trained_models\prophet_south_carolina.pkl
+2026-05-06 19:26:36,451 - retrain_prophet_models - INFO - Retraining Prophet model for state=South Dakota
+2026-05-06 19:26:36,645 - retrain_prophet_models - INFO - Saved Prophet model for South Dakota to S:\Forecasting System\trained_models\prophet_south_dakota.pkl
+2026-05-06 19:26:36,646 - retrain_prophet_models - INFO - Retraining Prophet model for state=Tennessee
+2026-05-06 19:26:36,799 - retrain_prophet_models - INFO - Saved Prophet model for Tennessee to S:\Forecasting System\trained_models\prophet_tennessee.pkl
+2026-05-06 19:26:36,800 - retrain_prophet_models - INFO - Retraining Prophet model for state=Texas
+2026-05-06 19:26:36,939 - retrain_prophet_models - INFO - Saved Prophet model for Texas to S:\Forecasting System\trained_models\prophet_texas.pkl
+2026-05-06 19:26:36,940 - retrain_prophet_models - INFO - Retraining Prophet model for state=Utah
+2026-05-06 19:26:37,128 - retrain_prophet_models - INFO - Saved Prophet model for Utah to S:\Forecasting System\trained_models\prophet_utah.pkl
+2026-05-06 19:26:37,129 - retrain_prophet_models - INFO - Retraining Prophet model for state=Vermont
+2026-05-06 19:26:37,291 - retrain_prophet_models - INFO - Saved Prophet model for Vermont to S:\Forecasting System\trained_models\prophet_vermont.pkl
+2026-05-06 19:26:37,291 - retrain_prophet_models - INFO - Retraining Prophet model for state=Virginia
+2026-05-06 19:26:37,423 - retrain_prophet_models - INFO - Saved Prophet model for Virginia to S:\Forecasting System\trained_models\prophet_virginia.pkl
+2026-05-06 19:26:37,423 - retrain_prophet_models - INFO - Retraining Prophet model for state=Washington
+2026-05-06 19:26:37,564 - retrain_prophet_models - INFO - Saved Prophet model for Washington to S:\Forecasting System\trained_models\prophet_washington.pkl
+2026-05-06 19:26:37,564 - retrain_prophet_models - INFO - Retraining Prophet model for state=West Virginia
+2026-05-06 19:26:37,715 - retrain_prophet_models - INFO - Saved Prophet model for West Virginia to S:\Forecasting System\trained_models\prophet_west_virginia.pkl
+2026-05-06 19:26:37,715 - retrain_prophet_models - INFO - Retraining Prophet model for state=Wisconsin
+2026-05-06 19:26:37,878 - retrain_prophet_models - INFO - Saved Prophet model for Wisconsin to S:\Forecasting System\trained_models\prophet_wisconsin.pkl
+2026-05-06 19:26:37,878 - retrain_prophet_models - INFO - Retraining Prophet model for state=Wyoming
+2026-05-06 19:26:38,039 - retrain_prophet_models - INFO - Saved Prophet model for Wyoming to S:\Forecasting System\trained_models\prophet_wyoming.pkl
+2026-05-06 19:26:38,040 - retrain_prophet_models - INFO - Retrained Prophet models for 43 states

@@ -77,7 +77,7 @@ class ForecastingPipeline:
     def _save_model(self, model: Any, model_name: str, state: str) -> Path:
         """Save a trained model to disk using a consistent naming convention."""
         state_key = self._sanitize_state(state)
-        extension = ".keras" if model_name == "LSTM" else ".pkl"
+        extension = ".h5" if model_name == "LSTM" else ".pkl"
         model_path = self.model_output_dir / f"{model_name.lower()}_{state_key}{extension}"
         model.save_model(model_path)
         return model_path
@@ -117,7 +117,7 @@ class ForecastingPipeline:
             return metrics
         except Exception as error:
             self.logger.exception("Model %s failed for state %s", model_name, train_df["State"].iloc[0])
-            return None
+            return {"error": str(error)}
 
     def train_models_for_state(self, state: str, df: pd.DataFrame) -> Dict[str, Dict[str, Any]]:
         """Train and evaluate all candidate models for a given state."""
@@ -136,16 +136,16 @@ class ForecastingPipeline:
             self.logger.info("Starting model %s for state %s", model_name, state)
             model = factory()
             metrics = self._evaluate_model(model_name, model, train_df, val_df)
-            if metrics is not None:
-                results[model_name] = metrics
+            results[model_name] = metrics or {"error": "Unknown failure"}
         return results
 
     def select_best_model(self, results: Dict[str, Dict[str, Any]]) -> Optional[Dict[str, Any]]:
         """Select the best model for a given state based on RMSE."""
-        if not results:
+        valid_results = {name: metrics for name, metrics in results.items() if "error" not in metrics}
+        if not valid_results:
             return None
 
-        best_model = min(results.items(), key=lambda item: item[1]["rmse"])
+        best_model = min(valid_results.items(), key=lambda item: item[1]["rmse"])
         name, metrics = best_model
         return {"model_name": name, **metrics}
 
@@ -168,13 +168,15 @@ class ForecastingPipeline:
         for state in states:
             self.logger.info("Processing state=%s", state)
             results = self.train_models_for_state(state, df)
-            if not results:
+            valid_results = {name: metrics for name, metrics in results.items() if "error" not in metrics}
+            if not valid_results:
                 self.logger.warning("No successful models for state=%s", state)
                 summary["failed_states"] += 1
                 continue
 
             best = self.select_best_model(results)
             if best is None:
+                self.logger.warning("Best model selection failed for state=%s", state)
                 summary["failed_states"] += 1
                 continue
 
@@ -185,6 +187,7 @@ class ForecastingPipeline:
                 rmse=best["rmse"],
                 mae=best["mae"],
                 mape=best["mape"],
+                models=results,
             )
             self.registry.save_registry()
             all_metrics.append({"rmse": best["rmse"], "mae": best["mae"], "mape": best["mape"]})

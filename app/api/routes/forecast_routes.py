@@ -20,13 +20,18 @@ async def health() -> JSONResponse:
 @router.post("/forecast", response_model=ForecastResponse)
 async def forecast(request: ForecastRequest) -> ForecastResponse:
     """Generate a forecast for a requested state and horizon."""
-    logger.info("Received forecast request for state=%s periods=%d", request.state, request.forecast_periods)
+    logger.info(
+        "Received forecast request for state=%s periods=%d model=%s",
+        request.state,
+        request.forecast_periods,
+        request.model_name,
+    )
     try:
-        prediction = service.predict(request.state, request.forecast_periods)
+        prediction = service.predict(request.state, request.forecast_periods, request.model_name)
         return ForecastResponse(**prediction)
     except ValueError as error:
         logger.warning("Forecast request failed: %s", str(error))
         raise HTTPException(status_code=404, detail=str(error))
-    except Exception as error:
+    except Exception:
         logger.exception("Forecast generation failed")
         raise HTTPException(status_code=500, detail="Forecast generation failed")

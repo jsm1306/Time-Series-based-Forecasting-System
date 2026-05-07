@@ -1,10 +1,11 @@
 from pathlib import Path
 from typing import Dict, List, Optional
 
+import joblib
 import numpy as np
 import pandas as pd
+import pickle
 from prophet import Prophet
-import json
 
 from app.models.base_forecaster import BaseForecaster
 
@@ -93,8 +94,7 @@ class ProphetForecaster(BaseForecaster):
         self.logger.info("Saving Prophet model to %s", model_path)
 
         try:
-            with open(model_path, "w", encoding="utf-8") as f:
-                json.dump(self.model.params, f, indent=4, default=str)
+            joblib.dump(self.model, model_path)
             self.logger.info("Prophet model saved successfully")
         except Exception as error:
             self.logger.exception("Failed to save Prophet model")
@@ -108,10 +108,26 @@ class ProphetForecaster(BaseForecaster):
         self.logger.info("Loading Prophet model from %s", model_path)
 
         try:
-            with open(model_path, "r", encoding="utf-8") as f:
-                params = json.load(f)
-            self.model = Prophet(**{k: v for k, v in params.items() if k in ["yearly_seasonality", "weekly_seasonality"]})
+            self.model = joblib.load(model_path)
             self.logger.info("Prophet model loaded successfully")
-        except Exception as error:
+        except Exception as load_error:
             self.logger.exception("Failed to load Prophet model")
-            raise error
+
+            file_contents = ""
+            try:
+                with open(model_path, "r", encoding="utf-8", errors="ignore") as file:
+                    file_contents = file.read(256)
+            except Exception:
+                file_contents = ""
+
+            if isinstance(load_error, (pickle.UnpicklingError, EOFError, AttributeError, KeyError)) or file_contents.lstrip().startswith("{"):
+                raise ValueError(
+                    f"Unable to load Prophet model from {model_path}. "
+                    "The file appears to be an unsupported or non-serialized format. "
+                    "Please retrain the Prophet model and save it using the current code's `joblib.dump(model, model_path)` format."
+                ) from load_error
+
+            raise ValueError(
+                f"Unable to load Prophet model from {model_path}. "
+                "If the file is not compatible with the current Prophet loader, retrain or regenerate it."
+            ) from load_error

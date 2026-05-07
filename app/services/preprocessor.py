@@ -13,6 +13,7 @@ class DataPreprocessor:
     def __init__(self, required_columns: Optional[List[str]] = None, logger: Optional[logging.Logger] = None) -> None:
         self.required_columns: List[str] = required_columns or ["State", "Date", "Total", "Category"]
         self.logger = logger or get_logger(self.__class__.__name__)
+        self.missing_week_fill_count: int = 0
 
     def process(self, df: pd.DataFrame) -> pd.DataFrame:
         """Run the full preprocessing sequence for the raw dataset."""
@@ -51,14 +52,33 @@ class DataPreprocessor:
         return df
 
     def _aggregate_weekly(self, df: pd.DataFrame) -> pd.DataFrame:
-        """Aggregate records by state, date, and category without generating artificial rows."""
+        """Aggregate records by state, date, and category and fill missing weekly dates."""
         df = df.copy()
 
         grouped = (
             df.groupby(["State", "Date", "Category"], as_index=False)
             .agg(Total=("Total", "sum"))
         )
-
         grouped = grouped.sort_values(["State", "Category", "Date"]).reset_index(drop=True)
+        grouped["Date"] = pd.to_datetime(grouped["Date"])
         grouped["week_start"] = grouped["Date"]
-        return grouped
+
+        expanded_frames = []
+        self.missing_week_fill_count = 0
+        for (state, category), subset in grouped.groupby(["State", "Category"], sort=False):
+            subset = subset.set_index("week_start").sort_index()
+            full_range = pd.date_range(start=subset.index.min(), end=subset.index.max(), freq="7D")
+            missing_rows = len(full_range) - len(subset.index)
+            self.missing_week_fill_count += missing_rows
+            subset = subset.reindex(full_range)
+            subset["State"] = state
+            subset["Category"] = category
+            subset["Date"] = subset.index
+            subset["Total"] = subset["Total"].interpolate(method="linear", limit_direction="both")
+            subset["Total"] = subset["Total"].fillna(0.0)
+            expanded_frames.append(subset.reset_index(drop=True))
+
+        result = pd.concat(expanded_frames, ignore_index=True)
+        result = result[["State", "Date", "Category", "Total"]]
+        result["week_start"] = result["Date"]
+        return result

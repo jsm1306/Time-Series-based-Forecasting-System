@@ -366,3 +366,560 @@
 2026-05-06 17:52:42,129 - LSTMForecaster - INFO - LSTM metrics: RMSE=1504211.5610, MAE=1269516.7500, MAPE=0.0614
 2026-05-06 17:52:42,130 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_wyoming.keras
 2026-05-06 17:52:42,170 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 18:59:22,223 - LSTMForecaster - INFO - Loading LSTM model from S:\Forecasting System\trained_models\lstm_alabama.h5
+2026-05-06 18:59:22,618 - LSTMForecaster - ERROR - Failed to load LSTM model
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\models\lstm_forecaster.py", line 165, in load_model
+    self.model = load_model(str(model_weights_path))
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\saving\saving_api.py", line 195, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        filepath,
+        ^^^^^^^^^
+    ...<2 lines>...
+        safe_mode=safe_mode,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 159, in load_model_from_hdf5
+    **saving_utils.compile_args_from_training_config(
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        training_config, custom_objects
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 143, in compile_args_from_training_config
+    loss = _deserialize_nested_config(losses.deserialize, loss_config)
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 202, in _deserialize_nested_config
+    return deserialize_fn(config)
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\losses\__init__.py", line 155, in deserialize
+    return serialization_lib.deserialize_keras_object(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        name,
+        ^^^^^
+        module_objects=ALL_OBJECTS_DICT,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        custom_objects=custom_objects,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\saving\serialization_lib.py", line 594, in deserialize_keras_object
+    return deserialize_keras_object(
+        serialize_with_public_fn(
+    ...<2 lines>...
+        custom_objects=custom_objects,
+    )
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\saving\serialization_lib.py", line 697, in deserialize_keras_object
+    return _retrieve_class_or_fn(
+        fn_name,
+    ...<4 lines>...
+        custom_objects=custom_objects,
+    )
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\saving\serialization_lib.py", line 827, in _retrieve_class_or_fn
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2026-05-06 19:03:53,628 - LSTMForecaster - INFO - Loading LSTM model from S:\Forecasting System\trained_models\lstm_alabama.h5
+2026-05-06 19:03:53,801 - LSTMForecaster - ERROR - Failed to load LSTM model
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\models\lstm_forecaster.py", line 165, in load_model
+    self.model = load_model(str(model_weights_path))
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\saving\saving_api.py", line 195, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        filepath,
+        ^^^^^^^^^
+    ...<2 lines>...
+        safe_mode=safe_mode,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 159, in load_model_from_hdf5
+    **saving_utils.compile_args_from_training_config(
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        training_config, custom_objects
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 143, in compile_args_from_training_config
+    loss = _deserialize_nested_config(losses.deserialize, loss_config)
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 202, in _deserialize_nested_config
+    return deserialize_fn(config)
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\losses\__init__.py", line 155, in deserialize
+    return serialization_lib.deserialize_keras_object(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        name,
+        ^^^^^
+        module_objects=ALL_OBJECTS_DICT,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        custom_objects=custom_objects,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\saving\serialization_lib.py", line 594, in deserialize_keras_object
+    return deserialize_keras_object(
+        serialize_with_public_fn(
+    ...<2 lines>...
+        custom_objects=custom_objects,
+    )
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\saving\serialization_lib.py", line 697, in deserialize_keras_object
+    return _retrieve_class_or_fn(
+        fn_name,
+    ...<4 lines>...
+        custom_objects=custom_objects,
+    )
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\saving\serialization_lib.py", line 827, in _retrieve_class_or_fn
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2026-05-06 19:06:49,864 - LSTMForecaster - INFO - Loading LSTM model from S:\Forecasting System\trained_models\lstm_alabama.h5
+2026-05-06 19:06:49,922 - LSTMForecaster - ERROR - Failed to load LSTM model
+Traceback (most recent call last):
+  File "S:\Forecasting System\app\models\lstm_forecaster.py", line 165, in load_model
+    self.model = load_model(str(model_weights_path))
+                 ~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\saving\saving_api.py", line 195, in load_model
+    return legacy_h5_format.load_model_from_hdf5(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        filepath,
+        ^^^^^^^^^
+    ...<2 lines>...
+        safe_mode=safe_mode,
+        ^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\legacy\saving\legacy_h5_format.py", line 159, in load_model_from_hdf5
+    **saving_utils.compile_args_from_training_config(
+      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        training_config, custom_objects
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 143, in compile_args_from_training_config
+    loss = _deserialize_nested_config(losses.deserialize, loss_config)
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\legacy\saving\saving_utils.py", line 202, in _deserialize_nested_config
+    return deserialize_fn(config)
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\losses\__init__.py", line 155, in deserialize
+    return serialization_lib.deserialize_keras_object(
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^
+        name,
+        ^^^^^
+        module_objects=ALL_OBJECTS_DICT,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        custom_objects=custom_objects,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\saving\serialization_lib.py", line 594, in deserialize_keras_object
+    return deserialize_keras_object(
+        serialize_with_public_fn(
+    ...<2 lines>...
+        custom_objects=custom_objects,
+    )
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\saving\serialization_lib.py", line 697, in deserialize_keras_object
+    return _retrieve_class_or_fn(
+        fn_name,
+    ...<4 lines>...
+        custom_objects=custom_objects,
+    )
+  File "S:\Forecasting System\venv\Lib\site-packages\keras\src\saving\serialization_lib.py", line 827, in _retrieve_class_or_fn
+    raise ValueError(
+    ...<2 lines>...
+    )
+ValueError: Could not deserialize 'keras.metrics.mse' because it is not a KerasSaveable subclass
+2026-05-06 19:11:29,907 - LSTMForecaster - INFO - Loading LSTM model from S:\Forecasting System\trained_models\lstm_alabama.h5
+2026-05-06 19:11:30,092 - LSTMForecaster - INFO - LSTM model and scaler loaded successfully
+2026-05-06 19:11:30,123 - LSTMForecaster - INFO - Generating LSTM predictions for 8 steps
+2026-05-06 19:11:31,775 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:19:44,243 - LSTMForecaster - INFO - Loading LSTM model from S:\Forecasting System\trained_models\lstm_alabama.h5
+2026-05-06 19:19:44,382 - LSTMForecaster - INFO - LSTM model and scaler loaded successfully
+2026-05-06 19:19:44,410 - LSTMForecaster - INFO - Generating LSTM predictions for 8 steps
+2026-05-06 19:19:46,169 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:22:29,299 - LSTMForecaster - INFO - Loading LSTM model from S:\Forecasting System\trained_models\lstm_alabama.h5
+2026-05-06 19:22:29,459 - LSTMForecaster - INFO - LSTM model and scaler loaded successfully
+2026-05-06 19:22:29,485 - LSTMForecaster - INFO - Generating LSTM predictions for 8 steps
+2026-05-06 19:22:31,056 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:27:02,531 - LSTMForecaster - INFO - Loading LSTM model from S:\Forecasting System\trained_models\lstm_alabama.h5
+2026-05-06 19:27:02,703 - LSTMForecaster - INFO - LSTM model and scaler loaded successfully
+2026-05-06 19:27:02,727 - LSTMForecaster - INFO - Generating LSTM predictions for 8 steps
+2026-05-06 19:27:04,119 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:30:36,676 - LSTMForecaster - INFO - Loading LSTM model from S:\Forecasting System\trained_models\lstm_alabama.h5
+2026-05-06 19:30:36,835 - LSTMForecaster - INFO - LSTM model and scaler loaded successfully
+2026-05-06 19:30:36,863 - LSTMForecaster - INFO - Generating LSTM predictions for 8 steps
+2026-05-06 19:30:37,749 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:33:16,315 - LSTMForecaster - INFO - Loading LSTM model from S:\Forecasting System\trained_models\lstm_alabama.h5
+2026-05-06 19:33:16,479 - LSTMForecaster - INFO - LSTM model and scaler loaded successfully
+2026-05-06 19:33:16,509 - LSTMForecaster - INFO - Generating LSTM predictions for 8 steps
+2026-05-06 19:33:18,033 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:42:04,911 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:42:06,829 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:42:06,830 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:42:08,497 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:42:08,498 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:42:08,498 - LSTMForecaster - INFO - LSTM metrics: RMSE=18616634.9703, MAE=15830140.0000, MAPE=0.0819
+2026-05-06 19:42:08,499 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_alabama.h5
+2026-05-06 19:42:08,526 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:42:08,879 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:42:10,470 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:42:10,471 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:42:12,153 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:42:12,154 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:42:12,155 - LSTMForecaster - INFO - LSTM metrics: RMSE=15791718.8462, MAE=13603952.0000, MAPE=0.0647
+2026-05-06 19:42:12,156 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_arizona.h5
+2026-05-06 19:42:12,192 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:42:12,559 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:42:14,236 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:42:14,237 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:42:15,779 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:42:15,780 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:42:15,781 - LSTMForecaster - INFO - LSTM metrics: RMSE=19316788.1119, MAE=18087758.0000, MAPE=0.1724
+2026-05-06 19:42:15,781 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_arkansas.h5
+2026-05-06 19:42:15,798 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:42:16,245 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:42:18,212 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:42:18,212 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:42:19,846 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:42:19,847 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:42:19,848 - LSTMForecaster - INFO - LSTM metrics: RMSE=2789374960.4699, MAE=1317635328.0000, MAPE=1.5505
+2026-05-06 19:42:19,848 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_california.h5
+2026-05-06 19:42:19,885 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:42:20,247 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:42:22,228 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:42:22,229 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:42:23,799 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:42:23,799 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:42:23,800 - LSTMForecaster - INFO - LSTM metrics: RMSE=20718837.7373, MAE=19443568.0000, MAPE=0.1180
+2026-05-06 19:42:23,802 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_colorado.h5
+2026-05-06 19:42:23,831 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:42:24,170 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:42:25,685 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:42:25,686 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:42:27,297 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:42:27,298 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:42:27,299 - LSTMForecaster - INFO - LSTM metrics: RMSE=7296289.0856, MAE=5595192.0000, MAPE=0.0631
+2026-05-06 19:42:27,299 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_connecticut.h5
+2026-05-06 19:42:27,325 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:42:27,766 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:42:29,473 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:42:29,474 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:42:31,087 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:42:31,088 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:42:31,089 - LSTMForecaster - INFO - LSTM metrics: RMSE=49483108.5858, MAE=40849216.0000, MAPE=0.0567
+2026-05-06 19:42:31,089 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_florida.h5
+2026-05-06 19:42:31,127 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:42:31,478 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:42:33,309 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:42:33,310 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:42:35,122 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:42:35,122 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:42:35,123 - LSTMForecaster - INFO - LSTM metrics: RMSE=105299130.5696, MAE=94656176.0000, MAPE=0.2551
+2026-05-06 19:42:35,123 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_georgia.h5
+2026-05-06 19:42:35,169 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:42:35,574 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:42:37,426 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:42:37,427 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:42:39,076 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:42:39,077 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:42:39,078 - LSTMForecaster - INFO - LSTM metrics: RMSE=28464235.4025, MAE=25962908.0000, MAPE=0.0872
+2026-05-06 19:42:39,079 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_illinois.h5
+2026-05-06 19:42:39,131 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:42:39,505 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:42:41,747 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:42:41,748 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:42:43,405 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:42:43,405 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:42:43,406 - LSTMForecaster - INFO - LSTM metrics: RMSE=28744933.0685, MAE=27304858.0000, MAPE=0.1294
+2026-05-06 19:42:43,406 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_indiana.h5
+2026-05-06 19:42:43,450 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:42:43,839 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:42:45,643 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:42:45,644 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:42:47,238 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:42:47,238 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:42:47,239 - LSTMForecaster - INFO - LSTM metrics: RMSE=15634315.5689, MAE=14087358.0000, MAPE=0.1278
+2026-05-06 19:42:47,240 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_iowa.h5
+2026-05-06 19:42:47,282 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:42:47,794 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:42:49,761 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:42:49,762 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:42:51,418 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:42:51,418 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:42:51,419 - LSTMForecaster - INFO - LSTM metrics: RMSE=13163869.8122, MAE=12352709.0000, MAPE=0.1433
+2026-05-06 19:42:51,420 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_kansas.h5
+2026-05-06 19:42:51,461 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:42:51,831 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:42:53,288 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:42:53,290 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:42:54,968 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:42:54,968 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:42:54,969 - LSTMForecaster - INFO - LSTM metrics: RMSE=26151230.1285, MAE=24024844.0000, MAPE=0.1459
+2026-05-06 19:42:54,970 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_kentucky.h5
+2026-05-06 19:42:55,012 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:42:55,406 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:42:57,859 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:42:57,860 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:42:59,534 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:42:59,535 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:42:59,536 - LSTMForecaster - INFO - LSTM metrics: RMSE=14039921.7625, MAE=11476352.0000, MAPE=0.0653
+2026-05-06 19:42:59,536 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_louisiana.h5
+2026-05-06 19:42:59,583 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:42:59,997 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:43:02,142 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:43:02,143 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:43:04,059 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:43:04,060 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:43:04,061 - LSTMForecaster - INFO - LSTM metrics: RMSE=3059818.7505, MAE=2571225.5000, MAPE=0.0573
+2026-05-06 19:43:04,061 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_maine.h5
+2026-05-06 19:43:04,114 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:43:04,510 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:43:06,347 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:43:06,347 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:43:07,954 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:43:07,955 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:43:07,956 - LSTMForecaster - INFO - LSTM metrics: RMSE=179648329.8795, MAE=102722040.0000, MAPE=0.6446
+2026-05-06 19:43:07,956 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_maryland.h5
+2026-05-06 19:43:07,978 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:43:08,394 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:43:10,672 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:43:10,673 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:43:12,265 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:43:12,265 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:43:12,267 - LSTMForecaster - INFO - LSTM metrics: RMSE=15863981.4419, MAE=12503770.0000, MAPE=0.0731
+2026-05-06 19:43:12,267 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_massachusetts.h5
+2026-05-06 19:43:12,302 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:43:12,771 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:43:14,568 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:43:14,569 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:43:16,161 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:43:16,162 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:43:16,163 - LSTMForecaster - INFO - LSTM metrics: RMSE=73467317.5376, MAE=65755788.0000, MAPE=0.2344
+2026-05-06 19:43:16,163 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_michigan.h5
+2026-05-06 19:43:16,208 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:43:16,640 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:43:18,573 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:43:18,574 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:43:20,163 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:43:20,163 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:43:20,164 - LSTMForecaster - INFO - LSTM metrics: RMSE=13458253.0735, MAE=11040826.0000, MAPE=0.0724
+2026-05-06 19:43:20,164 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_minnesota.h5
+2026-05-06 19:43:20,187 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:43:20,675 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:43:22,473 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:43:22,474 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:43:24,064 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:43:24,065 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:43:24,067 - LSTMForecaster - INFO - LSTM metrics: RMSE=2401716003.1312, MAE=826882752.0000, MAPE=6.4947
+2026-05-06 19:43:24,068 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_mississippi.h5
+2026-05-06 19:43:24,099 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:43:24,604 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:43:26,958 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:43:26,959 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:43:28,595 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:43:28,596 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:43:28,597 - LSTMForecaster - INFO - LSTM metrics: RMSE=14048107.8741, MAE=12198648.0000, MAPE=0.0663
+2026-05-06 19:43:28,597 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_missouri.h5
+2026-05-06 19:43:28,717 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:43:29,103 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:43:30,790 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:43:30,790 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:43:32,369 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:43:32,369 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:43:32,370 - LSTMForecaster - INFO - LSTM metrics: RMSE=8174482.3903, MAE=5856518.0000, MAPE=0.0945
+2026-05-06 19:43:32,370 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_nebraska.h5
+2026-05-06 19:43:32,416 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:43:32,777 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:43:34,974 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:43:34,975 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:43:36,623 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:43:36,623 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:43:36,624 - LSTMForecaster - INFO - LSTM metrics: RMSE=17640741.1337, MAE=16754863.0000, MAPE=0.1744
+2026-05-06 19:43:36,625 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_nevada.h5
+2026-05-06 19:43:36,666 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:43:37,143 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:43:39,355 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:43:39,356 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:43:41,001 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:43:41,001 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:43:41,002 - LSTMForecaster - INFO - LSTM metrics: RMSE=3013749.6029, MAE=2626629.0000, MAPE=0.0489
+2026-05-06 19:43:41,003 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_new_hampshire.h5
+2026-05-06 19:43:41,047 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:43:42,126 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:43:43,769 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:43:43,769 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:43:45,346 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:43:45,346 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:43:45,348 - LSTMForecaster - INFO - LSTM metrics: RMSE=8020912.7125, MAE=7127268.5000, MAPE=0.1056
+2026-05-06 19:43:45,348 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_new_mexico.h5
+2026-05-06 19:43:45,390 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:43:45,796 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:43:47,593 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:43:47,594 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:43:49,388 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:43:49,389 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:43:49,390 - LSTMForecaster - INFO - LSTM metrics: RMSE=27939406.5840, MAE=22966120.0000, MAPE=0.0541
+2026-05-06 19:43:49,390 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_new_york.h5
+2026-05-06 19:43:49,432 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:43:49,812 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:43:52,258 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:43:52,259 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:43:53,852 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:43:53,853 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:43:53,854 - LSTMForecaster - INFO - LSTM metrics: RMSE=38228332.9210, MAE=35611888.0000, MAPE=0.1052
+2026-05-06 19:43:53,854 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_north_carolina.h5
+2026-05-06 19:43:53,876 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:43:54,265 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:43:56,074 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:43:56,075 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:43:57,681 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:43:57,681 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:43:57,682 - LSTMForecaster - INFO - LSTM metrics: RMSE=35552034.1902, MAE=25276228.0000, MAPE=0.0682
+2026-05-06 19:43:57,683 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_ohio.h5
+2026-05-06 19:43:57,703 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:43:58,137 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:44:00,143 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:44:00,145 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:44:01,839 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:44:01,840 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:44:01,841 - LSTMForecaster - INFO - LSTM metrics: RMSE=67183226.7996, MAE=52598444.0000, MAPE=0.3704
+2026-05-06 19:44:01,841 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_oklahoma.h5
+2026-05-06 19:44:01,864 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:44:02,648 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:44:04,698 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:44:04,698 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:44:06,365 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:44:06,365 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:44:06,366 - LSTMForecaster - INFO - LSTM metrics: RMSE=16646887.2905, MAE=14842789.0000, MAPE=0.1382
+2026-05-06 19:44:06,367 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_oregon.h5
+2026-05-06 19:44:06,399 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:44:06,863 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:44:09,675 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:44:09,676 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:44:11,337 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:44:11,337 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:44:11,338 - LSTMForecaster - INFO - LSTM metrics: RMSE=17917393.8183, MAE=15665548.0000, MAPE=0.0447
+2026-05-06 19:44:11,339 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_pennsylvania.h5
+2026-05-06 19:44:11,386 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:44:11,920 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:44:14,091 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:44:14,092 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:44:15,773 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:44:15,774 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:44:15,775 - LSTMForecaster - INFO - LSTM metrics: RMSE=1718434.6240, MAE=1494259.7500, MAPE=0.0604
+2026-05-06 19:44:15,775 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_rhode_island.h5
+2026-05-06 19:44:15,826 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:44:16,230 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:44:18,324 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:44:18,325 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:44:20,558 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:44:20,558 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:44:20,559 - LSTMForecaster - INFO - LSTM metrics: RMSE=29527753.4887, MAE=27880654.0000, MAPE=0.1503
+2026-05-06 19:44:20,559 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_south_carolina.h5
+2026-05-06 19:44:20,600 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:44:21,061 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:44:22,900 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:44:22,901 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:44:24,648 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:44:24,649 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:44:24,649 - LSTMForecaster - INFO - LSTM metrics: RMSE=3847122.6188, MAE=3581387.2500, MAPE=0.1322
+2026-05-06 19:44:24,650 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_south_dakota.h5
+2026-05-06 19:44:24,690 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:44:25,070 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:44:26,913 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:44:26,914 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:44:28,632 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:44:28,632 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:44:28,633 - LSTMForecaster - INFO - LSTM metrics: RMSE=22128561.8138, MAE=19037364.0000, MAPE=0.0779
+2026-05-06 19:44:28,634 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_tennessee.h5
+2026-05-06 19:44:28,671 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:44:29,200 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:44:31,101 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:44:31,102 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:44:32,856 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:44:32,856 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:44:32,857 - LSTMForecaster - INFO - LSTM metrics: RMSE=154842166.6865, MAE=144293408.0000, MAPE=0.1677
+2026-05-06 19:44:32,857 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_texas.h5
+2026-05-06 19:44:32,899 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:44:33,280 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:44:34,975 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:44:34,975 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:44:36,596 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:44:36,597 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:44:36,597 - LSTMForecaster - INFO - LSTM metrics: RMSE=14572846.7500, MAE=13625456.0000, MAPE=0.1725
+2026-05-06 19:44:36,598 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_utah.h5
+2026-05-06 19:44:36,638 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:44:37,110 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:44:38,983 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:44:38,983 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:44:40,604 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:44:40,604 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:44:40,605 - LSTMForecaster - INFO - LSTM metrics: RMSE=928814.7111, MAE=736641.8750, MAPE=0.0409
+2026-05-06 19:44:40,605 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_vermont.h5
+2026-05-06 19:44:40,628 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:44:41,023 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:44:42,679 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:44:42,680 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:44:44,335 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:44:44,336 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:44:44,337 - LSTMForecaster - INFO - LSTM metrics: RMSE=50526949.0882, MAE=45761872.0000, MAPE=0.1643
+2026-05-06 19:44:44,337 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_virginia.h5
+2026-05-06 19:44:44,360 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:44:44,876 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:44:47,287 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:44:47,288 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:44:48,931 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:44:48,932 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:44:48,933 - LSTMForecaster - INFO - LSTM metrics: RMSE=49592335.5196, MAE=45085896.0000, MAPE=0.2508
+2026-05-06 19:44:48,933 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_washington.h5
+2026-05-06 19:44:48,976 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:44:49,462 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:44:51,634 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:44:51,634 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:44:53,377 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:44:53,377 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:44:53,379 - LSTMForecaster - INFO - LSTM metrics: RMSE=11732148.1393, MAE=11048915.0000, MAPE=0.1566
+2026-05-06 19:44:53,379 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_west_virginia.h5
+2026-05-06 19:44:53,423 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:44:54,028 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:44:55,757 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:44:55,758 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:44:57,397 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:44:57,398 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:44:57,400 - LSTMForecaster - INFO - LSTM metrics: RMSE=31896078.7895, MAE=28853180.0000, MAPE=0.1908
+2026-05-06 19:44:57,401 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_wisconsin.h5
+2026-05-06 19:44:57,419 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:44:57,850 - LSTMForecaster - INFO - Starting LSTM training with sequence_length=7, lstm_units=50
+2026-05-06 19:44:59,914 - LSTMForecaster - INFO - LSTM training completed successfully
+2026-05-06 19:44:59,914 - LSTMForecaster - INFO - Generating LSTM predictions for 32 steps
+2026-05-06 19:45:01,694 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 19:45:01,695 - LSTMForecaster - INFO - Evaluating LSTM model
+2026-05-06 19:45:01,696 - LSTMForecaster - INFO - LSTM metrics: RMSE=2885947.3951, MAE=2605809.5000, MAPE=0.1286
+2026-05-06 19:45:01,696 - LSTMForecaster - INFO - Saving LSTM model to S:\Forecasting System\trained_models\lstm_wyoming.h5
+2026-05-06 19:45:01,705 - LSTMForecaster - INFO - LSTM model and scaler saved successfully
+2026-05-06 19:45:34,999 - LSTMForecaster - INFO - Loading LSTM model from S:\Forecasting System\trained_models\lstm_alabama.h5
+2026-05-06 19:45:35,136 - LSTMForecaster - INFO - LSTM model and scaler loaded successfully
+2026-05-06 19:45:35,160 - LSTMForecaster - INFO - Generating LSTM predictions for 8 steps
+2026-05-06 19:45:37,098 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 20:10:20,657 - LSTMForecaster - INFO - Loading LSTM model from S:\Forecasting System\trained_models\lstm_alabama.h5
+2026-05-06 20:10:20,836 - LSTMForecaster - INFO - LSTM model and scaler loaded successfully
+2026-05-06 20:10:20,872 - LSTMForecaster - INFO - Generating LSTM predictions for 8 steps
+2026-05-06 20:10:22,575 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 20:15:43,009 - LSTMForecaster - INFO - Loading LSTM model from S:\Forecasting System\trained_models\lstm_alabama.h5
+2026-05-06 20:15:43,162 - LSTMForecaster - INFO - LSTM model and scaler loaded successfully
+2026-05-06 20:15:43,191 - LSTMForecaster - INFO - Generating LSTM predictions for 8 steps
+2026-05-06 20:15:44,255 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 20:16:50,065 - LSTMForecaster - INFO - Loading LSTM model from S:\Forecasting System\trained_models\lstm_alabama.h5
+2026-05-06 20:16:50,228 - LSTMForecaster - INFO - LSTM model and scaler loaded successfully
+2026-05-06 20:16:50,266 - LSTMForecaster - INFO - Generating LSTM predictions for 8 steps
+2026-05-06 20:16:52,091 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 20:17:14,132 - LSTMForecaster - INFO - Loading LSTM model from S:\Forecasting System\trained_models\lstm_florida.h5
+2026-05-06 20:17:14,274 - LSTMForecaster - INFO - LSTM model and scaler loaded successfully
+2026-05-06 20:17:14,330 - LSTMForecaster - INFO - Generating LSTM predictions for 8 steps
+2026-05-06 20:17:16,143 - LSTMForecaster - INFO - LSTM predictions generated successfully
+2026-05-06 20:27:18,476 - LSTMForecaster - INFO - Loading LSTM model from S:\Forecasting System\trained_models\lstm_florida.h5
+2026-05-06 20:27:19,346 - LSTMForecaster - INFO - LSTM model and scaler loaded successfully
+2026-05-06 20:27:19,547 - LSTMForecaster - INFO - Generating LSTM predictions for 8 steps
+2026-05-06 20:27:22,688 - LSTMForecaster - INFO - LSTM predictions generated successfully

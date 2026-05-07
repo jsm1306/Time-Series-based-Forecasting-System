@@ -5,7 +5,64 @@
     "rmse": 9723140.49909061,
     "mae": 7888451.5,
     "mape": 0.0401872918009758,
-    "timestamp": "2026-05-06T12:18:25.433998"
+    "best_model_metrics": {
+      "rmse": 9723140.49909061,
+      "mae": 7888451.5,
+      "mape": 0.0401872918009758
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 31525017.77141012,
+        "mae": 29384768.903903034,
+        "mape": 0.1500296081228894,
+        "model_path": "S:/Forecasting System/trained_models/sarima_alabama.pkl"
+      },
+      "Prophet": {
+        "rmse": 57002779.95067295,
+        "mae": 56273953.59967489,
+        "mape": 0.2839920957538241,
+        "model_path": "S:/Forecasting System/trained_models/prophet_alabama.pkl"
+      },
+      "XGBoost": {
+        "rmse": 9723140.49909061,
+        "mae": 7888451.5,
+        "mape": 0.0401872918009758,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_alabama.pkl"
+      },
+      "LSTM": {
+        "rmse": 18616634.970272798,
+        "mae": 15830140.0,
+        "mape": 0.08193445205688477,
+        "model_path": "S:/Forecasting System/trained_models/lstm_alabama.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 31525017.77141012,
+        "mae": 29384768.903903034,
+        "mape": 0.1500296081228894,
+        "model_path": "S:/Forecasting System/trained_models/sarima_alabama.pkl"
+      },
+      "Prophet": {
+        "rmse": 57002779.95067295,
+        "mae": 56273953.59967489,
+        "mape": 0.2839920957538241,
+        "model_path": "S:/Forecasting System/trained_models/prophet_alabama.pkl"
+      },
+      "XGBoost": {
+        "rmse": 9723140.49909061,
+        "mae": 7888451.5,
+        "mape": 0.0401872918009758,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_alabama.pkl"
+      },
+      "LSTM": {
+        "rmse": 18616634.970272798,
+        "mae": 15830140.0,
+        "mape": 0.08193445205688477,
+        "model_path": "S:/Forecasting System/trained_models/lstm_alabama.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:12:08.527339"
   },
   "Arizona": {
     "best_model": "XGBoost",
@@ -13,7 +70,64 @@
     "rmse": 10905551.347872697,
     "mae": 9325514.0,
     "mape": 0.04385226219892502,
-    "timestamp": "2026-05-06T12:18:31.162085"
+    "best_model_metrics": {
+      "rmse": 10905551.347872697,
+      "mae": 9325514.0,
+      "mape": 0.04385226219892502
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 16248515.50455451,
+        "mae": 13450380.27414943,
+        "mape": 0.06602363392695239,
+        "model_path": "S:/Forecasting System/trained_models/sarima_arizona.pkl"
+      },
+      "Prophet": {
+        "rmse": 45674747.10841953,
+        "mae": 44876355.40310292,
+        "mape": 0.21588271901224762,
+        "model_path": "S:/Forecasting System/trained_models/prophet_arizona.pkl"
+      },
+      "XGBoost": {
+        "rmse": 10905551.347872697,
+        "mae": 9325514.0,
+        "mape": 0.04385226219892502,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_arizona.pkl"
+      },
+      "LSTM": {
+        "rmse": 15791718.846210504,
+        "mae": 13603952.0,
+        "mape": 0.0646781474351883,
+        "model_path": "S:/Forecasting System/trained_models/lstm_arizona.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 16248515.50455451,
+        "mae": 13450380.27414943,
+        "mape": 0.06602363392695239,
+        "model_path": "S:/Forecasting System/trained_models/sarima_arizona.pkl"
+      },
+      "Prophet": {
+        "rmse": 45674747.10841953,
+        "mae": 44876355.40310292,
+        "mape": 0.21588271901224762,
+        "model_path": "S:/Forecasting System/trained_models/prophet_arizona.pkl"
+      },
+      "XGBoost": {
+        "rmse": 10905551.347872697,
+        "mae": 9325514.0,
+        "mape": 0.04385226219892502,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_arizona.pkl"
+      },
+      "LSTM": {
+        "rmse": 15791718.846210504,
+        "mae": 13603952.0,
+        "mape": 0.0646781474351883,
+        "model_path": "S:/Forecasting System/trained_models/lstm_arizona.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:12:12.193437"
   },
   "Arkansas": {
     "best_model": "XGBoost",
@@ -21,7 +135,64 @@
     "rmse": 4239863.065803895,
     "mae": 3278363.5,
     "mape": 0.030890099704265594,
-    "timestamp": "2026-05-06T12:18:36.716519"
+    "best_model_metrics": {
+      "rmse": 4239863.065803895,
+      "mae": 3278363.5,
+      "mape": 0.030890099704265594
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 13174323.692717738,
+        "mae": 11883801.065167967,
+        "mape": 0.1149041026188602,
+        "model_path": "S:/Forecasting System/trained_models/sarima_arkansas.pkl"
+      },
+      "Prophet": {
+        "rmse": 27791707.97609137,
+        "mae": 27389593.64885282,
+        "mape": 0.26074254994610835,
+        "model_path": "S:/Forecasting System/trained_models/prophet_arkansas.pkl"
+      },
+      "XGBoost": {
+        "rmse": 4239863.065803895,
+        "mae": 3278363.5,
+        "mape": 0.030890099704265594,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_arkansas.pkl"
+      },
+      "LSTM": {
+        "rmse": 19316788.111888994,
+        "mae": 18087758.0,
+        "mape": 0.17242486774921417,
+        "model_path": "S:/Forecasting System/trained_models/lstm_arkansas.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 13174323.692717738,
+        "mae": 11883801.065167967,
+        "mape": 0.1149041026188602,
+        "model_path": "S:/Forecasting System/trained_models/sarima_arkansas.pkl"
+      },
+      "Prophet": {
+        "rmse": 27791707.97609137,
+        "mae": 27389593.64885282,
+        "mape": 0.26074254994610835,
+        "model_path": "S:/Forecasting System/trained_models/prophet_arkansas.pkl"
+      },
+      "XGBoost": {
+        "rmse": 4239863.065803895,
+        "mae": 3278363.5,
+        "mape": 0.030890099704265594,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_arkansas.pkl"
+      },
+      "LSTM": {
+        "rmse": 19316788.111888994,
+        "mae": 18087758.0,
+        "mape": 0.17242486774921417,
+        "model_path": "S:/Forecasting System/trained_models/lstm_arkansas.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:12:15.799045"
   },
   "California": {
     "best_model": "XGBoost",
@@ -29,7 +200,64 @@
     "rmse": 31615678.006327935,
     "mae": 23089560.0,
     "mape": 0.02785930410027504,
-    "timestamp": "2026-05-06T12:18:41.854501"
+    "best_model_metrics": {
+      "rmse": 31615678.006327935,
+      "mae": 23089560.0,
+      "mape": 0.02785930410027504
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 98004292.86604193,
+        "mae": 86952928.83741954,
+        "mape": 0.10893865015261635,
+        "model_path": "S:/Forecasting System/trained_models/sarima_california.pkl"
+      },
+      "Prophet": {
+        "rmse": 218816405.85739264,
+        "mae": 216556963.84617013,
+        "mape": 0.26669231937986465,
+        "model_path": "S:/Forecasting System/trained_models/prophet_california.pkl"
+      },
+      "XGBoost": {
+        "rmse": 31615678.006327935,
+        "mae": 23089560.0,
+        "mape": 0.02785930410027504,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_california.pkl"
+      },
+      "LSTM": {
+        "rmse": 2789374960.4698915,
+        "mae": 1317635328.0,
+        "mape": 1.550521731376648,
+        "model_path": "S:/Forecasting System/trained_models/lstm_california.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 98004292.86604193,
+        "mae": 86952928.83741954,
+        "mape": 0.10893865015261635,
+        "model_path": "S:/Forecasting System/trained_models/sarima_california.pkl"
+      },
+      "Prophet": {
+        "rmse": 218816405.85739264,
+        "mae": 216556963.84617013,
+        "mape": 0.26669231937986465,
+        "model_path": "S:/Forecasting System/trained_models/prophet_california.pkl"
+      },
+      "XGBoost": {
+        "rmse": 31615678.006327935,
+        "mae": 23089560.0,
+        "mape": 0.02785930410027504,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_california.pkl"
+      },
+      "LSTM": {
+        "rmse": 2789374960.4698915,
+        "mae": 1317635328.0,
+        "mape": 1.550521731376648,
+        "model_path": "S:/Forecasting System/trained_models/lstm_california.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:12:19.886771"
   },
   "Colorado": {
     "best_model": "XGBoost",
@@ -37,7 +265,64 @@
     "rmse": 6328755.1021944275,
     "mae": 5075683.0,
     "mape": 0.030091479420661926,
-    "timestamp": "2026-05-06T12:18:46.841483"
+    "best_model_metrics": {
+      "rmse": 6328755.1021944275,
+      "mae": 5075683.0,
+      "mape": 0.030091479420661926
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 20489297.72011956,
+        "mae": 18738669.59291184,
+        "mape": 0.11393671251555376,
+        "model_path": "S:/Forecasting System/trained_models/sarima_colorado.pkl"
+      },
+      "Prophet": {
+        "rmse": 44045832.6417587,
+        "mae": 43643310.9397849,
+        "mape": 0.26200227546922783,
+        "model_path": "S:/Forecasting System/trained_models/prophet_colorado.pkl"
+      },
+      "XGBoost": {
+        "rmse": 6328755.1021944275,
+        "mae": 5075683.0,
+        "mape": 0.030091479420661926,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_colorado.pkl"
+      },
+      "LSTM": {
+        "rmse": 20718837.737286326,
+        "mae": 19443568.0,
+        "mape": 0.1179642379283905,
+        "model_path": "S:/Forecasting System/trained_models/lstm_colorado.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 20489297.72011956,
+        "mae": 18738669.59291184,
+        "mape": 0.11393671251555376,
+        "model_path": "S:/Forecasting System/trained_models/sarima_colorado.pkl"
+      },
+      "Prophet": {
+        "rmse": 44045832.6417587,
+        "mae": 43643310.9397849,
+        "mape": 0.26200227546922783,
+        "model_path": "S:/Forecasting System/trained_models/prophet_colorado.pkl"
+      },
+      "XGBoost": {
+        "rmse": 6328755.1021944275,
+        "mae": 5075683.0,
+        "mape": 0.030091479420661926,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_colorado.pkl"
+      },
+      "LSTM": {
+        "rmse": 20718837.737286326,
+        "mae": 19443568.0,
+        "mape": 0.1179642379283905,
+        "model_path": "S:/Forecasting System/trained_models/lstm_colorado.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:12:23.833033"
   },
   "Connecticut": {
     "best_model": "XGBoost",
@@ -45,15 +330,129 @@
     "rmse": 5426037.732150413,
     "mae": 4466339.5,
     "mape": 0.05265164002776146,
-    "timestamp": "2026-05-06T12:18:52.238931"
+    "best_model_metrics": {
+      "rmse": 5426037.732150413,
+      "mae": 4466339.5,
+      "mape": 0.05265164002776146
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 6676409.29580886,
+        "mae": 5767134.102713892,
+        "mape": 0.06854239027668826,
+        "model_path": "S:/Forecasting System/trained_models/sarima_connecticut.pkl"
+      },
+      "Prophet": {
+        "rmse": 19829189.63837869,
+        "mae": 19533780.814788688,
+        "mape": 0.22833863980687302,
+        "model_path": "S:/Forecasting System/trained_models/prophet_connecticut.pkl"
+      },
+      "XGBoost": {
+        "rmse": 5426037.732150413,
+        "mae": 4466339.5,
+        "mape": 0.05265164002776146,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_connecticut.pkl"
+      },
+      "LSTM": {
+        "rmse": 7296289.085641275,
+        "mae": 5595192.0,
+        "mape": 0.06307894736528397,
+        "model_path": "S:/Forecasting System/trained_models/lstm_connecticut.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 6676409.29580886,
+        "mae": 5767134.102713892,
+        "mape": 0.06854239027668826,
+        "model_path": "S:/Forecasting System/trained_models/sarima_connecticut.pkl"
+      },
+      "Prophet": {
+        "rmse": 19829189.63837869,
+        "mae": 19533780.814788688,
+        "mape": 0.22833863980687302,
+        "model_path": "S:/Forecasting System/trained_models/prophet_connecticut.pkl"
+      },
+      "XGBoost": {
+        "rmse": 5426037.732150413,
+        "mae": 4466339.5,
+        "mape": 0.05265164002776146,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_connecticut.pkl"
+      },
+      "LSTM": {
+        "rmse": 7296289.085641275,
+        "mae": 5595192.0,
+        "mape": 0.06307894736528397,
+        "model_path": "S:/Forecasting System/trained_models/lstm_connecticut.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:12:27.327100"
   },
   "Florida": {
-    "best_model": "XGBoost",
-    "model_path": "S:/Forecasting System/trained_models/xgboost_florida.pkl",
-    "rmse": 50880160.49854434,
-    "mae": 43052676.0,
-    "mape": 0.059974007308483124,
-    "timestamp": "2026-05-06T12:18:57.754247"
+    "best_model": "LSTM",
+    "model_path": "S:/Forecasting System/trained_models/lstm_florida.h5",
+    "rmse": 49483108.585847594,
+    "mae": 40849216.0,
+    "mape": 0.05670764297246933,
+    "best_model_metrics": {
+      "rmse": 49483108.585847594,
+      "mae": 40849216.0,
+      "mape": 0.05670764297246933
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 57593382.525236115,
+        "mae": 52373945.08010382,
+        "mape": 0.07492164571934809,
+        "model_path": "S:/Forecasting System/trained_models/sarima_florida.pkl"
+      },
+      "Prophet": {
+        "rmse": 156376153.82503372,
+        "mae": 154785770.84994292,
+        "mape": 0.21823751818480397,
+        "model_path": "S:/Forecasting System/trained_models/prophet_florida.pkl"
+      },
+      "XGBoost": {
+        "rmse": 50880160.49854434,
+        "mae": 43052676.0,
+        "mape": 0.059974007308483124,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_florida.pkl"
+      },
+      "LSTM": {
+        "rmse": 49483108.585847594,
+        "mae": 40849216.0,
+        "mape": 0.05670764297246933,
+        "model_path": "S:/Forecasting System/trained_models/lstm_florida.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 57593382.525236115,
+        "mae": 52373945.08010382,
+        "mape": 0.07492164571934809,
+        "model_path": "S:/Forecasting System/trained_models/sarima_florida.pkl"
+      },
+      "Prophet": {
+        "rmse": 156376153.82503372,
+        "mae": 154785770.84994292,
+        "mape": 0.21823751818480397,
+        "model_path": "S:/Forecasting System/trained_models/prophet_florida.pkl"
+      },
+      "XGBoost": {
+        "rmse": 50880160.49854434,
+        "mae": 43052676.0,
+        "mape": 0.059974007308483124,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_florida.pkl"
+      },
+      "LSTM": {
+        "rmse": 49483108.585847594,
+        "mae": 40849216.0,
+        "mape": 0.05670764297246933,
+        "model_path": "S:/Forecasting System/trained_models/lstm_florida.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:12:31.128551"
   },
   "Georgia": {
     "best_model": "XGBoost",
@@ -61,7 +460,64 @@
     "rmse": 20327874.81601754,
     "mae": 17033540.0,
     "mape": 0.04693114757537842,
-    "timestamp": "2026-05-06T12:19:03.158430"
+    "best_model_metrics": {
+      "rmse": 20327874.81601754,
+      "mae": 17033540.0,
+      "mape": 0.04693114757537842
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 56827241.93065677,
+        "mae": 53357275.561621465,
+        "mape": 0.14632608094038033,
+        "model_path": "S:/Forecasting System/trained_models/sarima_georgia.pkl"
+      },
+      "Prophet": {
+        "rmse": 93728502.56764194,
+        "mae": 92473320.11120534,
+        "mape": 0.25117843806555407,
+        "model_path": "S:/Forecasting System/trained_models/prophet_georgia.pkl"
+      },
+      "XGBoost": {
+        "rmse": 20327874.81601754,
+        "mae": 17033540.0,
+        "mape": 0.04693114757537842,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_georgia.pkl"
+      },
+      "LSTM": {
+        "rmse": 105299130.56956564,
+        "mae": 94656176.0,
+        "mape": 0.2551376223564148,
+        "model_path": "S:/Forecasting System/trained_models/lstm_georgia.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 56827241.93065677,
+        "mae": 53357275.561621465,
+        "mape": 0.14632608094038033,
+        "model_path": "S:/Forecasting System/trained_models/sarima_georgia.pkl"
+      },
+      "Prophet": {
+        "rmse": 93728502.56764194,
+        "mae": 92473320.11120534,
+        "mape": 0.25117843806555407,
+        "model_path": "S:/Forecasting System/trained_models/prophet_georgia.pkl"
+      },
+      "XGBoost": {
+        "rmse": 20327874.81601754,
+        "mae": 17033540.0,
+        "mape": 0.04693114757537842,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_georgia.pkl"
+      },
+      "LSTM": {
+        "rmse": 105299130.56956564,
+        "mae": 94656176.0,
+        "mape": 0.2551376223564148,
+        "model_path": "S:/Forecasting System/trained_models/lstm_georgia.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:12:35.169783"
   },
   "Illinois": {
     "best_model": "XGBoost",
@@ -69,7 +525,64 @@
     "rmse": 11850877.599265296,
     "mae": 8594381.0,
     "mape": 0.028071630746126175,
-    "timestamp": "2026-05-06T12:19:08.379354"
+    "best_model_metrics": {
+      "rmse": 11850877.599265296,
+      "mae": 8594381.0,
+      "mape": 0.028071630746126175
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 27735851.54826453,
+        "mae": 24527349.012532502,
+        "mape": 0.08250297050636751,
+        "model_path": "S:/Forecasting System/trained_models/sarima_illinois.pkl"
+      },
+      "Prophet": {
+        "rmse": 73545482.90961917,
+        "mae": 72525934.48348191,
+        "mape": 0.2401195799014794,
+        "model_path": "S:/Forecasting System/trained_models/prophet_illinois.pkl"
+      },
+      "XGBoost": {
+        "rmse": 11850877.599265296,
+        "mae": 8594381.0,
+        "mape": 0.028071630746126175,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_illinois.pkl"
+      },
+      "LSTM": {
+        "rmse": 28464235.402466726,
+        "mae": 25962908.0,
+        "mape": 0.08722887933254242,
+        "model_path": "S:/Forecasting System/trained_models/lstm_illinois.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 27735851.54826453,
+        "mae": 24527349.012532502,
+        "mape": 0.08250297050636751,
+        "model_path": "S:/Forecasting System/trained_models/sarima_illinois.pkl"
+      },
+      "Prophet": {
+        "rmse": 73545482.90961917,
+        "mae": 72525934.48348191,
+        "mape": 0.2401195799014794,
+        "model_path": "S:/Forecasting System/trained_models/prophet_illinois.pkl"
+      },
+      "XGBoost": {
+        "rmse": 11850877.599265296,
+        "mae": 8594381.0,
+        "mape": 0.028071630746126175,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_illinois.pkl"
+      },
+      "LSTM": {
+        "rmse": 28464235.402466726,
+        "mae": 25962908.0,
+        "mape": 0.08722887933254242,
+        "model_path": "S:/Forecasting System/trained_models/lstm_illinois.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:12:39.131778"
   },
   "Indiana": {
     "best_model": "XGBoost",
@@ -77,7 +590,64 @@
     "rmse": 11305665.647542208,
     "mae": 9018048.0,
     "mape": 0.04293006658554077,
-    "timestamp": "2026-05-06T12:19:13.616616"
+    "best_model_metrics": {
+      "rmse": 11305665.647542208,
+      "mae": 9018048.0,
+      "mape": 0.04293006658554077
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 23757822.69375106,
+        "mae": 21191784.934104454,
+        "mape": 0.1011743084593318,
+        "model_path": "S:/Forecasting System/trained_models/sarima_indiana.pkl"
+      },
+      "Prophet": {
+        "rmse": 51777992.77112285,
+        "mae": 51130909.821228944,
+        "mape": 0.2406477967368318,
+        "model_path": "S:/Forecasting System/trained_models/prophet_indiana.pkl"
+      },
+      "XGBoost": {
+        "rmse": 11305665.647542208,
+        "mae": 9018048.0,
+        "mape": 0.04293006658554077,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_indiana.pkl"
+      },
+      "LSTM": {
+        "rmse": 28744933.068518355,
+        "mae": 27304858.0,
+        "mape": 0.12939777970314026,
+        "model_path": "S:/Forecasting System/trained_models/lstm_indiana.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 23757822.69375106,
+        "mae": 21191784.934104454,
+        "mape": 0.1011743084593318,
+        "model_path": "S:/Forecasting System/trained_models/sarima_indiana.pkl"
+      },
+      "Prophet": {
+        "rmse": 51777992.77112285,
+        "mae": 51130909.821228944,
+        "mape": 0.2406477967368318,
+        "model_path": "S:/Forecasting System/trained_models/prophet_indiana.pkl"
+      },
+      "XGBoost": {
+        "rmse": 11305665.647542208,
+        "mae": 9018048.0,
+        "mape": 0.04293006658554077,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_indiana.pkl"
+      },
+      "LSTM": {
+        "rmse": 28744933.068518355,
+        "mae": 27304858.0,
+        "mape": 0.12939777970314026,
+        "model_path": "S:/Forecasting System/trained_models/lstm_indiana.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:12:43.451411"
   },
   "Iowa": {
     "best_model": "XGBoost",
@@ -85,7 +655,64 @@
     "rmse": 3738305.791990805,
     "mae": 3160647.0,
     "mape": 0.02874523028731346,
-    "timestamp": "2026-05-06T12:19:20.381652"
+    "best_model_metrics": {
+      "rmse": 3738305.791990805,
+      "mae": 3160647.0,
+      "mape": 0.02874523028731346
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 8647790.089544524,
+        "mae": 7250370.190341175,
+        "mape": 0.06741207116135764,
+        "model_path": "S:/Forecasting System/trained_models/sarima_iowa.pkl"
+      },
+      "Prophet": {
+        "rmse": 23868444.896827675,
+        "mae": 23613251.453535803,
+        "mape": 0.21426988746259495,
+        "model_path": "S:/Forecasting System/trained_models/prophet_iowa.pkl"
+      },
+      "XGBoost": {
+        "rmse": 3738305.791990805,
+        "mae": 3160647.0,
+        "mape": 0.02874523028731346,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_iowa.pkl"
+      },
+      "LSTM": {
+        "rmse": 15634315.568861721,
+        "mae": 14087358.0,
+        "mape": 0.1277945339679718,
+        "model_path": "S:/Forecasting System/trained_models/lstm_iowa.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 8647790.089544524,
+        "mae": 7250370.190341175,
+        "mape": 0.06741207116135764,
+        "model_path": "S:/Forecasting System/trained_models/sarima_iowa.pkl"
+      },
+      "Prophet": {
+        "rmse": 23868444.896827675,
+        "mae": 23613251.453535803,
+        "mape": 0.21426988746259495,
+        "model_path": "S:/Forecasting System/trained_models/prophet_iowa.pkl"
+      },
+      "XGBoost": {
+        "rmse": 3738305.791990805,
+        "mae": 3160647.0,
+        "mape": 0.02874523028731346,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_iowa.pkl"
+      },
+      "LSTM": {
+        "rmse": 15634315.568861721,
+        "mae": 14087358.0,
+        "mape": 0.1277945339679718,
+        "model_path": "S:/Forecasting System/trained_models/lstm_iowa.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:12:47.282972"
   },
   "Kansas": {
     "best_model": "XGBoost",
@@ -93,7 +720,64 @@
     "rmse": 3462329.199423995,
     "mae": 2822965.75,
     "mape": 0.032775986939668655,
-    "timestamp": "2026-05-06T12:19:25.710809"
+    "best_model_metrics": {
+      "rmse": 3462329.199423995,
+      "mae": 2822965.75,
+      "mape": 0.032775986939668655
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 6357241.0068433685,
+        "mae": 5157384.365787832,
+        "mape": 0.06153477231096231,
+        "model_path": "S:/Forecasting System/trained_models/sarima_kansas.pkl"
+      },
+      "Prophet": {
+        "rmse": 21104348.49942739,
+        "mae": 20892744.26721829,
+        "mape": 0.24279920807638009,
+        "model_path": "S:/Forecasting System/trained_models/prophet_kansas.pkl"
+      },
+      "XGBoost": {
+        "rmse": 3462329.199423995,
+        "mae": 2822965.75,
+        "mape": 0.032775986939668655,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_kansas.pkl"
+      },
+      "LSTM": {
+        "rmse": 13163869.81223257,
+        "mae": 12352709.0,
+        "mape": 0.14330069720745087,
+        "model_path": "S:/Forecasting System/trained_models/lstm_kansas.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 6357241.0068433685,
+        "mae": 5157384.365787832,
+        "mape": 0.06153477231096231,
+        "model_path": "S:/Forecasting System/trained_models/sarima_kansas.pkl"
+      },
+      "Prophet": {
+        "rmse": 21104348.49942739,
+        "mae": 20892744.26721829,
+        "mape": 0.24279920807638009,
+        "model_path": "S:/Forecasting System/trained_models/prophet_kansas.pkl"
+      },
+      "XGBoost": {
+        "rmse": 3462329.199423995,
+        "mae": 2822965.75,
+        "mape": 0.032775986939668655,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_kansas.pkl"
+      },
+      "LSTM": {
+        "rmse": 13163869.81223257,
+        "mae": 12352709.0,
+        "mape": 0.14330069720745087,
+        "model_path": "S:/Forecasting System/trained_models/lstm_kansas.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:12:51.462465"
   },
   "Kentucky": {
     "best_model": "XGBoost",
@@ -101,7 +785,64 @@
     "rmse": 8038096.838104901,
     "mae": 6965509.0,
     "mape": 0.042302943766117096,
-    "timestamp": "2026-05-06T12:19:31.252871"
+    "best_model_metrics": {
+      "rmse": 8038096.838104901,
+      "mae": 6965509.0,
+      "mape": 0.042302943766117096
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 19672019.864765674,
+        "mae": 17855473.694129877,
+        "mape": 0.1096572956398654,
+        "model_path": "S:/Forecasting System/trained_models/sarima_kentucky.pkl"
+      },
+      "Prophet": {
+        "rmse": 43986490.76433718,
+        "mae": 43399812.786077365,
+        "mape": 0.2625418499401617,
+        "model_path": "S:/Forecasting System/trained_models/prophet_kentucky.pkl"
+      },
+      "XGBoost": {
+        "rmse": 8038096.838104901,
+        "mae": 6965509.0,
+        "mape": 0.042302943766117096,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_kentucky.pkl"
+      },
+      "LSTM": {
+        "rmse": 26151230.128537204,
+        "mae": 24024844.0,
+        "mape": 0.14589495956897736,
+        "model_path": "S:/Forecasting System/trained_models/lstm_kentucky.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 19672019.864765674,
+        "mae": 17855473.694129877,
+        "mape": 0.1096572956398654,
+        "model_path": "S:/Forecasting System/trained_models/sarima_kentucky.pkl"
+      },
+      "Prophet": {
+        "rmse": 43986490.76433718,
+        "mae": 43399812.786077365,
+        "mape": 0.2625418499401617,
+        "model_path": "S:/Forecasting System/trained_models/prophet_kentucky.pkl"
+      },
+      "XGBoost": {
+        "rmse": 8038096.838104901,
+        "mae": 6965509.0,
+        "mape": 0.042302943766117096,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_kentucky.pkl"
+      },
+      "LSTM": {
+        "rmse": 26151230.128537204,
+        "mae": 24024844.0,
+        "mape": 0.14589495956897736,
+        "model_path": "S:/Forecasting System/trained_models/lstm_kentucky.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:12:55.012928"
   },
   "Louisiana": {
     "best_model": "XGBoost",
@@ -109,7 +850,64 @@
     "rmse": 7639999.699501565,
     "mae": 6077738.5,
     "mape": 0.035198841243982315,
-    "timestamp": "2026-05-06T12:19:36.369294"
+    "best_model_metrics": {
+      "rmse": 7639999.699501565,
+      "mae": 6077738.5,
+      "mape": 0.035198841243982315
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 24747745.205906246,
+        "mae": 22549368.96284327,
+        "mape": 0.1334356462371833,
+        "model_path": "S:/Forecasting System/trained_models/sarima_louisiana.pkl"
+      },
+      "Prophet": {
+        "rmse": 43213259.61094373,
+        "mae": 42377718.75535853,
+        "mape": 0.24708786153396245,
+        "model_path": "S:/Forecasting System/trained_models/prophet_louisiana.pkl"
+      },
+      "XGBoost": {
+        "rmse": 7639999.699501565,
+        "mae": 6077738.5,
+        "mape": 0.035198841243982315,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_louisiana.pkl"
+      },
+      "LSTM": {
+        "rmse": 14039921.762535289,
+        "mae": 11476352.0,
+        "mape": 0.0653066337108612,
+        "model_path": "S:/Forecasting System/trained_models/lstm_louisiana.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 24747745.205906246,
+        "mae": 22549368.96284327,
+        "mape": 0.1334356462371833,
+        "model_path": "S:/Forecasting System/trained_models/sarima_louisiana.pkl"
+      },
+      "Prophet": {
+        "rmse": 43213259.61094373,
+        "mae": 42377718.75535853,
+        "mape": 0.24708786153396245,
+        "model_path": "S:/Forecasting System/trained_models/prophet_louisiana.pkl"
+      },
+      "XGBoost": {
+        "rmse": 7639999.699501565,
+        "mae": 6077738.5,
+        "mape": 0.035198841243982315,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_louisiana.pkl"
+      },
+      "LSTM": {
+        "rmse": 14039921.762535289,
+        "mae": 11476352.0,
+        "mape": 0.0653066337108612,
+        "model_path": "S:/Forecasting System/trained_models/lstm_louisiana.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:12:59.584354"
   },
   "Maine": {
     "best_model": "XGBoost",
@@ -117,7 +915,64 @@
     "rmse": 1875274.1424250482,
     "mae": 1429402.625,
     "mape": 0.032147783786058426,
-    "timestamp": "2026-05-06T12:19:42.323142"
+    "best_model_metrics": {
+      "rmse": 1875274.1424250482,
+      "mae": 1429402.625,
+      "mape": 0.032147783786058426
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 8475095.114856226,
+        "mae": 7774014.55504993,
+        "mape": 0.17398565416861478,
+        "model_path": "S:/Forecasting System/trained_models/sarima_maine.pkl"
+      },
+      "Prophet": {
+        "rmse": 13393478.832262244,
+        "mae": 13290785.635948934,
+        "mape": 0.29479268268906667,
+        "model_path": "S:/Forecasting System/trained_models/prophet_maine.pkl"
+      },
+      "XGBoost": {
+        "rmse": 1875274.1424250482,
+        "mae": 1429402.625,
+        "mape": 0.032147783786058426,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_maine.pkl"
+      },
+      "LSTM": {
+        "rmse": 3059818.750480492,
+        "mae": 2571225.5,
+        "mape": 0.05733240768313408,
+        "model_path": "S:/Forecasting System/trained_models/lstm_maine.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 8475095.114856226,
+        "mae": 7774014.55504993,
+        "mape": 0.17398565416861478,
+        "model_path": "S:/Forecasting System/trained_models/sarima_maine.pkl"
+      },
+      "Prophet": {
+        "rmse": 13393478.832262244,
+        "mae": 13290785.635948934,
+        "mape": 0.29479268268906667,
+        "model_path": "S:/Forecasting System/trained_models/prophet_maine.pkl"
+      },
+      "XGBoost": {
+        "rmse": 1875274.1424250482,
+        "mae": 1429402.625,
+        "mape": 0.032147783786058426,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_maine.pkl"
+      },
+      "LSTM": {
+        "rmse": 3059818.750480492,
+        "mae": 2571225.5,
+        "mape": 0.05733240768313408,
+        "model_path": "S:/Forecasting System/trained_models/lstm_maine.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:13:04.116719"
   },
   "Maryland": {
     "best_model": "XGBoost",
@@ -125,7 +980,64 @@
     "rmse": 9621003.539134158,
     "mae": 7675874.5,
     "mape": 0.04905179888010025,
-    "timestamp": "2026-05-06T12:19:49.268189"
+    "best_model_metrics": {
+      "rmse": 9621003.539134158,
+      "mae": 7675874.5,
+      "mape": 0.04905179888010025
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 17286442.00914769,
+        "mae": 15665965.96176751,
+        "mape": 0.10189296858211999,
+        "model_path": "S:/Forecasting System/trained_models/sarima_maryland.pkl"
+      },
+      "Prophet": {
+        "rmse": 39239737.74150942,
+        "mae": 38798186.292373605,
+        "mape": 0.2489129386432144,
+        "model_path": "S:/Forecasting System/trained_models/prophet_maryland.pkl"
+      },
+      "XGBoost": {
+        "rmse": 9621003.539134158,
+        "mae": 7675874.5,
+        "mape": 0.04905179888010025,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_maryland.pkl"
+      },
+      "LSTM": {
+        "rmse": 179648329.87945488,
+        "mae": 102722040.0,
+        "mape": 0.6446281671524048,
+        "model_path": "S:/Forecasting System/trained_models/lstm_maryland.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 17286442.00914769,
+        "mae": 15665965.96176751,
+        "mape": 0.10189296858211999,
+        "model_path": "S:/Forecasting System/trained_models/sarima_maryland.pkl"
+      },
+      "Prophet": {
+        "rmse": 39239737.74150942,
+        "mae": 38798186.292373605,
+        "mape": 0.2489129386432144,
+        "model_path": "S:/Forecasting System/trained_models/prophet_maryland.pkl"
+      },
+      "XGBoost": {
+        "rmse": 9621003.539134158,
+        "mae": 7675874.5,
+        "mape": 0.04905179888010025,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_maryland.pkl"
+      },
+      "LSTM": {
+        "rmse": 179648329.87945488,
+        "mae": 102722040.0,
+        "mape": 0.6446281671524048,
+        "model_path": "S:/Forecasting System/trained_models/lstm_maryland.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:13:07.978944"
   },
   "Massachusetts": {
     "best_model": "XGBoost",
@@ -133,7 +1045,64 @@
     "rmse": 9711955.455897849,
     "mae": 7953618.0,
     "mape": 0.045277439057826996,
-    "timestamp": "2026-05-06T12:19:57.619810"
+    "best_model_metrics": {
+      "rmse": 9711955.455897849,
+      "mae": 7953618.0,
+      "mape": 0.045277439057826996
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 14312716.121049894,
+        "mae": 12314836.174619615,
+        "mape": 0.07157848593871748,
+        "model_path": "S:/Forecasting System/trained_models/sarima_massachusetts.pkl"
+      },
+      "Prophet": {
+        "rmse": 44345878.58183792,
+        "mae": 43794067.592640564,
+        "mape": 0.2509251508783081,
+        "model_path": "S:/Forecasting System/trained_models/prophet_massachusetts.pkl"
+      },
+      "XGBoost": {
+        "rmse": 9711955.455897849,
+        "mae": 7953618.0,
+        "mape": 0.045277439057826996,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_massachusetts.pkl"
+      },
+      "LSTM": {
+        "rmse": 15863981.441861056,
+        "mae": 12503770.0,
+        "mape": 0.07311542332172394,
+        "model_path": "S:/Forecasting System/trained_models/lstm_massachusetts.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 14312716.121049894,
+        "mae": 12314836.174619615,
+        "mape": 0.07157848593871748,
+        "model_path": "S:/Forecasting System/trained_models/sarima_massachusetts.pkl"
+      },
+      "Prophet": {
+        "rmse": 44345878.58183792,
+        "mae": 43794067.592640564,
+        "mape": 0.2509251508783081,
+        "model_path": "S:/Forecasting System/trained_models/prophet_massachusetts.pkl"
+      },
+      "XGBoost": {
+        "rmse": 9711955.455897849,
+        "mae": 7953618.0,
+        "mape": 0.045277439057826996,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_massachusetts.pkl"
+      },
+      "LSTM": {
+        "rmse": 15863981.441861056,
+        "mae": 12503770.0,
+        "mape": 0.07311542332172394,
+        "model_path": "S:/Forecasting System/trained_models/lstm_massachusetts.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:13:12.304196"
   },
   "Michigan": {
     "best_model": "XGBoost",
@@ -141,7 +1110,64 @@
     "rmse": 15241935.34233655,
     "mae": 12503983.0,
     "mape": 0.04504283517599106,
-    "timestamp": "2026-05-06T12:20:03.504716"
+    "best_model_metrics": {
+      "rmse": 15241935.34233655,
+      "mae": 12503983.0,
+      "mape": 0.04504283517599106
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 30230807.24951932,
+        "mae": 26979101.96268356,
+        "mape": 0.09778921747579886,
+        "model_path": "S:/Forecasting System/trained_models/sarima_michigan.pkl"
+      },
+      "Prophet": {
+        "rmse": 68918255.24797471,
+        "mae": 68152438.04122496,
+        "mape": 0.24367374932485908,
+        "model_path": "S:/Forecasting System/trained_models/prophet_michigan.pkl"
+      },
+      "XGBoost": {
+        "rmse": 15241935.34233655,
+        "mae": 12503983.0,
+        "mape": 0.04504283517599106,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_michigan.pkl"
+      },
+      "LSTM": {
+        "rmse": 73467317.53764756,
+        "mae": 65755788.0,
+        "mape": 0.2343866527080536,
+        "model_path": "S:/Forecasting System/trained_models/lstm_michigan.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 30230807.24951932,
+        "mae": 26979101.96268356,
+        "mape": 0.09778921747579886,
+        "model_path": "S:/Forecasting System/trained_models/sarima_michigan.pkl"
+      },
+      "Prophet": {
+        "rmse": 68918255.24797471,
+        "mae": 68152438.04122496,
+        "mape": 0.24367374932485908,
+        "model_path": "S:/Forecasting System/trained_models/prophet_michigan.pkl"
+      },
+      "XGBoost": {
+        "rmse": 15241935.34233655,
+        "mae": 12503983.0,
+        "mape": 0.04504283517599106,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_michigan.pkl"
+      },
+      "LSTM": {
+        "rmse": 73467317.53764756,
+        "mae": 65755788.0,
+        "mape": 0.2343866527080536,
+        "model_path": "S:/Forecasting System/trained_models/lstm_michigan.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:13:16.209507"
   },
   "Minnesota": {
     "best_model": "XGBoost",
@@ -149,7 +1175,64 @@
     "rmse": 6550175.745413858,
     "mae": 5505742.5,
     "mape": 0.037159718573093414,
-    "timestamp": "2026-05-06T12:20:09.082246"
+    "best_model_metrics": {
+      "rmse": 6550175.745413858,
+      "mae": 5505742.5,
+      "mape": 0.037159718573093414
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 14543076.058140866,
+        "mae": 12745576.529582866,
+        "mape": 0.08696132547029906,
+        "model_path": "S:/Forecasting System/trained_models/sarima_minnesota.pkl"
+      },
+      "Prophet": {
+        "rmse": 35548730.9349051,
+        "mae": 35228451.61728011,
+        "mape": 0.23641293436787653,
+        "model_path": "S:/Forecasting System/trained_models/prophet_minnesota.pkl"
+      },
+      "XGBoost": {
+        "rmse": 6550175.745413858,
+        "mae": 5505742.5,
+        "mape": 0.037159718573093414,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_minnesota.pkl"
+      },
+      "LSTM": {
+        "rmse": 13458253.0734511,
+        "mae": 11040826.0,
+        "mape": 0.07238003611564636,
+        "model_path": "S:/Forecasting System/trained_models/lstm_minnesota.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 14543076.058140866,
+        "mae": 12745576.529582866,
+        "mape": 0.08696132547029906,
+        "model_path": "S:/Forecasting System/trained_models/sarima_minnesota.pkl"
+      },
+      "Prophet": {
+        "rmse": 35548730.9349051,
+        "mae": 35228451.61728011,
+        "mape": 0.23641293436787653,
+        "model_path": "S:/Forecasting System/trained_models/prophet_minnesota.pkl"
+      },
+      "XGBoost": {
+        "rmse": 6550175.745413858,
+        "mae": 5505742.5,
+        "mape": 0.037159718573093414,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_minnesota.pkl"
+      },
+      "LSTM": {
+        "rmse": 13458253.0734511,
+        "mae": 11040826.0,
+        "mape": 0.07238003611564636,
+        "model_path": "S:/Forecasting System/trained_models/lstm_minnesota.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:13:20.188479"
   },
   "Mississippi": {
     "best_model": "XGBoost",
@@ -157,7 +1240,64 @@
     "rmse": 5611940.048512279,
     "mae": 4554183.5,
     "mape": 0.037908267229795456,
-    "timestamp": "2026-05-06T12:20:13.942601"
+    "best_model_metrics": {
+      "rmse": 5611940.048512279,
+      "mae": 4554183.5,
+      "mape": 0.037908267229795456
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 17202758.079298202,
+        "mae": 15639532.079503393,
+        "mape": 0.13206660180106888,
+        "model_path": "S:/Forecasting System/trained_models/sarima_mississippi.pkl"
+      },
+      "Prophet": {
+        "rmse": 33575207.31942997,
+        "mae": 30217542.945919856,
+        "mape": 0.2522390238087805,
+        "model_path": "S:/Forecasting System/trained_models/prophet_mississippi.pkl"
+      },
+      "XGBoost": {
+        "rmse": 5611940.048512279,
+        "mae": 4554183.5,
+        "mape": 0.037908267229795456,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_mississippi.pkl"
+      },
+      "LSTM": {
+        "rmse": 2401716003.131218,
+        "mae": 826882752.0,
+        "mape": 6.494703769683838,
+        "model_path": "S:/Forecasting System/trained_models/lstm_mississippi.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 17202758.079298202,
+        "mae": 15639532.079503393,
+        "mape": 0.13206660180106888,
+        "model_path": "S:/Forecasting System/trained_models/sarima_mississippi.pkl"
+      },
+      "Prophet": {
+        "rmse": 33575207.31942997,
+        "mae": 30217542.945919856,
+        "mape": 0.2522390238087805,
+        "model_path": "S:/Forecasting System/trained_models/prophet_mississippi.pkl"
+      },
+      "XGBoost": {
+        "rmse": 5611940.048512279,
+        "mae": 4554183.5,
+        "mape": 0.037908267229795456,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_mississippi.pkl"
+      },
+      "LSTM": {
+        "rmse": 2401716003.131218,
+        "mae": 826882752.0,
+        "mape": 6.494703769683838,
+        "model_path": "S:/Forecasting System/trained_models/lstm_mississippi.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:13:24.101549"
   },
   "Missouri": {
     "best_model": "XGBoost",
@@ -165,7 +1305,64 @@
     "rmse": 9681150.967659991,
     "mae": 7698543.5,
     "mape": 0.041233647614717484,
-    "timestamp": "2026-05-06T12:20:20.969946"
+    "best_model_metrics": {
+      "rmse": 9681150.967659991,
+      "mae": 7698543.5,
+      "mape": 0.041233647614717484
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 19294305.196280234,
+        "mae": 16542003.795108486,
+        "mape": 0.09005563103601558,
+        "model_path": "S:/Forecasting System/trained_models/sarima_missouri.pkl"
+      },
+      "Prophet": {
+        "rmse": 44425374.01152827,
+        "mae": 43963721.470438145,
+        "mape": 0.23417404554217808,
+        "model_path": "S:/Forecasting System/trained_models/prophet_missouri.pkl"
+      },
+      "XGBoost": {
+        "rmse": 9681150.967659991,
+        "mae": 7698543.5,
+        "mape": 0.041233647614717484,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_missouri.pkl"
+      },
+      "LSTM": {
+        "rmse": 14048107.874137072,
+        "mae": 12198648.0,
+        "mape": 0.06627225875854492,
+        "model_path": "S:/Forecasting System/trained_models/lstm_missouri.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 19294305.196280234,
+        "mae": 16542003.795108486,
+        "mape": 0.09005563103601558,
+        "model_path": "S:/Forecasting System/trained_models/sarima_missouri.pkl"
+      },
+      "Prophet": {
+        "rmse": 44425374.01152827,
+        "mae": 43963721.470438145,
+        "mape": 0.23417404554217808,
+        "model_path": "S:/Forecasting System/trained_models/prophet_missouri.pkl"
+      },
+      "XGBoost": {
+        "rmse": 9681150.967659991,
+        "mae": 7698543.5,
+        "mape": 0.041233647614717484,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_missouri.pkl"
+      },
+      "LSTM": {
+        "rmse": 14048107.874137072,
+        "mae": 12198648.0,
+        "mape": 0.06627225875854492,
+        "model_path": "S:/Forecasting System/trained_models/lstm_missouri.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:13:28.718685"
   },
   "Nebraska": {
     "best_model": "XGBoost",
@@ -173,7 +1370,64 @@
     "rmse": 1924186.1905418613,
     "mae": 1514706.125,
     "mape": 0.025683755055069923,
-    "timestamp": "2026-05-06T12:20:25.729657"
+    "best_model_metrics": {
+      "rmse": 1924186.1905418613,
+      "mae": 1514706.125,
+      "mape": 0.025683755055069923
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 3200374.0006753514,
+        "mae": 2676777.674525387,
+        "mape": 0.045654397388989576,
+        "model_path": "S:/Forecasting System/trained_models/sarima_nebraska.pkl"
+      },
+      "Prophet": {
+        "rmse": 13689711.37741566,
+        "mae": 12424667.66679366,
+        "mape": 0.2092141079548511,
+        "model_path": "S:/Forecasting System/trained_models/prophet_nebraska.pkl"
+      },
+      "XGBoost": {
+        "rmse": 1924186.1905418613,
+        "mae": 1514706.125,
+        "mape": 0.025683755055069923,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_nebraska.pkl"
+      },
+      "LSTM": {
+        "rmse": 8174482.390346193,
+        "mae": 5856518.0,
+        "mape": 0.09450799226760864,
+        "model_path": "S:/Forecasting System/trained_models/lstm_nebraska.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 3200374.0006753514,
+        "mae": 2676777.674525387,
+        "mape": 0.045654397388989576,
+        "model_path": "S:/Forecasting System/trained_models/sarima_nebraska.pkl"
+      },
+      "Prophet": {
+        "rmse": 13689711.37741566,
+        "mae": 12424667.66679366,
+        "mape": 0.2092141079548511,
+        "model_path": "S:/Forecasting System/trained_models/prophet_nebraska.pkl"
+      },
+      "XGBoost": {
+        "rmse": 1924186.1905418613,
+        "mae": 1514706.125,
+        "mape": 0.025683755055069923,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_nebraska.pkl"
+      },
+      "LSTM": {
+        "rmse": 8174482.390346193,
+        "mae": 5856518.0,
+        "mape": 0.09450799226760864,
+        "model_path": "S:/Forecasting System/trained_models/lstm_nebraska.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:13:32.418015"
   },
   "Nevada": {
     "best_model": "XGBoost",
@@ -181,7 +1435,64 @@
     "rmse": 3302033.7210828117,
     "mae": 2464434.75,
     "mape": 0.02524443157017231,
-    "timestamp": "2026-05-06T12:20:31.358986"
+    "best_model_metrics": {
+      "rmse": 3302033.7210828117,
+      "mae": 2464434.75,
+      "mape": 0.02524443157017231
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 10767503.55455074,
+        "mae": 9102733.768849783,
+        "mape": 0.09671944548930392,
+        "model_path": "S:/Forecasting System/trained_models/sarima_nevada.pkl"
+      },
+      "Prophet": {
+        "rmse": 24551668.106829528,
+        "mae": 24253574.48897603,
+        "mape": 0.2507486773047022,
+        "model_path": "S:/Forecasting System/trained_models/prophet_nevada.pkl"
+      },
+      "XGBoost": {
+        "rmse": 3302033.7210828117,
+        "mae": 2464434.75,
+        "mape": 0.02524443157017231,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_nevada.pkl"
+      },
+      "LSTM": {
+        "rmse": 17640741.133688007,
+        "mae": 16754863.0,
+        "mape": 0.17442180216312408,
+        "model_path": "S:/Forecasting System/trained_models/lstm_nevada.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 10767503.55455074,
+        "mae": 9102733.768849783,
+        "mape": 0.09671944548930392,
+        "model_path": "S:/Forecasting System/trained_models/sarima_nevada.pkl"
+      },
+      "Prophet": {
+        "rmse": 24551668.106829528,
+        "mae": 24253574.48897603,
+        "mape": 0.2507486773047022,
+        "model_path": "S:/Forecasting System/trained_models/prophet_nevada.pkl"
+      },
+      "XGBoost": {
+        "rmse": 3302033.7210828117,
+        "mae": 2464434.75,
+        "mape": 0.02524443157017231,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_nevada.pkl"
+      },
+      "LSTM": {
+        "rmse": 17640741.133688007,
+        "mae": 16754863.0,
+        "mape": 0.17442180216312408,
+        "model_path": "S:/Forecasting System/trained_models/lstm_nevada.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:13:36.667486"
   },
   "New Hampshire": {
     "best_model": "XGBoost",
@@ -189,7 +1500,64 @@
     "rmse": 2761724.5828677416,
     "mae": 2275788.0,
     "mape": 0.04296240955591202,
-    "timestamp": "2026-05-06T12:20:35.963279"
+    "best_model_metrics": {
+      "rmse": 2761724.5828677416,
+      "mae": 2275788.0,
+      "mape": 0.04296240955591202
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 5268870.7767025065,
+        "mae": 4567629.730732323,
+        "mape": 0.08746275587279206,
+        "model_path": "S:/Forecasting System/trained_models/sarima_new_hampshire.pkl"
+      },
+      "Prophet": {
+        "rmse": 12877397.940568566,
+        "mae": 12731936.665696818,
+        "mape": 0.23998188024635192,
+        "model_path": "S:/Forecasting System/trained_models/prophet_new_hampshire.pkl"
+      },
+      "XGBoost": {
+        "rmse": 2761724.5828677416,
+        "mae": 2275788.0,
+        "mape": 0.04296240955591202,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_new_hampshire.pkl"
+      },
+      "LSTM": {
+        "rmse": 3013749.6028701523,
+        "mae": 2626629.0,
+        "mape": 0.04893869161605835,
+        "model_path": "S:/Forecasting System/trained_models/lstm_new_hampshire.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 5268870.7767025065,
+        "mae": 4567629.730732323,
+        "mape": 0.08746275587279206,
+        "model_path": "S:/Forecasting System/trained_models/sarima_new_hampshire.pkl"
+      },
+      "Prophet": {
+        "rmse": 12877397.940568566,
+        "mae": 12731936.665696818,
+        "mape": 0.23998188024635192,
+        "model_path": "S:/Forecasting System/trained_models/prophet_new_hampshire.pkl"
+      },
+      "XGBoost": {
+        "rmse": 2761724.5828677416,
+        "mae": 2275788.0,
+        "mape": 0.04296240955591202,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_new_hampshire.pkl"
+      },
+      "LSTM": {
+        "rmse": 3013749.6028701523,
+        "mae": 2626629.0,
+        "mape": 0.04893869161605835,
+        "model_path": "S:/Forecasting System/trained_models/lstm_new_hampshire.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:13:41.048781"
   },
   "New Mexico": {
     "best_model": "XGBoost",
@@ -197,7 +1565,64 @@
     "rmse": 3741090.070259202,
     "mae": 3128061.25,
     "mape": 0.04540275037288666,
-    "timestamp": "2026-05-06T12:20:41.885276"
+    "best_model_metrics": {
+      "rmse": 3741090.070259202,
+      "mae": 3128061.25,
+      "mape": 0.04540275037288666
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 10233382.883248609,
+        "mae": 9447045.65769712,
+        "mape": 0.13983068797935883,
+        "model_path": "S:/Forecasting System/trained_models/sarima_new_mexico.pkl"
+      },
+      "Prophet": {
+        "rmse": 15755129.392230837,
+        "mae": 15524783.862087509,
+        "mape": 0.22642968661729884,
+        "model_path": "S:/Forecasting System/trained_models/prophet_new_mexico.pkl"
+      },
+      "XGBoost": {
+        "rmse": 3741090.070259202,
+        "mae": 3128061.25,
+        "mape": 0.04540275037288666,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_new_mexico.pkl"
+      },
+      "LSTM": {
+        "rmse": 8020912.712489521,
+        "mae": 7127268.5,
+        "mape": 0.10555078089237213,
+        "model_path": "S:/Forecasting System/trained_models/lstm_new_mexico.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 10233382.883248609,
+        "mae": 9447045.65769712,
+        "mape": 0.13983068797935883,
+        "model_path": "S:/Forecasting System/trained_models/sarima_new_mexico.pkl"
+      },
+      "Prophet": {
+        "rmse": 15755129.392230837,
+        "mae": 15524783.862087509,
+        "mape": 0.22642968661729884,
+        "model_path": "S:/Forecasting System/trained_models/prophet_new_mexico.pkl"
+      },
+      "XGBoost": {
+        "rmse": 3741090.070259202,
+        "mae": 3128061.25,
+        "mape": 0.04540275037288666,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_new_mexico.pkl"
+      },
+      "LSTM": {
+        "rmse": 8020912.712489521,
+        "mae": 7127268.5,
+        "mape": 0.10555078089237213,
+        "model_path": "S:/Forecasting System/trained_models/lstm_new_mexico.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:13:45.391514"
   },
   "New York": {
     "best_model": "XGBoost",
@@ -205,7 +1630,64 @@
     "rmse": 17748523.357108444,
     "mae": 12961905.0,
     "mape": 0.031146124005317688,
-    "timestamp": "2026-05-06T12:20:47.373968"
+    "best_model_metrics": {
+      "rmse": 17748523.357108444,
+      "mae": 12961905.0,
+      "mape": 0.031146124005317688
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 32505069.178105902,
+        "mae": 28251432.81376016,
+        "mape": 0.06914411143420196,
+        "model_path": "S:/Forecasting System/trained_models/sarima_new_york.pkl"
+      },
+      "Prophet": {
+        "rmse": 104121579.43890217,
+        "mae": 102911587.68698472,
+        "mape": 0.24785696658139064,
+        "model_path": "S:/Forecasting System/trained_models/prophet_new_york.pkl"
+      },
+      "XGBoost": {
+        "rmse": 17748523.357108444,
+        "mae": 12961905.0,
+        "mape": 0.031146124005317688,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_new_york.pkl"
+      },
+      "LSTM": {
+        "rmse": 27939406.583994012,
+        "mae": 22966120.0,
+        "mape": 0.05413533374667168,
+        "model_path": "S:/Forecasting System/trained_models/lstm_new_york.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 32505069.178105902,
+        "mae": 28251432.81376016,
+        "mape": 0.06914411143420196,
+        "model_path": "S:/Forecasting System/trained_models/sarima_new_york.pkl"
+      },
+      "Prophet": {
+        "rmse": 104121579.43890217,
+        "mae": 102911587.68698472,
+        "mape": 0.24785696658139064,
+        "model_path": "S:/Forecasting System/trained_models/prophet_new_york.pkl"
+      },
+      "XGBoost": {
+        "rmse": 17748523.357108444,
+        "mae": 12961905.0,
+        "mape": 0.031146124005317688,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_new_york.pkl"
+      },
+      "LSTM": {
+        "rmse": 27939406.583994012,
+        "mae": 22966120.0,
+        "mape": 0.05413533374667168,
+        "model_path": "S:/Forecasting System/trained_models/lstm_new_york.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:13:49.433279"
   },
   "North Carolina": {
     "best_model": "XGBoost",
@@ -213,7 +1695,64 @@
     "rmse": 17029864.67740387,
     "mae": 14300635.0,
     "mape": 0.042183905839920044,
-    "timestamp": "2026-05-06T12:20:56.869544"
+    "best_model_metrics": {
+      "rmse": 17029864.67740387,
+      "mae": 14300635.0,
+      "mape": 0.042183905839920044
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 44571540.864836864,
+        "mae": 41413034.26713261,
+        "mape": 0.12207631811954323,
+        "model_path": "S:/Forecasting System/trained_models/sarima_north_carolina.pkl"
+      },
+      "Prophet": {
+        "rmse": 87879590.24166177,
+        "mae": 86948493.65266827,
+        "mape": 0.25329566107510937,
+        "model_path": "S:/Forecasting System/trained_models/prophet_north_carolina.pkl"
+      },
+      "XGBoost": {
+        "rmse": 17029864.67740387,
+        "mae": 14300635.0,
+        "mape": 0.042183905839920044,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_north_carolina.pkl"
+      },
+      "LSTM": {
+        "rmse": 38228332.92100549,
+        "mae": 35611888.0,
+        "mape": 0.10523593425750732,
+        "model_path": "S:/Forecasting System/trained_models/lstm_north_carolina.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 44571540.864836864,
+        "mae": 41413034.26713261,
+        "mape": 0.12207631811954323,
+        "model_path": "S:/Forecasting System/trained_models/sarima_north_carolina.pkl"
+      },
+      "Prophet": {
+        "rmse": 87879590.24166177,
+        "mae": 86948493.65266827,
+        "mape": 0.25329566107510937,
+        "model_path": "S:/Forecasting System/trained_models/prophet_north_carolina.pkl"
+      },
+      "XGBoost": {
+        "rmse": 17029864.67740387,
+        "mae": 14300635.0,
+        "mape": 0.042183905839920044,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_north_carolina.pkl"
+      },
+      "LSTM": {
+        "rmse": 38228332.92100549,
+        "mae": 35611888.0,
+        "mape": 0.10523593425750732,
+        "model_path": "S:/Forecasting System/trained_models/lstm_north_carolina.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:13:53.876979"
   },
   "Ohio": {
     "best_model": "XGBoost",
@@ -221,7 +1760,64 @@
     "rmse": 13803045.366320578,
     "mae": 10637633.0,
     "mape": 0.029879111796617508,
-    "timestamp": "2026-05-06T12:21:14.660708"
+    "best_model_metrics": {
+      "rmse": 13803045.366320578,
+      "mae": 10637633.0,
+      "mape": 0.029879111796617508
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 37620825.360651456,
+        "mae": 33730762.139230326,
+        "mape": 0.09593943202721344,
+        "model_path": "S:/Forecasting System/trained_models/sarima_ohio.pkl"
+      },
+      "Prophet": {
+        "rmse": 85967682.43276535,
+        "mae": 84926732.17388204,
+        "mape": 0.23796677816010883,
+        "model_path": "S:/Forecasting System/trained_models/prophet_ohio.pkl"
+      },
+      "XGBoost": {
+        "rmse": 13803045.366320578,
+        "mae": 10637633.0,
+        "mape": 0.029879111796617508,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_ohio.pkl"
+      },
+      "LSTM": {
+        "rmse": 35552034.190154575,
+        "mae": 25276228.0,
+        "mape": 0.06823784857988358,
+        "model_path": "S:/Forecasting System/trained_models/lstm_ohio.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 37620825.360651456,
+        "mae": 33730762.139230326,
+        "mape": 0.09593943202721344,
+        "model_path": "S:/Forecasting System/trained_models/sarima_ohio.pkl"
+      },
+      "Prophet": {
+        "rmse": 85967682.43276535,
+        "mae": 84926732.17388204,
+        "mape": 0.23796677816010883,
+        "model_path": "S:/Forecasting System/trained_models/prophet_ohio.pkl"
+      },
+      "XGBoost": {
+        "rmse": 13803045.366320578,
+        "mae": 10637633.0,
+        "mape": 0.029879111796617508,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_ohio.pkl"
+      },
+      "LSTM": {
+        "rmse": 35552034.190154575,
+        "mae": 25276228.0,
+        "mape": 0.06823784857988358,
+        "model_path": "S:/Forecasting System/trained_models/lstm_ohio.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:13:57.704354"
   },
   "Oklahoma": {
     "best_model": "XGBoost",
@@ -229,7 +1825,64 @@
     "rmse": 6626957.7548000105,
     "mae": 5196745.5,
     "mape": 0.037224870175123215,
-    "timestamp": "2026-05-06T12:21:25.714534"
+    "best_model_metrics": {
+      "rmse": 6626957.7548000105,
+      "mae": 5196745.5,
+      "mape": 0.037224870175123215
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 17568881.16693427,
+        "mae": 16115777.754403438,
+        "mape": 0.11754590575409804,
+        "model_path": "S:/Forecasting System/trained_models/sarima_oklahoma.pkl"
+      },
+      "Prophet": {
+        "rmse": 37756700.797528125,
+        "mae": 37368991.522205174,
+        "mape": 0.26923232024373256,
+        "model_path": "S:/Forecasting System/trained_models/prophet_oklahoma.pkl"
+      },
+      "XGBoost": {
+        "rmse": 6626957.7548000105,
+        "mae": 5196745.5,
+        "mape": 0.037224870175123215,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_oklahoma.pkl"
+      },
+      "LSTM": {
+        "rmse": 67183226.79958598,
+        "mae": 52598444.0,
+        "mape": 0.37036770582199097,
+        "model_path": "S:/Forecasting System/trained_models/lstm_oklahoma.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 17568881.16693427,
+        "mae": 16115777.754403438,
+        "mape": 0.11754590575409804,
+        "model_path": "S:/Forecasting System/trained_models/sarima_oklahoma.pkl"
+      },
+      "Prophet": {
+        "rmse": 37756700.797528125,
+        "mae": 37368991.522205174,
+        "mape": 0.26923232024373256,
+        "model_path": "S:/Forecasting System/trained_models/prophet_oklahoma.pkl"
+      },
+      "XGBoost": {
+        "rmse": 6626957.7548000105,
+        "mae": 5196745.5,
+        "mape": 0.037224870175123215,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_oklahoma.pkl"
+      },
+      "LSTM": {
+        "rmse": 67183226.79958598,
+        "mae": 52598444.0,
+        "mape": 0.37036770582199097,
+        "model_path": "S:/Forecasting System/trained_models/lstm_oklahoma.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:14:01.865166"
   },
   "Oregon": {
     "best_model": "XGBoost",
@@ -237,7 +1890,64 @@
     "rmse": 4534437.113524897,
     "mae": 3844028.75,
     "mape": 0.03603333979845047,
-    "timestamp": "2026-05-06T12:21:32.676386"
+    "best_model_metrics": {
+      "rmse": 4534437.113524897,
+      "mae": 3844028.75,
+      "mape": 0.03603333979845047
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 10075869.28662968,
+        "mae": 8576549.725116733,
+        "mape": 0.08095639267936519,
+        "model_path": "S:/Forecasting System/trained_models/sarima_oregon.pkl"
+      },
+      "Prophet": {
+        "rmse": 27213392.105636485,
+        "mae": 26925936.229464997,
+        "mape": 0.2484541763071434,
+        "model_path": "S:/Forecasting System/trained_models/prophet_oregon.pkl"
+      },
+      "XGBoost": {
+        "rmse": 4534437.113524897,
+        "mae": 3844028.75,
+        "mape": 0.03603333979845047,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_oregon.pkl"
+      },
+      "LSTM": {
+        "rmse": 16646887.290491758,
+        "mae": 14842789.0,
+        "mape": 0.13820713758468628,
+        "model_path": "S:/Forecasting System/trained_models/lstm_oregon.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 10075869.28662968,
+        "mae": 8576549.725116733,
+        "mape": 0.08095639267936519,
+        "model_path": "S:/Forecasting System/trained_models/sarima_oregon.pkl"
+      },
+      "Prophet": {
+        "rmse": 27213392.105636485,
+        "mae": 26925936.229464997,
+        "mape": 0.2484541763071434,
+        "model_path": "S:/Forecasting System/trained_models/prophet_oregon.pkl"
+      },
+      "XGBoost": {
+        "rmse": 4534437.113524897,
+        "mae": 3844028.75,
+        "mape": 0.03603333979845047,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_oregon.pkl"
+      },
+      "LSTM": {
+        "rmse": 16646887.290491758,
+        "mae": 14842789.0,
+        "mape": 0.13820713758468628,
+        "model_path": "S:/Forecasting System/trained_models/lstm_oregon.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:14:06.399911"
   },
   "Pennsylvania": {
     "best_model": "XGBoost",
@@ -245,7 +1955,64 @@
     "rmse": 12914389.857643295,
     "mae": 9706298.0,
     "mape": 0.027869414538145065,
-    "timestamp": "2026-05-06T12:21:38.926735"
+    "best_model_metrics": {
+      "rmse": 12914389.857643295,
+      "mae": 9706298.0,
+      "mape": 0.027869414538145065
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 32120838.56042793,
+        "mae": 27941970.70773743,
+        "mape": 0.08136803368812368,
+        "model_path": "S:/Forecasting System/trained_models/sarima_pennsylvania.pkl"
+      },
+      "Prophet": {
+        "rmse": 83051284.32500027,
+        "mae": 82100609.86554709,
+        "mape": 0.23530106282763197,
+        "model_path": "S:/Forecasting System/trained_models/prophet_pennsylvania.pkl"
+      },
+      "XGBoost": {
+        "rmse": 12914389.857643295,
+        "mae": 9706298.0,
+        "mape": 0.027869414538145065,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_pennsylvania.pkl"
+      },
+      "LSTM": {
+        "rmse": 17917393.818257388,
+        "mae": 15665548.0,
+        "mape": 0.0446893535554409,
+        "model_path": "S:/Forecasting System/trained_models/lstm_pennsylvania.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 32120838.56042793,
+        "mae": 27941970.70773743,
+        "mape": 0.08136803368812368,
+        "model_path": "S:/Forecasting System/trained_models/sarima_pennsylvania.pkl"
+      },
+      "Prophet": {
+        "rmse": 83051284.32500027,
+        "mae": 82100609.86554709,
+        "mape": 0.23530106282763197,
+        "model_path": "S:/Forecasting System/trained_models/prophet_pennsylvania.pkl"
+      },
+      "XGBoost": {
+        "rmse": 12914389.857643295,
+        "mae": 9706298.0,
+        "mape": 0.027869414538145065,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_pennsylvania.pkl"
+      },
+      "LSTM": {
+        "rmse": 17917393.818257388,
+        "mae": 15665548.0,
+        "mape": 0.0446893535554409,
+        "model_path": "S:/Forecasting System/trained_models/lstm_pennsylvania.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:14:11.387249"
   },
   "Rhode Island": {
     "best_model": "XGBoost",
@@ -253,7 +2020,64 @@
     "rmse": 1076430.8383542344,
     "mae": 832222.75,
     "mape": 0.03286704421043396,
-    "timestamp": "2026-05-06T12:21:44.567894"
+    "best_model_metrics": {
+      "rmse": 1076430.8383542344,
+      "mae": 832222.75,
+      "mape": 0.03286704421043396
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 1560141.6015826194,
+        "mae": 1332870.8043403453,
+        "mape": 0.05328583316957489,
+        "model_path": "S:/Forecasting System/trained_models/sarima_rhode_island.pkl"
+      },
+      "Prophet": {
+        "rmse": 6483888.88287744,
+        "mae": 6411812.939290175,
+        "mape": 0.25475140483664027,
+        "model_path": "S:/Forecasting System/trained_models/prophet_rhode_island.pkl"
+      },
+      "XGBoost": {
+        "rmse": 1076430.8383542344,
+        "mae": 832222.75,
+        "mape": 0.03286704421043396,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_rhode_island.pkl"
+      },
+      "LSTM": {
+        "rmse": 1718434.6240087226,
+        "mae": 1494259.75,
+        "mape": 0.060432568192481995,
+        "model_path": "S:/Forecasting System/trained_models/lstm_rhode_island.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 1560141.6015826194,
+        "mae": 1332870.8043403453,
+        "mape": 0.05328583316957489,
+        "model_path": "S:/Forecasting System/trained_models/sarima_rhode_island.pkl"
+      },
+      "Prophet": {
+        "rmse": 6483888.88287744,
+        "mae": 6411812.939290175,
+        "mape": 0.25475140483664027,
+        "model_path": "S:/Forecasting System/trained_models/prophet_rhode_island.pkl"
+      },
+      "XGBoost": {
+        "rmse": 1076430.8383542344,
+        "mae": 832222.75,
+        "mape": 0.03286704421043396,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_rhode_island.pkl"
+      },
+      "LSTM": {
+        "rmse": 1718434.6240087226,
+        "mae": 1494259.75,
+        "mape": 0.060432568192481995,
+        "model_path": "S:/Forecasting System/trained_models/lstm_rhode_island.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:14:15.828092"
   },
   "South Carolina": {
     "best_model": "XGBoost",
@@ -261,7 +2085,64 @@
     "rmse": 10502708.70244662,
     "mae": 8918538.0,
     "mape": 0.04834604263305664,
-    "timestamp": "2026-05-06T12:21:50.039652"
+    "best_model_metrics": {
+      "rmse": 10502708.70244662,
+      "mae": 8918538.0,
+      "mape": 0.04834604263305664
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 27486657.381011475,
+        "mae": 25669658.45910146,
+        "mape": 0.13913071933165666,
+        "model_path": "S:/Forecasting System/trained_models/sarima_south_carolina.pkl"
+      },
+      "Prophet": {
+        "rmse": 46876590.5506897,
+        "mae": 46246698.02901994,
+        "mape": 0.2474632107472044,
+        "model_path": "S:/Forecasting System/trained_models/prophet_south_carolina.pkl"
+      },
+      "XGBoost": {
+        "rmse": 10502708.70244662,
+        "mae": 8918538.0,
+        "mape": 0.04834604263305664,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_south_carolina.pkl"
+      },
+      "LSTM": {
+        "rmse": 29527753.488726635,
+        "mae": 27880654.0,
+        "mape": 0.15030229091644287,
+        "model_path": "S:/Forecasting System/trained_models/lstm_south_carolina.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 27486657.381011475,
+        "mae": 25669658.45910146,
+        "mape": 0.13913071933165666,
+        "model_path": "S:/Forecasting System/trained_models/sarima_south_carolina.pkl"
+      },
+      "Prophet": {
+        "rmse": 46876590.5506897,
+        "mae": 46246698.02901994,
+        "mape": 0.2474632107472044,
+        "model_path": "S:/Forecasting System/trained_models/prophet_south_carolina.pkl"
+      },
+      "XGBoost": {
+        "rmse": 10502708.70244662,
+        "mae": 8918538.0,
+        "mape": 0.04834604263305664,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_south_carolina.pkl"
+      },
+      "LSTM": {
+        "rmse": 29527753.488726635,
+        "mae": 27880654.0,
+        "mape": 0.15030229091644287,
+        "model_path": "S:/Forecasting System/trained_models/lstm_south_carolina.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:14:20.601051"
   },
   "South Dakota": {
     "best_model": "XGBoost",
@@ -269,7 +2150,64 @@
     "rmse": 1279559.9115445905,
     "mae": 1021909.625,
     "mape": 0.0380350723862648,
-    "timestamp": "2026-05-06T12:21:54.825453"
+    "best_model_metrics": {
+      "rmse": 1279559.9115445905,
+      "mae": 1021909.625,
+      "mape": 0.0380350723862648
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 4255744.989736596,
+        "mae": 3870825.8683525803,
+        "mape": 0.14326345025581455,
+        "model_path": "S:/Forecasting System/trained_models/sarima_south_dakota.pkl"
+      },
+      "Prophet": {
+        "rmse": 6866232.788375503,
+        "mae": 6798603.153722471,
+        "mape": 0.24820138203068773,
+        "model_path": "S:/Forecasting System/trained_models/prophet_south_dakota.pkl"
+      },
+      "XGBoost": {
+        "rmse": 1279559.9115445905,
+        "mae": 1021909.625,
+        "mape": 0.0380350723862648,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_south_dakota.pkl"
+      },
+      "LSTM": {
+        "rmse": 3847122.618843335,
+        "mae": 3581387.25,
+        "mape": 0.132171168923378,
+        "model_path": "S:/Forecasting System/trained_models/lstm_south_dakota.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 4255744.989736596,
+        "mae": 3870825.8683525803,
+        "mape": 0.14326345025581455,
+        "model_path": "S:/Forecasting System/trained_models/sarima_south_dakota.pkl"
+      },
+      "Prophet": {
+        "rmse": 6866232.788375503,
+        "mae": 6798603.153722471,
+        "mape": 0.24820138203068773,
+        "model_path": "S:/Forecasting System/trained_models/prophet_south_dakota.pkl"
+      },
+      "XGBoost": {
+        "rmse": 1279559.9115445905,
+        "mae": 1021909.625,
+        "mape": 0.0380350723862648,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_south_dakota.pkl"
+      },
+      "LSTM": {
+        "rmse": 3847122.618843335,
+        "mae": 3581387.25,
+        "mape": 0.132171168923378,
+        "model_path": "S:/Forecasting System/trained_models/lstm_south_dakota.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:14:24.691166"
   },
   "Tennessee": {
     "best_model": "XGBoost",
@@ -277,7 +2215,64 @@
     "rmse": 9434934.84309118,
     "mae": 7767887.5,
     "mape": 0.03103075735270977,
-    "timestamp": "2026-05-06T12:22:00.004250"
+    "best_model_metrics": {
+      "rmse": 9434934.84309118,
+      "mae": 7767887.5,
+      "mape": 0.03103075735270977
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 29438078.093240496,
+        "mae": 26604076.484062467,
+        "mape": 0.1078775799556693,
+        "model_path": "S:/Forecasting System/trained_models/sarima_tennessee.pkl"
+      },
+      "Prophet": {
+        "rmse": 62983673.03623673,
+        "mae": 62164081.11942175,
+        "mape": 0.24823873522447287,
+        "model_path": "S:/Forecasting System/trained_models/prophet_tennessee.pkl"
+      },
+      "XGBoost": {
+        "rmse": 9434934.84309118,
+        "mae": 7767887.5,
+        "mape": 0.03103075735270977,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_tennessee.pkl"
+      },
+      "LSTM": {
+        "rmse": 22128561.813836887,
+        "mae": 19037364.0,
+        "mape": 0.0778999924659729,
+        "model_path": "S:/Forecasting System/trained_models/lstm_tennessee.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 29438078.093240496,
+        "mae": 26604076.484062467,
+        "mape": 0.1078775799556693,
+        "model_path": "S:/Forecasting System/trained_models/sarima_tennessee.pkl"
+      },
+      "Prophet": {
+        "rmse": 62983673.03623673,
+        "mae": 62164081.11942175,
+        "mape": 0.24823873522447287,
+        "model_path": "S:/Forecasting System/trained_models/prophet_tennessee.pkl"
+      },
+      "XGBoost": {
+        "rmse": 9434934.84309118,
+        "mae": 7767887.5,
+        "mape": 0.03103075735270977,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_tennessee.pkl"
+      },
+      "LSTM": {
+        "rmse": 22128561.813836887,
+        "mae": 19037364.0,
+        "mape": 0.0778999924659729,
+        "model_path": "S:/Forecasting System/trained_models/lstm_tennessee.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:14:28.672382"
   },
   "Texas": {
     "best_model": "XGBoost",
@@ -285,7 +2280,64 @@
     "rmse": 49402386.97268754,
     "mae": 41052744.0,
     "mape": 0.04744819551706314,
-    "timestamp": "2026-05-06T12:22:05.329518"
+    "best_model_metrics": {
+      "rmse": 49402386.97268754,
+      "mae": 41052744.0,
+      "mape": 0.04744819551706314
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 137650940.27024537,
+        "mae": 126256095.85088593,
+        "mape": 0.14806410199221048,
+        "model_path": "S:/Forecasting System/trained_models/sarima_texas.pkl"
+      },
+      "Prophet": {
+        "rmse": 229548587.3142348,
+        "mae": 226739563.6066162,
+        "mape": 0.2625143657056428,
+        "model_path": "S:/Forecasting System/trained_models/prophet_texas.pkl"
+      },
+      "XGBoost": {
+        "rmse": 49402386.97268754,
+        "mae": 41052744.0,
+        "mape": 0.04744819551706314,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_texas.pkl"
+      },
+      "LSTM": {
+        "rmse": 154842166.68650538,
+        "mae": 144293408.0,
+        "mape": 0.16769447922706604,
+        "model_path": "S:/Forecasting System/trained_models/lstm_texas.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 137650940.27024537,
+        "mae": 126256095.85088593,
+        "mape": 0.14806410199221048,
+        "model_path": "S:/Forecasting System/trained_models/sarima_texas.pkl"
+      },
+      "Prophet": {
+        "rmse": 229548587.3142348,
+        "mae": 226739563.6066162,
+        "mape": 0.2625143657056428,
+        "model_path": "S:/Forecasting System/trained_models/prophet_texas.pkl"
+      },
+      "XGBoost": {
+        "rmse": 49402386.97268754,
+        "mae": 41052744.0,
+        "mape": 0.04744819551706314,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_texas.pkl"
+      },
+      "LSTM": {
+        "rmse": 154842166.68650538,
+        "mae": 144293408.0,
+        "mape": 0.16769447922706604,
+        "model_path": "S:/Forecasting System/trained_models/lstm_texas.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:14:32.900497"
   },
   "Utah": {
     "best_model": "XGBoost",
@@ -293,7 +2345,64 @@
     "rmse": 3589033.3752741837,
     "mae": 3048324.5,
     "mape": 0.038677386939525604,
-    "timestamp": "2026-05-06T12:22:10.582144"
+    "best_model_metrics": {
+      "rmse": 3589033.3752741837,
+      "mae": 3048324.5,
+      "mape": 0.038677386939525604
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 8762468.49247689,
+        "mae": 7377207.723522402,
+        "mape": 0.09557669349828504,
+        "model_path": "S:/Forecasting System/trained_models/sarima_utah.pkl"
+      },
+      "Prophet": {
+        "rmse": 19567235.65613899,
+        "mae": 19325169.22927922,
+        "mape": 0.2437299695252012,
+        "model_path": "S:/Forecasting System/trained_models/prophet_utah.pkl"
+      },
+      "XGBoost": {
+        "rmse": 3589033.3752741837,
+        "mae": 3048324.5,
+        "mape": 0.038677386939525604,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_utah.pkl"
+      },
+      "LSTM": {
+        "rmse": 14572846.749999672,
+        "mae": 13625456.0,
+        "mape": 0.17251721024513245,
+        "model_path": "S:/Forecasting System/trained_models/lstm_utah.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 8762468.49247689,
+        "mae": 7377207.723522402,
+        "mape": 0.09557669349828504,
+        "model_path": "S:/Forecasting System/trained_models/sarima_utah.pkl"
+      },
+      "Prophet": {
+        "rmse": 19567235.65613899,
+        "mae": 19325169.22927922,
+        "mape": 0.2437299695252012,
+        "model_path": "S:/Forecasting System/trained_models/prophet_utah.pkl"
+      },
+      "XGBoost": {
+        "rmse": 3589033.3752741837,
+        "mae": 3048324.5,
+        "mape": 0.038677386939525604,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_utah.pkl"
+      },
+      "LSTM": {
+        "rmse": 14572846.749999672,
+        "mae": 13625456.0,
+        "mape": 0.17251721024513245,
+        "model_path": "S:/Forecasting System/trained_models/lstm_utah.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:14:36.639313"
   },
   "Vermont": {
     "best_model": "XGBoost",
@@ -301,7 +2410,64 @@
     "rmse": 807326.6751743064,
     "mae": 663201.875,
     "mape": 0.03800336644053459,
-    "timestamp": "2026-05-06T12:22:15.575173"
+    "best_model_metrics": {
+      "rmse": 807326.6751743064,
+      "mae": 663201.875,
+      "mape": 0.03800336644053459
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 997656.7900909722,
+        "mae": 815502.39263301,
+        "mape": 0.0453577096052173,
+        "model_path": "S:/Forecasting System/trained_models/sarima_vermont.pkl"
+      },
+      "Prophet": {
+        "rmse": 4631928.552015984,
+        "mae": 4592110.320122262,
+        "mape": 0.25966500134695436,
+        "model_path": "S:/Forecasting System/trained_models/prophet_vermont.pkl"
+      },
+      "XGBoost": {
+        "rmse": 807326.6751743064,
+        "mae": 663201.875,
+        "mape": 0.03800336644053459,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_vermont.pkl"
+      },
+      "LSTM": {
+        "rmse": 928814.7110635146,
+        "mae": 736641.875,
+        "mape": 0.040887102484703064,
+        "model_path": "S:/Forecasting System/trained_models/lstm_vermont.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 997656.7900909722,
+        "mae": 815502.39263301,
+        "mape": 0.0453577096052173,
+        "model_path": "S:/Forecasting System/trained_models/sarima_vermont.pkl"
+      },
+      "Prophet": {
+        "rmse": 4631928.552015984,
+        "mae": 4592110.320122262,
+        "mape": 0.25966500134695436,
+        "model_path": "S:/Forecasting System/trained_models/prophet_vermont.pkl"
+      },
+      "XGBoost": {
+        "rmse": 807326.6751743064,
+        "mae": 663201.875,
+        "mape": 0.03800336644053459,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_vermont.pkl"
+      },
+      "LSTM": {
+        "rmse": 928814.7110635146,
+        "mae": 736641.875,
+        "mape": 0.040887102484703064,
+        "model_path": "S:/Forecasting System/trained_models/lstm_vermont.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:14:40.629685"
   },
   "Virginia": {
     "best_model": "XGBoost",
@@ -309,7 +2475,64 @@
     "rmse": 11695239.878030378,
     "mae": 8777730.0,
     "mape": 0.03193127363920212,
-    "timestamp": "2026-05-06T12:22:20.740322"
+    "best_model_metrics": {
+      "rmse": 11695239.878030378,
+      "mae": 8777730.0,
+      "mape": 0.03193127363920212
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 29263898.878905363,
+        "mae": 26263143.836801857,
+        "mape": 0.09643847044906331,
+        "model_path": "S:/Forecasting System/trained_models/sarima_virginia.pkl"
+      },
+      "Prophet": {
+        "rmse": 68200379.20598997,
+        "mae": 67512172.1447758,
+        "mape": 0.24362876158700977,
+        "model_path": "S:/Forecasting System/trained_models/prophet_virginia.pkl"
+      },
+      "XGBoost": {
+        "rmse": 11695239.878030378,
+        "mae": 8777730.0,
+        "mape": 0.03193127363920212,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_virginia.pkl"
+      },
+      "LSTM": {
+        "rmse": 50526949.088156745,
+        "mae": 45761872.0,
+        "mape": 0.1643318086862564,
+        "model_path": "S:/Forecasting System/trained_models/lstm_virginia.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 29263898.878905363,
+        "mae": 26263143.836801857,
+        "mape": 0.09643847044906331,
+        "model_path": "S:/Forecasting System/trained_models/sarima_virginia.pkl"
+      },
+      "Prophet": {
+        "rmse": 68200379.20598997,
+        "mae": 67512172.1447758,
+        "mape": 0.24362876158700977,
+        "model_path": "S:/Forecasting System/trained_models/prophet_virginia.pkl"
+      },
+      "XGBoost": {
+        "rmse": 11695239.878030378,
+        "mae": 8777730.0,
+        "mape": 0.03193127363920212,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_virginia.pkl"
+      },
+      "LSTM": {
+        "rmse": 50526949.088156745,
+        "mae": 45761872.0,
+        "mape": 0.1643318086862564,
+        "model_path": "S:/Forecasting System/trained_models/lstm_virginia.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:14:44.360791"
   },
   "Washington": {
     "best_model": "XGBoost",
@@ -317,7 +2540,64 @@
     "rmse": 8432389.747349206,
     "mae": 7245243.5,
     "mape": 0.041340172290802,
-    "timestamp": "2026-05-06T12:22:26.111991"
+    "best_model_metrics": {
+      "rmse": 8432389.747349206,
+      "mae": 7245243.5,
+      "mape": 0.041340172290802
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 23105747.626953915,
+        "mae": 21188574.072869644,
+        "mape": 0.12033048910457321,
+        "model_path": "S:/Forecasting System/trained_models/sarima_washington.pkl"
+      },
+      "Prophet": {
+        "rmse": 46993925.361697696,
+        "mae": 46516311.38151577,
+        "mape": 0.2607178725847481,
+        "model_path": "S:/Forecasting System/trained_models/prophet_washington.pkl"
+      },
+      "XGBoost": {
+        "rmse": 8432389.747349206,
+        "mae": 7245243.5,
+        "mape": 0.041340172290802,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_washington.pkl"
+      },
+      "LSTM": {
+        "rmse": 49592335.51963416,
+        "mae": 45085896.0,
+        "mape": 0.2508049011230469,
+        "model_path": "S:/Forecasting System/trained_models/lstm_washington.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 23105747.626953915,
+        "mae": 21188574.072869644,
+        "mape": 0.12033048910457321,
+        "model_path": "S:/Forecasting System/trained_models/sarima_washington.pkl"
+      },
+      "Prophet": {
+        "rmse": 46993925.361697696,
+        "mae": 46516311.38151577,
+        "mape": 0.2607178725847481,
+        "model_path": "S:/Forecasting System/trained_models/prophet_washington.pkl"
+      },
+      "XGBoost": {
+        "rmse": 8432389.747349206,
+        "mae": 7245243.5,
+        "mape": 0.041340172290802,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_washington.pkl"
+      },
+      "LSTM": {
+        "rmse": 49592335.51963416,
+        "mae": 45085896.0,
+        "mape": 0.2508049011230469,
+        "model_path": "S:/Forecasting System/trained_models/lstm_washington.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:14:48.976780"
   },
   "West Virginia": {
     "best_model": "XGBoost",
@@ -325,7 +2605,64 @@
     "rmse": 3957237.367821142,
     "mae": 3307563.75,
     "mape": 0.04744965583086014,
-    "timestamp": "2026-05-06T12:22:30.736103"
+    "best_model_metrics": {
+      "rmse": 3957237.367821142,
+      "mae": 3307563.75,
+      "mape": 0.04744965583086014
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 5184276.190146118,
+        "mae": 4312022.674710382,
+        "mape": 0.06278313425793175,
+        "model_path": "S:/Forecasting System/trained_models/sarima_west_virginia.pkl"
+      },
+      "Prophet": {
+        "rmse": 16995179.717540585,
+        "mae": 16723602.028415328,
+        "mape": 0.2373788784791438,
+        "model_path": "S:/Forecasting System/trained_models/prophet_west_virginia.pkl"
+      },
+      "XGBoost": {
+        "rmse": 3957237.367821142,
+        "mae": 3307563.75,
+        "mape": 0.04744965583086014,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_west_virginia.pkl"
+      },
+      "LSTM": {
+        "rmse": 11732148.139317028,
+        "mae": 11048915.0,
+        "mape": 0.15660111606121063,
+        "model_path": "S:/Forecasting System/trained_models/lstm_west_virginia.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 5184276.190146118,
+        "mae": 4312022.674710382,
+        "mape": 0.06278313425793175,
+        "model_path": "S:/Forecasting System/trained_models/sarima_west_virginia.pkl"
+      },
+      "Prophet": {
+        "rmse": 16995179.717540585,
+        "mae": 16723602.028415328,
+        "mape": 0.2373788784791438,
+        "model_path": "S:/Forecasting System/trained_models/prophet_west_virginia.pkl"
+      },
+      "XGBoost": {
+        "rmse": 3957237.367821142,
+        "mae": 3307563.75,
+        "mape": 0.04744965583086014,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_west_virginia.pkl"
+      },
+      "LSTM": {
+        "rmse": 11732148.139317028,
+        "mae": 11048915.0,
+        "mape": 0.15660111606121063,
+        "model_path": "S:/Forecasting System/trained_models/lstm_west_virginia.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:14:53.423831"
   },
   "Wisconsin": {
     "best_model": "XGBoost",
@@ -333,7 +2670,64 @@
     "rmse": 6491923.538911407,
     "mae": 5392901.5,
     "mape": 0.03616925701498985,
-    "timestamp": "2026-05-06T12:22:36.647930"
+    "best_model_metrics": {
+      "rmse": 6491923.538911407,
+      "mae": 5392901.5,
+      "mape": 0.03616925701498985
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 15943834.358305082,
+        "mae": 14194283.82381106,
+        "mape": 0.09590271411668513,
+        "model_path": "S:/Forecasting System/trained_models/sarima_wisconsin.pkl"
+      },
+      "Prophet": {
+        "rmse": 36888416.99471247,
+        "mae": 36507508.2075602,
+        "mape": 0.24265342202842552,
+        "model_path": "S:/Forecasting System/trained_models/prophet_wisconsin.pkl"
+      },
+      "XGBoost": {
+        "rmse": 6491923.538911407,
+        "mae": 5392901.5,
+        "mape": 0.03616925701498985,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_wisconsin.pkl"
+      },
+      "LSTM": {
+        "rmse": 31896078.789536998,
+        "mae": 28853180.0,
+        "mape": 0.1908046156167984,
+        "model_path": "S:/Forecasting System/trained_models/lstm_wisconsin.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 15943834.358305082,
+        "mae": 14194283.82381106,
+        "mape": 0.09590271411668513,
+        "model_path": "S:/Forecasting System/trained_models/sarima_wisconsin.pkl"
+      },
+      "Prophet": {
+        "rmse": 36888416.99471247,
+        "mae": 36507508.2075602,
+        "mape": 0.24265342202842552,
+        "model_path": "S:/Forecasting System/trained_models/prophet_wisconsin.pkl"
+      },
+      "XGBoost": {
+        "rmse": 6491923.538911407,
+        "mae": 5392901.5,
+        "mape": 0.03616925701498985,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_wisconsin.pkl"
+      },
+      "LSTM": {
+        "rmse": 31896078.789536998,
+        "mae": 28853180.0,
+        "mape": 0.1908046156167984,
+        "model_path": "S:/Forecasting System/trained_models/lstm_wisconsin.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:14:57.421650"
   },
   "Wyoming": {
     "best_model": "XGBoost",
@@ -341,6 +2735,63 @@
     "rmse": 846462.7515490566,
     "mae": 662859.25,
     "mape": 0.03244002163410187,
-    "timestamp": "2026-05-06T12:22:42.171341"
+    "best_model_metrics": {
+      "rmse": 846462.7515490566,
+      "mae": 662859.25,
+      "mape": 0.03244002163410187
+    },
+    "models": {
+      "SARIMA": {
+        "rmse": 2807824.8484892286,
+        "mae": 2547820.94797206,
+        "mape": 0.12609514043175607,
+        "model_path": "S:/Forecasting System/trained_models/sarima_wyoming.pkl"
+      },
+      "Prophet": {
+        "rmse": 5483860.770171036,
+        "mae": 5437963.79788493,
+        "mape": 0.2651888347539731,
+        "model_path": "S:/Forecasting System/trained_models/prophet_wyoming.pkl"
+      },
+      "XGBoost": {
+        "rmse": 846462.7515490566,
+        "mae": 662859.25,
+        "mape": 0.03244002163410187,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_wyoming.pkl"
+      },
+      "LSTM": {
+        "rmse": 2885947.395113085,
+        "mae": 2605809.5,
+        "mape": 0.12863659858703613,
+        "model_path": "S:/Forecasting System/trained_models/lstm_wyoming.h5"
+      }
+    },
+    "all_models": {
+      "SARIMA": {
+        "rmse": 2807824.8484892286,
+        "mae": 2547820.94797206,
+        "mape": 0.12609514043175607,
+        "model_path": "S:/Forecasting System/trained_models/sarima_wyoming.pkl"
+      },
+      "Prophet": {
+        "rmse": 5483860.770171036,
+        "mae": 5437963.79788493,
+        "mape": 0.2651888347539731,
+        "model_path": "S:/Forecasting System/trained_models/prophet_wyoming.pkl"
+      },
+      "XGBoost": {
+        "rmse": 846462.7515490566,
+        "mae": 662859.25,
+        "mape": 0.03244002163410187,
+        "model_path": "S:/Forecasting System/trained_models/xgboost_wyoming.pkl"
+      },
+      "LSTM": {
+        "rmse": 2885947.395113085,
+        "mae": 2605809.5,
+        "mape": 0.12863659858703613,
+        "model_path": "S:/Forecasting System/trained_models/lstm_wyoming.h5"
+      }
+    },
+    "timestamp": "2026-05-06T14:15:01.706652"
   }
 }
